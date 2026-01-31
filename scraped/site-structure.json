@@ -1,0 +1,389 @@
+{
+  "site": {
+    "name": "Alchemy Investments RE",
+    "domain": "https://alchemyinvestmentsre.com",
+    "business_type": "Real Estate Investment Brokerage",
+    "license": "S.0184768",
+    "contact": {
+      "phone": "702-718-6934",
+      "email": "Casey@AlchemyInvestmentsRE.com",
+      "address": "8978 Spanish Ridge, Las Vegas, NV 89148",
+      "hours": "9 am to 6 pm, Monday to Friday"
+    }
+  },
+  "pages": [
+    {
+      "id": "homepage",
+      "title": "Homepage - Alchemy Investments RE",
+      "url": "https://alchemyinvestmentsre.com/",
+      "type": "Landing Page",
+      "description": "Main homepage featuring home valuation tool, service areas, customer testimonials, and property showcase. Includes lead capture form for instant home value estimates.",
+      "key_features": [
+        "Home valuation request form",
+        "Customer testimonials",
+        "Property showcase",
+        "Service area information",
+        "Blog categories",
+        "Contact information"
+      ],
+      "scraped_file": "homepage.md"
+    },
+    {
+      "id": "homepage-1",
+      "title": "Homepage 1 - Alternative Landing Page",
+      "url": "https://alchemyinvestmentsre.com/homepage-1/",
+      "type": "Landing Page Variant",
+      "description": "Alternative homepage layout emphasizing benefits section with four key value propositions, customer testimonials, and extensive property showcase.",
+      "key_features": [
+        "Four benefit cards (leads, conversion, brand, business goals)",
+        "Customer success stories",
+        "Property carousel",
+        "Blog success stories section"
+      ],
+      "scraped_file": "homepage-1.md"
+    },
+    {
+      "id": "homepage-3",
+      "title": "Homepage 3 - Alternative Landing Page",
+      "url": "https://alchemyinvestmentsre.com/homepage-3/",
+      "type": "Landing Page Variant",
+      "description": "Third homepage variant with prominent lead capture form in hero section, testimonials, and extensive property listings. Most conversion-focused layout.",
+      "key_features": [
+        "Hero section lead capture form (email + zip)",
+        "Detailed customer testimonials",
+        "9 featured properties",
+        "Real estate success stories blog section",
+        "Expert consultation CTA"
+      ],
+      "scraped_file": "homepage-3.md"
+    },
+    {
+      "id": "about-us",
+      "title": "About Us - Company Information",
+      "url": "https://alchemyinvestmentsre.com/about-this-demo/",
+      "type": "Company Information",
+      "description": "Company overview page featuring team members, services offered, client testimonials, and recent blog posts. Showcases the professional team and comprehensive service offerings.",
+      "key_features": [
+        "Team member profiles (4 members: Founder, CEO, 2 Managers)",
+        "Six core services",
+        "Client testimonials (3 customers)",
+        "Recent blog posts integration",
+        "Company tagline: 'Your Vision Unrestricted'"
+      ],
+      "team_members": [
+        {"name": "Kathleen Grant", "position": "Founder"},
+        {"name": "Keith Bailey", "position": "CEO"},
+        {"name": "Danielle Murray", "position": "Manager"},
+        {"name": "Thomas Stevens", "position": "Manager"}
+      ],
+      "services": [
+        "Property Management",
+        "Financial Reporting",
+        "Capital Improvements",
+        "Business Development",
+        "Finance Real Estate",
+        "Recover Asset Value"
+      ],
+      "scraped_file": "about-us.md"
+    },
+    {
+      "id": "properties",
+      "title": "Properties - Listing Page",
+      "url": "https://alchemyinvestmentsre.com/properties/",
+      "type": "Property Listings",
+      "description": "Comprehensive property listings page featuring rental and sale properties. Includes search/filter functionality and property comparison tools.",
+      "key_features": [
+        "Featured rental properties (5 listings)",
+        "Featured sale properties (4 listings)",
+        "Property categories (Family Homes: 11, Apartments: 21, Villas: 12, Lofts: 8)",
+        "Compare listings functionality",
+        "Search and filter options",
+        "Property carousel"
+      ],
+      "property_stats": {
+        "total_categories": 4,
+        "total_properties": 52,
+        "rental_range": "$1,600 - $3,750/month",
+        "sale_range": "$540,000 - $967,000"
+      },
+      "scraped_file": "properties.md"
+    },
+    {
+      "id": "blog",
+      "title": "Blog - Real Estate Blog Index",
+      "url": "https://alchemyinvestmentsre.com/blog/",
+      "type": "Blog Index",
+      "description": "Main blog index page featuring 13 blog posts across multiple categories. Includes pagination (2 pages) and category filtering.",
+      "key_features": [
+        "13 total blog posts",
+        "4 active categories (Real Estate, Business, Construction, Uncategorized)",
+        "Featured images for posts",
+        "Post excerpts and previews",
+        "Comment counts",
+        "Pagination (2 pages)"
+      ],
+      "categories": [
+        {"name": "Real Estate", "post_count": 4},
+        {"name": "Business", "post_count": 4},
+        {"name": "Construction", "post_count": 4},
+        {"name": "Marketing", "post_count": 0},
+        {"name": "Uncategorized", "post_count": 1}
+      ],
+      "scraped_file": "blog-index.md"
+    },
+    {
+      "id": "contact-us",
+      "title": "Contact Us - Speak To An Expert",
+      "url": "https://alchemyinvestmentsre.com/speak-to-an-expert/",
+      "type": "Contact Page",
+      "description": "Contact page with comprehensive contact form, business information, and press contacts. Features GDPR-compliant lead capture.",
+      "key_features": [
+        "Contact form with 7 fields",
+        "GDPR consent checkbox",
+        "Business contact information",
+        "Press contacts (2 people)",
+        "Business hours and location",
+        "Multiple contact methods"
+      ],
+      "form_fields": [
+        "First Name",
+        "Last Name",
+        "Email",
+        "Phone",
+        "Zip Code",
+        "Message",
+        "GDPR Agreement"
+      ],
+      "scraped_file": "contact-us.md"
+    },
+    {
+      "id": "get-started",
+      "title": "Get Started - Lead Capture Page",
+      "url": "https://alchemyinvestmentsre.com/get-started/",
+      "type": "Inquiry Form / Lead Capture",
+      "description": "Comprehensive inquiry form page for property valuation and lead generation. Features detailed form with location selectors and property type options.",
+      "key_features": [
+        "Multi-field inquiry form",
+        "Inquiry type selection (Purchase, Rent, Sell, Evaluation, Mortgage)",
+        "Location selectors (City, Area, State, Country)",
+        "Property type selection (Apartment, Family Home, Loft, Villa)",
+        "CRM integration",
+        "GDPR compliance"
+      ],
+      "form_sections": [
+        "Inquiry Type",
+        "User Information",
+        "Location Selection",
+        "Property Type",
+        "Message",
+        "GDPR Consent"
+      ],
+      "scraped_file": "get-started.md"
+    }
+  ],
+  "blog_posts": [
+    {
+      "id": "blog-1",
+      "title": "Hello world!",
+      "url": "https://alchemyinvestmentsre.com/hello-world/",
+      "date": "2024-02-07",
+      "category": "Uncategorized",
+      "description": "Default WordPress installation post with welcome message and sample comment.",
+      "comments": 1,
+      "scraped_file": "blog-hello-world.md"
+    },
+    {
+      "id": "blog-2",
+      "title": "Skills That You Can Learn In The Real Estate Market",
+      "url": "https://alchemyinvestmentsre.com/skills-that-you-can-learn-in-the-real-estate-market/",
+      "date": "2016-03-09",
+      "category": "Business",
+      "tags": ["Apartment", "Business Development", "House for families", "Houzez", "Luxury", "Real Estate"],
+      "description": "Blog post exploring skills and competencies valuable in the real estate industry.",
+      "featured_image": "https://alchemyinvestmentsre.com/wp-content/uploads/2017/11/04-1-1024x683.jpg",
+      "comments": 0,
+      "scraped_file": "blog-skills-real-estate-market.md"
+    },
+    {
+      "id": "blog-3",
+      "title": "Learn The Truth About Real Estate Industry",
+      "url": "https://alchemyinvestmentsre.com/learn-the-truth-about-real-estate-industry/",
+      "date": "2016-03-09",
+      "category": "Construction",
+      "tags": ["Apartment", "Business Development", "House for families", "Houzez", "Luxury", "Real Estate"],
+      "description": "Article discussing real estate industry fundamentals and market conditions.",
+      "featured_image": "https://alchemyinvestmentsre.com/wp-content/uploads/2017/11/06-1-1024x683.jpg",
+      "comments": 0,
+      "scraped_file": "blog-learn-truth-real-estate.md"
+    },
+    {
+      "id": "blog-4",
+      "title": "10 Quick Tips About Business Development",
+      "url": "https://alchemyinvestmentsre.com/10-quick-tips-about-business-development/",
+      "date": "2016-03-09",
+      "category": "Real Estate",
+      "tags": ["Apartment", "Business Development", "House for families", "Houzez", "Luxury", "Real Estate"],
+      "description": "List-style article covering business development strategies for real estate professionals.",
+      "featured_image": "https://alchemyinvestmentsre.com/wp-content/uploads/2017/11/07-1.jpg",
+      "comments": 0,
+      "scraped_file": "blog-10-quick-tips-business-development.md"
+    },
+    {
+      "id": "blog-5",
+      "title": "Why We Love Real Estate",
+      "url": "https://alchemyinvestmentsre.com/why-we-love-real-estate/",
+      "date": "2016-03-09",
+      "category": "Construction",
+      "tags": ["Apartment", "Business Development", "House for families", "Houzez", "Luxury", "Real Estate"],
+      "description": "Article expressing passion for real estate industry and discussing industry benefits.",
+      "featured_image": "https://alchemyinvestmentsre.com/wp-content/uploads/2017/11/10-1.jpg",
+      "comments": 0,
+      "scraped_file": "blog-why-we-love-real-estate.md"
+    },
+    {
+      "id": "blog-6",
+      "title": "14 Common Misconceptions About Business Development",
+      "url": "https://alchemyinvestmentsre.com/14-common-misconceptions-about-business-development/",
+      "date": "2016-03-09",
+      "category": "Real Estate",
+      "tags": ["Apartment", "Business Development", "House for families", "Houzez", "Luxury", "Real Estate"],
+      "description": "Article addressing common misunderstandings about business development in real estate.",
+      "featured_image": "https://alchemyinvestmentsre.com/wp-content/uploads/2017/11/106-1024x683.jpg",
+      "comments": 0,
+      "scraped_file": null
+    },
+    {
+      "id": "blog-7",
+      "title": "10 Things Your Competitors Can Teach You About Real Estate",
+      "url": "https://alchemyinvestmentsre.com/10-things-your-competitors-can-teach-you-about-real-estate/",
+      "date": "2016-03-09",
+      "category": "Business",
+      "tags": ["Apartment", "Business Development", "House for families", "Houzez", "Luxury", "Real Estate"],
+      "description": "Competitive analysis article exploring lessons from industry competitors.",
+      "featured_image": "https://alchemyinvestmentsre.com/wp-content/uploads/2017/11/114-1024x683.jpg",
+      "comments": 0,
+      "scraped_file": null
+    },
+    {
+      "id": "blog-8",
+      "title": "10 Quick Tips About Real Estate",
+      "url": "https://alchemyinvestmentsre.com/10-quick-tips-about-real-estate/",
+      "date": "2016-03-09",
+      "category": "Real Estate",
+      "tags": ["Apartment", "Business Development", "House for families", "Houzez", "Luxury", "Real Estate"],
+      "description": "Quick tips article covering essential real estate industry knowledge.",
+      "featured_image": "https://alchemyinvestmentsre.com/wp-content/uploads/2017/11/20-1024x683.jpg",
+      "comments": 0,
+      "scraped_file": null
+    },
+    {
+      "id": "blog-9",
+      "title": "15 Best Blogs To Follow About Real Estate",
+      "url": "https://alchemyinvestmentsre.com/15-best-blogs-to-follow-about-real-estate/",
+      "date": "2016-03-09",
+      "category": "Real Estate",
+      "tags": ["Apartment", "Business Development", "House for families", "Houzez", "Luxury", "Real Estate"],
+      "description": "Resource guide listing recommended real estate industry blogs.",
+      "featured_image": "https://alchemyinvestmentsre.com/wp-content/uploads/2017/11/12-1-1024x683.jpg",
+      "comments": 0,
+      "scraped_file": null
+    },
+    {
+      "id": "blog-10",
+      "title": "5 Tools Everyone In The Real Estate Industry Should Be Using",
+      "url": "https://alchemyinvestmentsre.com/the-history-of-real-estate/",
+      "date": "2016-03-09",
+      "category": "Business",
+      "tags": ["Apartment", "Business Development", "House for families", "Houzez", "Luxury", "Real Estate"],
+      "description": "Article highlighting essential tools for real estate professionals.",
+      "featured_image": "https://alchemyinvestmentsre.com/wp-content/uploads/2017/11/14-1-1024x683.jpg",
+      "comments": 0,
+      "scraped_file": null
+    },
+    {
+      "id": "blog-11",
+      "title": "The Ultimate Cheat Sheet On Real Estate",
+      "url": "https://alchemyinvestmentsre.com/the-ultimate-cheat-sheet-on-real-estate/",
+      "date": "2016-03-09",
+      "category": "Construction",
+      "tags": ["Apartment", "Business Development", "House for families", "Houzez", "Luxury", "Real Estate"],
+      "description": "Comprehensive reference guide covering real estate fundamentals.",
+      "featured_image": "https://alchemyinvestmentsre.com/wp-content/uploads/2017/11/65-1024x721.jpg",
+      "comments": 0,
+      "scraped_file": null
+    },
+    {
+      "id": "blog-12",
+      "title": "Understand The Real Estate Market",
+      "url": "https://alchemyinvestmentsre.com/understand-the-real-estate-market/",
+      "date": "2016-03-09",
+      "category": "Business",
+      "tags": ["Apartment", "Business Development", "House for families", "Houzez", "Luxury", "Real Estate"],
+      "description": "Educational article explaining real estate market dynamics and trends.",
+      "featured_image": "https://alchemyinvestmentsre.com/wp-content/uploads/2017/11/66-1024x683.jpg",
+      "comments": 0,
+      "scraped_file": null
+    },
+    {
+      "id": "blog-13",
+      "title": "Real Estate Industry and Competitors",
+      "url": "https://alchemyinvestmentsre.com/real-estate-industry-and-competitors/",
+      "date": "2016-01-24",
+      "category": "Construction",
+      "tags": ["Apartment", "Business Development", "House for families", "Houzez", "Luxury", "Real Estate"],
+      "description": "Analysis of competitive landscape in the real estate industry.",
+      "featured_image": "https://alchemyinvestmentsre.com/wp-content/uploads/2017/11/103-1024x683.jpg",
+      "comments": 0,
+      "scraped_file": null
+    }
+  ],
+  "site_features": {
+    "forms": [
+      "Home valuation request",
+      "Contact form",
+      "Comprehensive inquiry form",
+      "User login/registration"
+    ],
+    "property_features": [
+      "Property listings (rentals and sales)",
+      "Property comparison tool",
+      "Property search and filters",
+      "Property categories",
+      "Featured properties showcase"
+    ],
+    "blog_features": [
+      "Multiple categories",
+      "Post tags",
+      "Featured images",
+      "Comment system",
+      "Related posts",
+      "Pagination"
+    ],
+    "social_media": {
+      "facebook": "https://www.facebook.com/Favethemes/",
+      "twitter": "https://twitter.com/favethemes"
+    }
+  },
+  "technology": {
+    "platform": "WordPress",
+    "theme": "Houzez (Premium Real Estate Theme)",
+    "purpose": "Demo/Template Site"
+  },
+  "notes": [
+    "Site appears to be a demo/template showcasing the Houzez WordPress theme",
+    "Most blog content uses Lorem Ipsum placeholder text",
+    "Professional design and layout demonstrating theme capabilities",
+    "Comprehensive feature set for real estate businesses",
+    "GDPR-compliant forms and data collection",
+    "Mobile-responsive design",
+    "CRM integration capabilities mentioned"
+  ],
+  "crawl_summary": {
+    "total_main_pages": 8,
+    "total_blog_posts": 13,
+    "total_categories": 5,
+    "property_listings": "52+ properties across 4 categories",
+    "date_crawled": "2026-01-31",
+    "files_created": 11
+  }
+}

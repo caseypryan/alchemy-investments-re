@@ -1,0 +1,32 @@
+{
+  "project": {
+    "name": "Alchemy Investments RE",
+    "description": "Real estate investment lead generation website with SEO optimization"
+  },
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(node:*)",
+      "Bash(git:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(curl:*)",
+      "WebFetch",
+      "WebSearch"
+    ]
+  },
+  "mcpServers": {
+    "firecrawl": {
+      "description": "Web scraping and crawling for content extraction",
+      "required": true
+    },
+    "dataforseo": {
+      "description": "SEO and keyword research (includes Ahrefs data)",
+      "required": true
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Header() {
   return (
@@ -8,7 +9,14 @@ export default function Header() {
           {/* Logo */}
           <div>
             <Link href="/" className="hover:opacity-90 transition-opacity">
-              <span className="text-2xl font-bold text-gray-900">Alchemy Investments</span>
+              <Image
+                src="/logo.png"
+                alt="Alchemy Investments RE"
+                width={250}
+                height={80}
+                priority
+                className="h-12 w-auto"
+              />
             </Link>
           </div>
 

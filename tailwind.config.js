@@ -9,18 +9,22 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#1e3a8a', // Clean blue like ListWithClever
-          light: '#3b82f6',
-          dark: '#1e40af',
+          DEFAULT: '#0EA5E9', // Light teal blue like ListWithClever
+          light: '#38BDF8',
+          dark: '#0284C7',
         },
         secondary: {
-          DEFAULT: '#10b981', // Green for CTAs
-          light: '#34d399',
+          DEFAULT: '#10B981', // Green for CTAs
+          light: '#34D399',
           dark: '#059669',
         },
         accent: {
-          DEFAULT: '#f59e0b',
-          light: '#fbbf24',
+          DEFAULT: '#F59E0B',
+          light: '#FCD34D',
+        },
+        navy: {
+          DEFAULT: '#1E3A5F', // Dark navy for footer
+          dark: '#0F172A',
         }
       },
       fontFamily: {

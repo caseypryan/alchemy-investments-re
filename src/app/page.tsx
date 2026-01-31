@@ -42,7 +42,7 @@ export default function Home() {
 
       <main>
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-blue-600 via-blue-500 to-blue-700 text-white py-20 md:py-32">
+        <section className="relative bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-600 text-white py-24 md:py-32">
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               {/* Hero Content */}

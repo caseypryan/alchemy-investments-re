@@ -16,12 +16,12 @@ export default function Home() {
 
       <main>
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-[#4A90E2] via-[#5B9FE3] to-[#7CB3E8] min-h-[550px] flex items-center">
-          {/* Background houses image at bottom */}
-          <div className="absolute bottom-0 left-0 right-0 h-64 bg-[url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1920&q=80')] bg-cover bg-bottom opacity-80" />
+        <section className="relative min-h-[550px] flex items-center">
+          {/* Background drone image */}
+          <div className="absolute inset-0 bg-[url('/hero-drone.jpg')] bg-cover bg-center" />
 
           {/* White gradient overlay on left */}
-          <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/40" />
 
           <div className="container mx-auto px-6 md:px-12 py-20 relative z-10">
             <div className="max-w-2xl">
@@ -36,7 +36,7 @@ export default function Home() {
                   }`}
                   style={{ borderBottomWidth: activeTab === 'sell' ? '3px' : '0' }}
                 >
-                  SELL YOUR HOUSE
+                  SELLING A HOME
                 </button>
                 <button
                   onClick={() => setActiveTab('buy')}
@@ -47,15 +47,15 @@ export default function Home() {
                   }`}
                   style={{ borderBottomWidth: activeTab === 'buy' ? '3px' : '0' }}
                 >
-                  HOW IT WORKS
+                  BUYING A HOME
                 </button>
               </div>
 
               {/* Main Headline */}
               <h1 className="text-[44px] font-extrabold text-[#1a1a1a] leading-[1.2] mb-8">
-                Sell your Las Vegas house fast.
+                Sell Your Las Vegas House Fast.
                 <br />
-                Get a fair cash offer today.
+                Compare Top Agents & Cash Offers.
               </h1>
 
               {/* Search/Form Bar */}
@@ -103,106 +103,177 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Stats Bar */}
-        <section className="bg-[#166534] text-white py-5">
-          <div className="container mx-auto px-6 text-center">
-            <p className="text-[16px]">
-              We've helped over <strong>500 Las Vegas homeowners</strong> sell their houses fast. More than <strong>$50M</strong> in homes purchased.
-            </p>
-          </div>
-        </section>
-
-        {/* Trust Logos Bar */}
-        <section className="bg-[#f8f8f8] py-12">
+        {/* Media Logos Bar */}
+        <section className="bg-white py-12 border-b border-gray-200">
           <div className="container mx-auto px-6">
-            <p className="text-center text-gray-600 text-lg mb-8">Trusted by 500+ Las Vegas Homeowners</p>
-            <div className="flex justify-center items-center gap-12 flex-wrap">
-              <div className="text-gray-500 font-bold">BBB ACCREDITED</div>
-              <div className="text-gray-500 font-bold flex items-center gap-2">
-                <span className="text-yellow-500">★★★★★</span>
-                <span>GOOGLE REVIEWS</span>
-              </div>
-              <div className="text-gray-500 font-bold">NV LICENSE: S.0184768</div>
+            <div className="flex justify-center items-center gap-8 md:gap-16 flex-wrap opacity-60 grayscale">
+              <div className="text-[#7c7c7c] font-bold text-sm">YAHOO! FINANCE</div>
+              <div className="text-[#7c7c7c] font-bold text-sm">REALTOR®</div>
+              <div className="text-[#7c7c7c] font-bold text-sm">Forbes</div>
+              <div className="text-[#7c7c7c] font-bold text-sm">NBC</div>
+              <div className="text-[#7c7c7c] font-bold text-sm">USA TODAY</div>
+              <div className="text-[#7c7c7c] font-bold text-sm">NEW YORK POST</div>
+              <div className="text-[#7c7c7c] font-bold text-sm">FOX BUSINESS</div>
             </div>
           </div>
         </section>
 
-        {/* How It Works Section */}
-        <section id="how-it-works" className="bg-white py-20">
+        {/* Better Agents Section */}
+        <section className="bg-[#f8f9fb] py-20">
           <div className="container mx-auto px-6">
-            <div className="text-center mb-16">
-              <h2 className="text-[36px] font-bold text-[#1a1a1a] mb-4">How It Works</h2>
-              <p className="text-[18px] text-gray-600">Sell your house in 3 simple steps</p>
-            </div>
+            <h2 className="text-[42px] font-bold text-[#2b3d4f] text-center mb-16 leading-tight">
+              Better Agents. Better Rates. Zero Hassle.
+            </h2>
 
-            <div className="grid md:grid-cols-3 gap-12 max-w-5xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {/* Card 1 */}
-              <div className="text-center">
-                <div className="w-16 h-16 rounded-full bg-[#22c55e] text-white text-2xl font-bold flex items-center justify-center mx-auto mb-6">
-                  1
+              <div className="bg-white p-10 rounded-lg shadow-sm">
+                <div className="mb-6">
+                  <svg className="w-20 h-20 mx-auto" viewBox="0 0 100 100" fill="none">
+                    <circle cx="50" cy="50" r="45" fill="#e3f2fd" />
+                    <path d="M50 30v40M30 50h40" stroke="#4A90E2" strokeWidth="4" strokeLinecap="round" />
+                    <circle cx="50" cy="35" r="8" fill="#4A90E2" />
+                  </svg>
                 </div>
-                <div className="text-5xl mb-4">🏠</div>
-                <h3 className="text-xl font-bold mb-3">Tell Us About Your Property</h3>
-                <p className="text-gray-600">
-                  Fill out our simple form or give us a call. Tell us about your Las Vegas property - any condition, any situation.
+                <h3 className="text-[22px] font-bold text-[#2b3d4f] mb-4">
+                  A nationwide network of 14,000 top agents
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We partner with top-producing agents from all the major brands, like RE/MAX, eXp, and more. Agents have to maintain exceptional reviews to stay in our network.
                 </p>
               </div>
 
               {/* Card 2 */}
-              <div className="text-center">
-                <div className="w-16 h-16 rounded-full bg-[#22c55e] text-white text-2xl font-bold flex items-center justify-center mx-auto mb-6">
-                  2
+              <div className="bg-white p-10 rounded-lg shadow-sm">
+                <div className="mb-6">
+                  <svg className="w-20 h-20 mx-auto" viewBox="0 0 100 100" fill="none">
+                    <circle cx="50" cy="50" r="45" fill="#e3f2fd" />
+                    <path d="M35 55l10 10 20-25" stroke="#4A90E2" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
                 </div>
-                <div className="text-5xl mb-4">💰</div>
-                <h3 className="text-xl font-bold mb-3">Get Your Cash Offer</h3>
-                <p className="text-gray-600">
-                  We'll evaluate your property and present you with a fair, no-obligation cash offer within 24 hours.
+                <h3 className="text-[22px] font-bold text-[#2b3d4f] mb-4">
+                  The best rates in real estate
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  These agents have agreed to offer our customers competitive rates. You get top-producers for less than half their typical fee, saving thousands on average!
                 </p>
               </div>
 
               {/* Card 3 */}
-              <div className="text-center">
-                <div className="w-16 h-16 rounded-full bg-[#22c55e] text-white text-2xl font-bold flex items-center justify-center mx-auto mb-6">
-                  3
+              <div className="bg-white p-10 rounded-lg shadow-sm">
+                <div className="mb-6">
+                  <svg className="w-20 h-20 mx-auto" viewBox="0 0 100 100" fill="none">
+                    <circle cx="50" cy="50" r="45" fill="#e3f2fd" />
+                    <rect x="30" y="30" width="40" height="30" rx="3" stroke="#4A90E2" strokeWidth="3" fill="none" />
+                    <path d="M40 50v-8M50 50v-12M60 50v-6" stroke="#4A90E2" strokeWidth="2" strokeLinecap="round" />
+                  </svg>
                 </div>
-                <div className="text-5xl mb-4">🔑</div>
-                <h3 className="text-xl font-bold mb-3">Close On Your Timeline</h3>
-                <p className="text-gray-600">
-                  Accept our offer and choose your closing date. Close in as little as 7 days or whenever works for you.
+                <h3 className="text-[22px] font-bold text-[#2b3d4f] mb-4">
+                  Free with no obligation
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Sign up and compare agent matches in minutes. Choose the best fit, request more matches, or walk away at any time. Our service is completely free for you to use.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Why Sell To Us Section */}
-        <section className="bg-[#f5f7fa] py-20">
+        {/* Trustpilot Section */}
+        <section className="bg-white py-16 border-y border-gray-200">
+          <div className="container mx-auto px-6 text-center">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <svg className="w-10 h-10 text-[#00b67a]" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+              </svg>
+              <span className="text-3xl font-bold text-[#2b3d4f]">Trustpilot</span>
+            </div>
+            <div className="flex justify-center gap-1 mb-3">
+              {[...Array(5)].map((_, i) => (
+                <svg key={i} className="w-8 h-8 text-[#00b67a] fill-current" viewBox="0 0 24 24">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg>
+              ))}
+            </div>
+            <p className="text-lg text-gray-600">
+              Rated <strong>"Excellent"</strong> with <strong>3,500+ reviews</strong>
+            </p>
+          </div>
+        </section>
+
+        {/* How It Works Section */}
+        <section id="how-it-works" className="bg-[#f8f9fb] py-20">
           <div className="container mx-auto px-6">
-            <h2 className="text-[36px] font-bold text-center mb-12">Why Sell to Alchemy Investments?</h2>
+            <h2 className="text-[42px] font-bold text-[#2b3d4f] text-center mb-20">
+              How It Works
+            </h2>
 
-            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="bg-white p-8 rounded-lg shadow-sm">
-                <div className="text-[#22c55e] text-3xl mb-3">✓</div>
-                <h3 className="font-bold text-xl mb-2">No Fees or Commissions</h3>
-                <p className="text-gray-600">Keep 100% of our offer. No agent fees, no hidden costs.</p>
+            <div className="max-w-6xl mx-auto space-y-24">
+              {/* Step 1 */}
+              <div className="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white border-2 border-[#4A90E2] mb-6">
+                    <span className="text-[#4A90E2] font-bold text-xl">STEP 1</span>
+                  </div>
+                  <h3 className="text-[32px] font-bold text-[#2b3d4f] mb-6 leading-tight">
+                    Enter a few details to get started
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Our Concierge Team will reach out within 5 minutes to answer your questions, offer advice, and learn exactly what you're looking for in an agent. You can also call us directly at{' '}
+                    <a href="tel:702-718-6934" className="text-[#4A90E2] font-semibold hover:underline">
+                      (702) 718-6934
+                    </a>{' '}
+                    7 days a week.
+                  </p>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg p-8 h-80 flex items-center justify-center">
+                  <div className="text-center text-gray-400">
+                    <div className="text-6xl mb-4">📋</div>
+                    <p className="text-sm">Form preview placeholder</p>
+                  </div>
+                </div>
               </div>
 
-              <div className="bg-white p-8 rounded-lg shadow-sm">
-                <div className="text-[#22c55e] text-3xl mb-3">✓</div>
-                <h3 className="font-bold text-xl mb-2">Any Condition - No Repairs Needed</h3>
-                <p className="text-gray-600">We buy houses as-is. No need to fix, clean, or stage.</p>
+              {/* Step 2 */}
+              <div className="grid md:grid-cols-2 gap-16 items-center">
+                <div className="md:order-2">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white border-2 border-[#4A90E2] mb-6">
+                    <span className="text-[#4A90E2] font-bold text-xl">STEP 2</span>
+                  </div>
+                  <h3 className="text-[32px] font-bold text-[#2b3d4f] mb-6 leading-tight">
+                    We negotiate better rates on your behalf
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    These aren't discount agents. We bring you the best, full-service agents from major brands and brokerages nationwide. Since we send these agents more business at zero upfront cost to them, they're willing to pass part of that savings along to you.
+                  </p>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg p-8 h-80 flex items-center justify-center md:order-1">
+                  <div className="text-center text-gray-400">
+                    <div className="text-6xl mb-4">🤝</div>
+                    <p className="text-sm">Negotiation visual placeholder</p>
+                  </div>
+                </div>
               </div>
 
-              <div className="bg-white p-8 rounded-lg shadow-sm">
-                <div className="text-[#22c55e] text-3xl mb-3">✓</div>
-                <h3 className="font-bold text-xl mb-2">Fast Closing - 7 Days or Less</h3>
-                <p className="text-gray-600">Choose your closing date. We can close in as little as 7 days.</p>
-              </div>
-
-              <div className="bg-white p-8 rounded-lg shadow-sm">
-                <div className="text-[#22c55e] text-3xl mb-3">✓</div>
-                <h3 className="font-bold text-xl mb-2">No Obligation - Walk Away Anytime</h3>
-                <p className="text-gray-600">Free offer with no pressure. Accept only if it works for you.</p>
+              {/* Step 3 */}
+              <div className="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white border-2 border-[#4A90E2] mb-6">
+                    <span className="text-[#4A90E2] font-bold text-xl">STEP 3</span>
+                  </div>
+                  <h3 className="text-[32px] font-bold text-[#2b3d4f] mb-6 leading-tight">
+                    Compare agents and cash offers
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Review your personalized agent matches and compare them with instant cash offers from trusted buyers. Choose the option that works best for you - whether that's working with a top agent or getting a fast cash sale.
+                  </p>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg p-8 h-80 flex items-center justify-center">
+                  <div className="text-center text-gray-400">
+                    <div className="text-6xl mb-4">⚖️</div>
+                    <p className="text-sm">Comparison chart placeholder</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -215,7 +286,7 @@ export default function Home() {
             <p className="text-xl mb-8">Get your free, no-obligation cash offer today</p>
 
             <button className="bg-white text-[#22c55e] hover:bg-gray-100 font-bold px-10 py-4 rounded text-lg transition-colors mb-6 inline-block">
-              Get My Cash Offer →
+              Get Started
             </button>
 
             <p className="text-lg">

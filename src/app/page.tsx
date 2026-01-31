@@ -59,19 +59,19 @@ export default function Home() {
               </h1>
 
               {/* Search/Form Bar */}
-              <div className="bg-white rounded-md shadow-xl flex mb-6 overflow-hidden">
-                <div className="flex-1 relative">
+              <div className="bg-white rounded-lg shadow-xl flex mb-6 overflow-hidden border-4 border-white">
+                <div className="flex-1 relative bg-white">
                   <input
                     type="text"
-                    placeholder="Enter your property address"
-                    className="w-full px-5 py-4 text-base focus:outline-none border-none"
+                    placeholder="Enter your zip code"
+                    className="w-full px-5 py-4 text-base focus:outline-none border-none bg-transparent"
                   />
-                  <svg className="absolute right-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-[#22c55e]" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="absolute right-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <button className="bg-[#22c55e] hover:bg-[#16a34a] text-white font-semibold px-8 py-4 text-base transition-colors">
-                  Get My Cash Offer
+                <button className="bg-[#5fba7d] hover:bg-[#4fa86b] text-white font-semibold px-8 py-4 text-base transition-colors border-l-0">
+                  Get Started
                 </button>
               </div>
 

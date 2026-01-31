@@ -42,19 +42,19 @@ export default function Home() {
 
       <main>
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-primary via-primary-light to-primary text-white py-16 md:py-24">
+        <section className="relative bg-gradient-to-br from-blue-600 via-blue-500 to-blue-700 text-white py-20 md:py-32">
           <div className="container-custom">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               {/* Hero Content */}
               <div>
-                <h1 className="text-4xl md:text-6xl font-heading mb-6 leading-tight">
-                  Get a Fair Cash Offer on Your Las Vegas Home
+                <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                  Sell Your House Fast.<br/>Save Thousands.
                 </h1>
-                <p className="text-xl md:text-2xl mb-4 text-gray-100">
-                  <span className="font-bold text-secondary-light">Save $7,000-$15,000</span> in fees, commissions, and repairs.
+                <p className="text-2xl md:text-3xl mb-6 font-semibold">
+                  Get a fair cash offer in <span className="text-yellow-300">24 hours</span>
                 </p>
-                <p className="text-lg mb-8 text-gray-100">
-                  Cash offer in 24 hours • Close in 7 days • Zero fees or commissions
+                <p className="text-xl mb-8 text-blue-100">
+                  No fees • No repairs • Close in 7 days
                 </p>
                 <ul className="space-y-3 mb-8 text-lg">
                   <li className="flex items-start">
@@ -95,51 +95,57 @@ export default function Home() {
               </div>
 
               {/* Quick Form */}
-              <div className="bg-white rounded-xl shadow-2xl p-8 text-gray-900">
-                <div className="text-center mb-6">
-                  <h2 className="text-3xl font-heading mb-2 text-primary">Get Your Cash Offer</h2>
-                  <p className="text-sm text-gray-600">Free, no-obligation offer in 24 hours</p>
-                  <div className="mt-3 inline-flex items-center gap-2 text-sm text-gray-700">
-                    <span className="text-yellow-500">★★★★★</span>
-                    <span className="font-semibold">4.9/5</span>
-                    <span className="text-gray-500">from 127 reviews</span>
-                  </div>
+              <div className="bg-white rounded-2xl shadow-2xl p-10 text-gray-900">
+                <div className="text-center mb-8">
+                  <h2 className="text-3xl font-bold mb-3 text-gray-900">Get Started</h2>
+                  <p className="text-gray-600 text-lg">Free cash offer in 24 hours. No obligation.</p>
                 </div>
-                <form className="space-y-4">
-                  <input
-                    type="text"
-                    placeholder="Property Address *"
-                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary text-lg"
-                    required
-                  />
+                <form className="space-y-5">
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Enter your property address"
+                      className="w-full px-5 py-4 border-2 border-gray-300 rounded-xl focus:outline-none focus:border-blue-500 text-lg transition-colors"
+                      required
+                    />
+                  </div>
                   <div className="grid grid-cols-2 gap-4">
                     <input
                       type="text"
-                      placeholder="Your Name *"
-                      className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
+                      placeholder="Full name"
+                      className="w-full px-5 py-4 border-2 border-gray-300 rounded-xl focus:outline-none focus:border-blue-500 transition-colors"
                       required
                     />
                     <input
                       type="tel"
-                      placeholder="Phone *"
-                      className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
+                      placeholder="Phone"
+                      className="w-full px-5 py-4 border-2 border-gray-300 rounded-xl focus:outline-none focus:border-blue-500 transition-colors"
                       required
                     />
                   </div>
-                  <input
-                    type="email"
-                    placeholder="Email Address *"
-                    className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
-                    required
-                  />
-                  <button type="submit" className="w-full btn-primary text-lg py-4 font-bold">
-                    Get My Cash Offer Now →
+                  <div>
+                    <input
+                      type="email"
+                      placeholder="Email address"
+                      className="w-full px-5 py-4 border-2 border-gray-300 rounded-xl focus:outline-none focus:border-blue-500 transition-colors"
+                      required
+                    />
+                  </div>
+                  <button type="submit" className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-lg py-5 rounded-xl transition-colors shadow-lg">
+                    Get My Cash Offer →
                   </button>
-                  <p className="text-xs text-gray-500 text-center leading-relaxed">
-                    🔒 100% secure and confidential. No spam, ever.<br/>
-                    Free with no obligation - you can walk away at any time.
+                  <p className="text-xs text-gray-500 text-center leading-relaxed pt-2">
+                    ✓ No fees or commissions<br/>
+                    ✓ Free with no obligation
                   </p>
                 </form>
+                <div className="mt-6 pt-6 border-t border-gray-200 text-center">
+                  <div className="flex items-center justify-center gap-2 text-sm text-gray-600">
+                    <span className="text-yellow-400 text-lg">★★★★★</span>
+                    <span className="font-semibold text-gray-900">4.9/5</span>
+                    <span className="text-gray-500">(127 reviews)</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

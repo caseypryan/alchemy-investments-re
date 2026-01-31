@@ -9,18 +9,22 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#004274',
-          light: '#0e4c7b',
-          dark: '#003560',
+          DEFAULT: '#1e3a8a', // Clean blue like ListWithClever
+          light: '#3b82f6',
+          dark: '#1e40af',
         },
         secondary: {
-          DEFAULT: '#1d70d3',
-          light: '#00aeff',
+          DEFAULT: '#10b981', // Green for CTAs
+          light: '#34d399',
+          dark: '#059669',
         },
+        accent: {
+          DEFAULT: '#f59e0b',
+          light: '#fbbf24',
+        }
       },
       fontFamily: {
-        sans: ['var(--font-nunito)', 'system-ui', 'sans-serif'],
-        heading: ['var(--font-quicksand)', 'system-ui', 'sans-serif'],
+        sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif'],
       },
     },
   },

@@ -8,16 +8,16 @@ export const metadata: Metadata = {
   description: 'Meet our experienced Las Vegas real estate agents. Licensed professionals ready to help you sell your home.',
 }
 
-const agents = [
+const leadershipAgents = [
   {
     id: 1,
     name: 'Casey Ryan',
-    title: 'Principal Broker',
+    title: 'Agent',
     license: 'NV License: S.0184768',
     phone: '(702) 718-6934',
     email: 'casey@alchemyinvestmentsre.com',
     bio: 'With over 15 years of experience in the Las Vegas real estate market, Casey specializes in helping homeowners get top dollar for their properties through innovative marketing and expert negotiation.',
-    image: '/agents/casey-ryan.jpg', // Placeholder - user will need to add actual images
+    image: '/agents/casey-ryan.jpg',
     specialties: ['Residential Sales', 'Investment Properties', 'Cash Offers'],
     stats: {
       yearsExperience: '15+',
@@ -25,7 +25,38 @@ const agents = [
       avgDaysOnMarket: '14'
     }
   },
-  // Add more agents here as needed
+  {
+    id: 2,
+    name: 'Samantha Bonneville',
+    title: 'Principal Broker',
+    license: 'NV License: S.0184768',
+    phone: '(702) 718-6934',
+    email: 'samantha@alchemyinvestmentsre.com',
+    bio: 'As Principal Broker, Samantha brings extensive expertise in Las Vegas real estate, ensuring every transaction meets the highest professional standards while delivering exceptional results for clients.',
+    image: '/agents/samantha-bonneville.jpg',
+    specialties: ['Brokerage Management', 'Residential Sales', 'Client Relations'],
+    stats: {
+      yearsExperience: '10+',
+      homesSold: '300+',
+      avgDaysOnMarket: '18'
+    }
+  },
+]
+
+const teamAgents = [
+  { firstName: 'Dawn', lastName: 'Agudo', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
+  { firstName: 'Danielle', lastName: 'Bald', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
+  { firstName: 'Nicole', lastName: 'Gillespie', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
+  { firstName: 'Dasha', lastName: 'Giraldo', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
+  { firstName: 'Karina', lastName: 'Giraldo Mirkovich', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
+  { firstName: 'April', lastName: 'Hamilton', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
+  { firstName: 'Christopher', lastName: 'Kampshoff', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
+  { firstName: 'Jamie', lastName: 'Kirk', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
+  { firstName: 'Brendon', lastName: 'Marchand', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
+  { firstName: 'Robert', lastName: 'Robinson', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
+  { firstName: 'Brandon', lastName: 'Tan', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
+  { firstName: 'Corey', lastName: 'Trent', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
+  { firstName: 'Kaitlyn', lastName: 'Twitchell', title: 'Agent', specialties: ['Residential Listings', 'Buyers Agent'] },
 ]
 
 export default function OurAgents() {
@@ -44,11 +75,12 @@ export default function OurAgents() {
           </div>
         </section>
 
-        {/* Agents Grid */}
+        {/* Leadership Team Section */}
         <section className="py-20 bg-white">
           <div className="container mx-auto px-6">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              {agents.map((agent) => (
+            <h2 className="text-[36px] font-bold text-center mb-12 text-[#1a1a1a]">Leadership Team</h2>
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              {leadershipAgents.map((agent) => (
                 <div key={agent.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                   {/* Agent Photo */}
                   <div className="relative h-80 bg-gradient-to-br from-[#4A90E2] to-[#7CB3E8]">
@@ -66,7 +98,7 @@ export default function OurAgents() {
 
                   {/* Agent Info */}
                   <div className="p-6">
-                    <h2 className="text-2xl font-bold text-[#1a1a1a] mb-1">{agent.name}</h2>
+                    <h3 className="text-2xl font-bold text-[#1a1a1a] mb-1">{agent.name}</h3>
                     <p className="text-[#22c55e] font-semibold mb-2">{agent.title}</p>
                     <p className="text-sm text-gray-600 mb-4">{agent.license}</p>
 
@@ -90,7 +122,7 @@ export default function OurAgents() {
 
                     {/* Specialties */}
                     <div className="mb-4">
-                      <h3 className="font-semibold text-sm text-gray-800 mb-2">Specialties:</h3>
+                      <h4 className="font-semibold text-sm text-gray-800 mb-2">Specialties:</h4>
                       <div className="flex flex-wrap gap-2">
                         {agent.specialties.map((specialty, index) => (
                           <span
@@ -122,16 +154,49 @@ export default function OurAgents() {
                 </div>
               ))}
             </div>
+          </div>
+        </section>
 
-            {/* Coming Soon - Add more agents */}
-            <div className="text-center mt-12">
-              <p className="text-gray-600">
-                More agent profiles coming soon. Call us at{' '}
-                <a href="tel:702-718-6934" className="text-[#22c55e] font-semibold hover:underline">
-                  (702) 718-6934
-                </a>
-                {' '}to speak with an agent.
-              </p>
+        {/* Our Team Section */}
+        <section className="py-20 bg-[#f8f9fb]">
+          <div className="container mx-auto px-6">
+            <h2 className="text-[36px] font-bold text-center mb-12 text-[#1a1a1a]">Our Team</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+              {teamAgents.map((agent, index) => {
+                const fullName = `${agent.firstName} ${agent.lastName}`
+
+                return (
+                  <div key={index} className="bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow">
+                    {/* Agent Info */}
+                    <h3 className="text-lg font-bold text-[#1a1a1a] mb-2">{fullName}</h3>
+                    <span className="inline-block bg-[#e3f2fd] text-[#4A90E2] text-xs px-3 py-1 rounded-full mb-3">
+                      {agent.title}
+                    </span>
+
+                    {/* Specialties */}
+                    <div className="mb-4">
+                      <div className="flex flex-wrap gap-2">
+                        {agent.specialties.map((specialty, idx) => (
+                          <span
+                            key={idx}
+                            className="bg-[#f0f9ff] text-[#4A90E2] text-xs px-3 py-1 rounded-full"
+                          >
+                            {specialty}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Contact Button */}
+                    <a
+                      href="tel:702-718-6934"
+                      className="block w-full bg-[#22c55e] hover:bg-[#16a34a] text-white font-semibold py-2 px-4 rounded text-center transition-colors text-sm"
+                    >
+                      Contact Us
+                    </a>
+                  </div>
+                )
+              })}
             </div>
           </div>
         </section>

@@ -70,7 +70,7 @@ export default function Home() {
                     <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <button className="bg-[#5fba7d] hover:bg-[#4fa86b] text-white font-semibold px-8 py-4 text-base transition-colors border-l-0">
+                <button className="bg-[#12C190] hover:bg-[#10a87a] text-white font-semibold px-8 py-4 text-base transition-colors border-l-0">
                   Get Started
                 </button>
               </div>
@@ -95,8 +95,8 @@ export default function Home() {
                 </div>
                 <div className="h-10 w-px bg-gray-300" />
                 <div className="text-[#333]">
-                  <div className="font-bold text-base">500+ Homes</div>
-                  <div className="text-xs text-gray-600">Purchased</div>
+                  <div className="font-bold text-base">2,000+</div>
+                  <div className="text-xs text-gray-600">Properties Sold</div>
                 </div>
               </div>
             </div>
@@ -136,10 +136,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-[22px] font-bold text-[#2b3d4f] mb-4">
-                  A nationwide network of 14,000 top agents
+                  Top Las Vegas agents & cash buyers
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  We partner with top-producing agents from all the major brands, like RE/MAX, eXp, and more. Agents have to maintain exceptional reviews to stay in our network.
+                  Compare offers from experienced local agents and trusted cash buyers. Get multiple options and choose the best path forward for your unique situation.
                 </p>
               </div>
 
@@ -228,8 +228,7 @@ export default function Home() {
                 </div>
                 <div className="bg-white rounded-lg shadow-lg p-8 h-80 flex items-center justify-center">
                   <div className="text-center text-gray-400">
-                    <div className="text-6xl mb-4">📋</div>
-                    <p className="text-sm">Form preview placeholder</p>
+                    <div className="text-6xl">📋</div>
                   </div>
                 </div>
               </div>
@@ -249,8 +248,7 @@ export default function Home() {
                 </div>
                 <div className="bg-white rounded-lg shadow-lg p-8 h-80 flex items-center justify-center md:order-1">
                   <div className="text-center text-gray-400">
-                    <div className="text-6xl mb-4">🤝</div>
-                    <p className="text-sm">Negotiation visual placeholder</p>
+                    <div className="text-6xl">🤝</div>
                   </div>
                 </div>
               </div>
@@ -270,8 +268,7 @@ export default function Home() {
                 </div>
                 <div className="bg-white rounded-lg shadow-lg p-8 h-80 flex items-center justify-center">
                   <div className="text-center text-gray-400">
-                    <div className="text-6xl mb-4">⚖️</div>
-                    <p className="text-sm">Comparison chart placeholder</p>
+                    <div className="text-6xl">⚖️</div>
                   </div>
                 </div>
               </div>
@@ -280,17 +277,48 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section id="contact" className="bg-[#22c55e] text-white py-20">
-          <div className="container mx-auto px-6 text-center max-w-3xl">
-            <h2 className="text-[40px] font-bold mb-4">Ready to sell your Las Vegas house?</h2>
-            <p className="text-xl mb-8">Get your free, no-obligation cash offer today</p>
+        <section id="contact" className="bg-[#f8f9fb] py-20">
+          <div className="container mx-auto px-6 text-center max-w-4xl">
+            <h2 className="text-[38px] font-bold text-[#2b3d4f] mb-4">
+              Our team of licensed real estate experts is ready to help
+            </h2>
+            <p className="text-lg text-gray-600 mb-8">
+              We&apos;re here to answer your questions, offer advice, and help you find the perfect solution.
+              Our team is available 7 days a week.
+            </p>
 
-            <button className="bg-white text-[#22c55e] hover:bg-gray-100 font-bold px-10 py-4 rounded text-lg transition-colors mb-6 inline-block">
-              Get Started
-            </button>
+            {/* Countdown Timer - static for now */}
+            <div className="text-[#4A90E2] text-4xl font-bold mb-8" id="countdown">
+              --
+            </div>
 
-            <p className="text-lg">
-              Or call us: <a href="tel:702-718-6934" className="font-bold hover:underline">(702) 718-6934</a>
+            {/* Contact Form */}
+            <div className="flex gap-3 max-w-2xl mx-auto mb-6">
+              <input
+                type="tel"
+                placeholder="Enter your phone number"
+                className="flex-1 px-5 py-4 rounded border-2 border-gray-300 focus:border-[#4A90E2] focus:outline-none"
+              />
+              <button className="bg-[#22c55e] hover:bg-[#16a34a] text-white font-semibold px-8 py-4 rounded transition-colors">
+                Contact Us Now
+              </button>
+            </div>
+
+            {/* Phone Number */}
+            <div className="flex items-center justify-center gap-2 mb-6">
+              <span className="text-gray-600">or call us at</span>
+              <a href="tel:702-718-6934" className="text-[#4A90E2] font-bold text-xl flex items-center gap-2 hover:underline">
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                </svg>
+                (702) 718-6934
+              </a>
+            </div>
+
+            {/* Disclaimer */}
+            <p className="text-sm text-gray-500 leading-relaxed max-w-3xl mx-auto">
+              By clicking &quot;Contact Us Now&quot; you agree to receive calls, emails, and SMS.
+              Message and data rates may apply. Text STOP to cancel.
             </p>
           </div>
         </section>

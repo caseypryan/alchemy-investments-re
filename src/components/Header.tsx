@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex justify-between items-center h-[60px]">
+        <div className="flex justify-between items-center h-[70px]">
           {/* Left: Hamburger + Logo */}
           <div className="flex items-center gap-4">
             {/* Hamburger Menu Button */}
@@ -43,7 +43,7 @@ export default function Header() {
                 width={180}
                 height={50}
                 priority
-                className="h-10 w-auto"
+                className="h-14 w-auto"
               />
             </Link>
           </div>
@@ -84,7 +84,7 @@ export default function Header() {
 
       {/* Mobile Menu Dropdown */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 top-[60px] bg-white z-40 overflow-y-auto">
+        <div className="fixed inset-0 top-[70px] bg-white z-40 overflow-y-auto">
           <div className="px-6 py-8">
             {/* HOME SELLING */}
             <div className="mb-6">

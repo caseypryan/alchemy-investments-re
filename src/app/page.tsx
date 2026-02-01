@@ -9,6 +9,8 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('sell')
+  const [formExpanded, setFormExpanded] = useState(false)
+  const [address, setAddress] = useState('')
 
   return (
     <>
@@ -59,20 +61,79 @@ export default function Home() {
               </h1>
 
               {/* Search/Form Bar */}
-              <div className="bg-white rounded-lg shadow-xl flex mb-6 overflow-hidden border-4 border-white">
-                <div className="flex-1 relative bg-white">
-                  <input
-                    type="text"
-                    placeholder="Enter your zip code"
-                    className="w-full px-5 py-4 text-base focus:outline-none border-none bg-transparent"
-                  />
-                  <svg className="absolute right-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <button className="bg-[#12C190] hover:bg-[#10a87a] text-white font-semibold px-8 py-4 text-base transition-colors border-l-0">
-                  Get Started
-                </button>
+              <div className="bg-white rounded-lg shadow-xl mb-6 overflow-hidden border-4 border-white">
+                {!formExpanded ? (
+                  <div className="flex">
+                    <div className="flex-1 relative bg-white">
+                      <input
+                        type="text"
+                        placeholder="Enter your address"
+                        value={address}
+                        onChange={(e) => setAddress(e.target.value)}
+                        className="w-full px-5 py-4 text-base focus:outline-none border-none bg-transparent"
+                      />
+                      <svg className="absolute right-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <button
+                      onClick={() => setFormExpanded(true)}
+                      className="bg-[#12C190] hover:bg-[#10a87a] text-white font-semibold px-8 py-4 text-base transition-colors border-l-0"
+                    >
+                      Get Started
+                    </button>
+                  </div>
+                ) : (
+                  <div className="p-6 space-y-4 animate-in fade-in slide-in-from-top-4 duration-500">
+                    <div>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">Property Address</label>
+                      <input
+                        type="text"
+                        value={address}
+                        onChange={(e) => setAddress(e.target.value)}
+                        className="w-full px-4 py-3 border-2 border-gray-300 rounded focus:border-[#4A90E2] focus:outline-none"
+                        placeholder="123 Main St, Las Vegas, NV"
+                      />
+                    </div>
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <div>
+                        <label className="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
+                        <input
+                          type="text"
+                          className="w-full px-4 py-3 border-2 border-gray-300 rounded focus:border-[#4A90E2] focus:outline-none"
+                          placeholder="John Doe"
+                        />
+                      </div>
+                      <div>
+                        <label className="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
+                        <input
+                          type="tel"
+                          className="w-full px-4 py-3 border-2 border-gray-300 rounded focus:border-[#4A90E2] focus:outline-none"
+                          placeholder="(702) 123-4567"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+                      <input
+                        type="email"
+                        className="w-full px-4 py-3 border-2 border-gray-300 rounded focus:border-[#4A90E2] focus:outline-none"
+                        placeholder="john@example.com"
+                      />
+                    </div>
+                    <div className="flex gap-3 pt-2">
+                      <button
+                        onClick={() => setFormExpanded(false)}
+                        className="px-6 py-3 text-gray-600 hover:text-gray-800 font-semibold transition-colors"
+                      >
+                        Back
+                      </button>
+                      <button className="flex-1 bg-[#12C190] hover:bg-[#10a87a] text-white font-semibold px-8 py-3 rounded text-base transition-colors">
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Subtext */}
@@ -212,8 +273,8 @@ export default function Home() {
               {/* Step 1 */}
               <div className="grid md:grid-cols-2 gap-16 items-center">
                 <div>
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white border-2 border-[#4A90E2] mb-6">
-                    <span className="text-[#4A90E2] font-bold text-xl">STEP 1</span>
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#4A90E2] text-white mb-6 shadow-lg">
+                    <span className="font-bold text-2xl">1</span>
                   </div>
                   <h3 className="text-[32px] font-bold text-[#2b3d4f] mb-6 leading-tight">
                     Enter a few details to get started
@@ -227,17 +288,17 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="bg-white rounded-lg shadow-lg p-8 h-80 flex items-center justify-center">
-                  <div className="text-center text-gray-400">
-                    <div className="text-6xl">📋</div>
-                  </div>
+                  <svg className="w-32 h-32 text-[#4A90E2]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
                 </div>
               </div>
 
               {/* Step 2 */}
               <div className="grid md:grid-cols-2 gap-16 items-center">
                 <div className="md:order-2">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white border-2 border-[#4A90E2] mb-6">
-                    <span className="text-[#4A90E2] font-bold text-xl">STEP 2</span>
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#4A90E2] text-white mb-6 shadow-lg">
+                    <span className="font-bold text-2xl">2</span>
                   </div>
                   <h3 className="text-[32px] font-bold text-[#2b3d4f] mb-6 leading-tight">
                     We negotiate better rates on your behalf
@@ -247,17 +308,17 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="bg-white rounded-lg shadow-lg p-8 h-80 flex items-center justify-center md:order-1">
-                  <div className="text-center text-gray-400">
-                    <div className="text-6xl">🤝</div>
-                  </div>
+                  <svg className="w-32 h-32 text-[#4A90E2]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
                 </div>
               </div>
 
               {/* Step 3 */}
               <div className="grid md:grid-cols-2 gap-16 items-center">
                 <div>
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white border-2 border-[#4A90E2] mb-6">
-                    <span className="text-[#4A90E2] font-bold text-xl">STEP 3</span>
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#4A90E2] text-white mb-6 shadow-lg">
+                    <span className="font-bold text-2xl">3</span>
                   </div>
                   <h3 className="text-[32px] font-bold text-[#2b3d4f] mb-6 leading-tight">
                     Compare agents and cash offers
@@ -267,9 +328,9 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="bg-white rounded-lg shadow-lg p-8 h-80 flex items-center justify-center">
-                  <div className="text-center text-gray-400">
-                    <div className="text-6xl">⚖️</div>
-                  </div>
+                  <svg className="w-32 h-32 text-[#4A90E2]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                  </svg>
                 </div>
               </div>
             </div>

@@ -4,8 +4,8 @@
 
   "analytics": {
     "googleAnalytics": {
-      "enabled": false,
-      "measurementId": ""
+      "enabled": true,
+      "measurementId": "G-5Q1HZBGB8V"
     },
     "googleTagManager": {
       "enabled": false,
@@ -61,7 +61,7 @@
 
   "googleAnalytics4": {
     "enabled": true,
-    "propertyId": "",
+    "propertyId": "G-5Q1HZBGB8V",
     "version": "GA4",
     "features": {
       "pageMetrics": true,

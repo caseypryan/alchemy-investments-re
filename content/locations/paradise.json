@@ -1,0 +1,53 @@
+{
+  "slug": "paradise",
+  "type": "location",
+  "seo": {
+    "title": "Sell Your House Fast in Paradise, NV | Cash Home Buyers Las Vegas",
+    "description": "Sell your Paradise Las Vegas home fast for cash. Get offers in 24 hours. We buy houses as-is near UNLV, McCarran Airport area. No repairs, close in 7-14 days.",
+    "keywords": [
+      "sell house fast Paradise Nevada",
+      "cash home buyers Paradise Las Vegas",
+      "we buy houses Paradise NV",
+      "sell house near UNLV"
+    ],
+    "canonical": "https://alchemyinvestmentsre.com/locations/paradise"
+  },
+  "hero": {
+    "heading": "Sell Your Paradise Home Fast for Cash",
+    "subheading": "Serving Paradise, UNLV area, and East Las Vegas. Cash offers in 24 hours.",
+    "cta": "Get Your Cash Offer",
+    "ctaLink": "/#hero-form"
+  },
+  "location": {
+    "city": "Paradise",
+    "state": "Nevada",
+    "stateAbbr": "NV",
+    "zipCodes": ["89109", "89119", "89120", "89121", "89123"],
+    "neighborhoods": [
+      "UNLV Area",
+      "Winchester",
+      "Paradise Palms",
+      "Boulevard Heights",
+      "Paradise Hills"
+    ],
+    "population": 231858,
+    "medianHomePrice": "$380,000",
+    "coordinates": {
+      "latitude": 36.0969,
+      "longitude": -115.1219
+    }
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "heading": "Paradise Nevada Cash Home Buyers",
+      "content": "Paradise is an unincorporated town in the Las Vegas Valley, home to UNLV, the Las Vegas Strip, and McCarran International Airport. We buy homes throughout Paradise including properties near the university, residential neighborhoods, and investment properties.\n\nWhether you own a rental property near UNLV, a family home in Paradise Palms, or an investment property in Winchester, we make fair cash offers and close quickly."
+    }
+  ],
+  "migration": {
+    "priority": 0.8,
+    "lastModified": "2026-01-31",
+    "seoOptimized": true,
+    "status": "new"
+  }
+}

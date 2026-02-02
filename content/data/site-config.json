@@ -1,0 +1,23 @@
+{
+  "_comment": "Additional site configuration data",
+  "features": {
+    "multiStepForm": true,
+    "instantValuation": false,
+    "calendar": false,
+    "testimonials": true,
+    "stats": true,
+    "blog": true
+  },
+  "integrations": {
+    "podio": true,
+    "googleMaps": true,
+    "recaptcha": false
+  },
+  "seo": {
+    "robotsIndex": true,
+    "generateSitemap": true,
+    "structuredData": true,
+    "openGraph": true,
+    "twitterCards": true
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "slug": "home",
+  "type": "page",
+  "seo": {
+    "title": "Sell My House Fast Las Vegas | Cash Offers in 24 Hours | Top 1% Agents",
+    "description": "Sell your Las Vegas house fast for cash OR with top 1% agents. Get fair offers in 24 hours. No repairs needed. Close in 7-14 days. Licensed brokerage with 10+ years experience.",
+    "keywords": [
+      "sell my house fast las vegas",
+      "cash home buyers las vegas",
+      "we buy houses las vegas",
+      "sell house as-is las vegas",
+      "las vegas real estate investors",
+      "quick cash offers las vegas",
+      "sell house fast nevada"
+    ],
+    "canonical": "https://alchemyinvestmentsre.com"
+  },
+  "hero": {
+    "heading": "Sell Your Las Vegas House Fast - Cash or with Top Agents",
+    "subheading": "Get a fair cash offer in 24 hours OR work with top 1% agents. You choose. No repairs, no fees. Close in 7-14 days.",
+    "cta": "Get Your Free Offer",
+    "ctaLink": "#hero-form",
+    "secondaryCta": "Speak to an Expert",
+    "secondaryCtaLink": "/contact"
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "heading": "Your Trusted Real Estate Investment Brokerage in Las Vegas",
+      "content": "For over 10 years, Alchemy Investments RE has been helping Las Vegas homeowners sell their properties quickly and hassle-free. As a licensed brokerage (S.0184768), we offer something unique: **two ways to sell your house**.\n\nChoose an instant cash offer for a fast, simple sale in 7-14 days. Or work with our top 1% agents to maximize your home's value on the open market. Either way, you get expert guidance, fair treatment, and a stress-free experience."
+    },
+    {
+      "type": "dual-approach",
+      "heading": "Two Ways to Sell Your Las Vegas Home",
+      "description": "Unlike other companies, we give you options. Choose the path that works best for your situation.",
+      "options": [
+        {
+          "title": "Option 1: Get an Instant Cash Offer",
+          "icon": "DollarSign",
+          "benefits": [
+            "Cash offer in 24 hours",
+            "Close in as little as 7-14 days",
+            "No repairs or cleaning needed",
+            "No agent fees or commissions",
+            "No contingencies or financing delays",
+            "Sell as-is in any condition"
+          ],
+          "cta": "Get Cash Offer",
+          "ctaLink": "#hero-form",
+          "ideal": "Perfect if you need to sell fast, have a distressed property, or want to avoid the traditional selling process."
+        },
+        {
+          "title": "Option 2: Work with Top 1% Agents",
+          "icon": "Users",
+          "benefits": [
+            "Maximize your home's market value",
+            "Expert pricing and marketing strategy",
+            "Professional staging and photography",
+            "Access to top buyer agents",
+            "Negotiation by experienced professionals",
+            "Guidance through every step"
+          ],
+          "cta": "Connect with Agent",
+          "ctaLink": "/contact",
+          "ideal": "Perfect if your home is in good condition, you want top dollar, and you have time for the traditional market."
+        }
+      ]
+    },
+    {
+      "type": "benefits",
+      "heading": "Why Las Vegas Homeowners Choose Alchemy Investments RE",
+      "items": [
+        {
+          "icon": "Clock",
+          "title": "Close in 7-14 Days",
+          "description": "Fast closings that work on YOUR timeline. Need more time? No problem. We're flexible."
+        },
+        {
+          "icon": "Home",
+          "title": "Buy Houses As-Is",
+          "description": "No repairs, no renovations, no cleaning. We buy homes in ANY condition—even distressed properties."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "No Hidden Fees",
+          "description": "No agent commissions, no closing costs, no repair expenses. What we offer is what you get."
+        },
+        {
+          "icon": "Award",
+          "title": "Top 1% Agent Network",
+          "description": "Access to Las Vegas's top-performing agents with proven track records and local expertise."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Licensed & Experienced",
+          "description": "Licensed Nevada brokerage (S.0184768) with 10+ years of experience in the Las Vegas market."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Las Vegas Valley Experts",
+          "description": "We know every neighborhood—from Henderson to Summerlin, downtown to North Las Vegas."
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "heading": "How to Sell Your House Fast in Las Vegas",
+      "items": [
+        {
+          "step": 1,
+          "title": "Contact Us",
+          "description": "Fill out our simple form or call us at 702-718-6934. Tell us about your property and situation.",
+          "icon": "Phone"
+        },
+        {
+          "step": 2,
+          "title": "Get Your Offer",
+          "description": "Receive a fair, no-obligation cash offer within 24 hours. Or get matched with a top agent.",
+          "icon": "FileText"
+        },
+        {
+          "step": 3,
+          "title": "Choose Your Path",
+          "description": "Accept the cash offer for a quick sale, or work with an agent to maximize value. You decide.",
+          "icon": "GitBranch"
+        },
+        {
+          "step": 4,
+          "title": "Close & Get Paid",
+          "description": "Close in as little as 7 days with cash, or let your agent guide you through the traditional process.",
+          "icon": "CheckCircle"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "heading": "We Buy All Types of Las Vegas Properties",
+      "description": "No matter the condition or situation, we can help you sell your Las Vegas home quickly.",
+      "items": [
+        {
+          "title": "Distressed Properties",
+          "description": "Fire damage, water damage, foundation issues—we buy it all as-is."
+        },
+        {
+          "title": "Inherited Homes",
+          "description": "Avoid the hassle of managing an inherited property. We make fast, fair offers."
+        },
+        {
+          "title": "Foreclosure Prevention",
+          "description": "Facing foreclosure? We can close quickly and help you avoid credit damage."
+        },
+        {
+          "title": "Divorce Situations",
+          "description": "Need to sell quickly during a divorce? We make it simple and stress-free."
+        },
+        {
+          "title": "Tenant Problems",
+          "description": "Dealing with difficult tenants? Sell to us and move on with your life."
+        },
+        {
+          "title": "Any Condition",
+          "description": "Move-in ready or total fixer-upper—we buy houses in any condition."
+        }
+      ]
+    },
+    {
+      "type": "california-buyers",
+      "heading": "Moving from California to Las Vegas?",
+      "content": "You're not alone. Thousands of Californians are making the move to Las Vegas every year for lower taxes, affordable housing, and a better quality of life.\n\nIf you need to sell your California property quickly to make the move, or if you're looking to invest in Las Vegas real estate, we can help. Our team understands both markets and can guide you through the transition.",
+      "benefits": [
+        "No California income tax in Nevada",
+        "Lower cost of living",
+        "More affordable housing",
+        "Growing job market",
+        "Excellent weather year-round"
+      ],
+      "cta": "Talk to a Relocation Expert",
+      "ctaLink": "/contact"
+    },
+    {
+      "type": "market-insights",
+      "heading": "Las Vegas Real Estate Market 2026",
+      "content": "The Las Vegas housing market remains strong in 2026, with high buyer demand and limited inventory creating a seller's market. Average home prices in the Las Vegas Valley are around $475,000, with Henderson slightly higher and North Las Vegas offering more affordable options.\n\nWhether you're selling a luxury home in Summerlin or a starter home in the Arts District, now is an excellent time to sell. Our team stays on top of market trends to ensure you get the best possible offer.",
+      "stats": [
+        {
+          "number": "10+",
+          "label": "Years of Experience"
+        },
+        {
+          "number": "110",
+          "label": "Indexed Pages"
+        },
+        {
+          "number": "7-14",
+          "label": "Days to Close"
+        },
+        {
+          "number": "1%",
+          "label": "Top Agents"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How fast can you really buy my house?",
+      "answer": "We can close in as little as 7-14 days if you choose our cash offer option. The timeline is flexible—if you need more time, we can accommodate that too. Unlike traditional sales that take 30-60+ days, our streamlined process moves quickly."
+    },
+    {
+      "question": "Do I have to make repairs before selling?",
+      "answer": "No! We buy houses as-is in ANY condition. Whether your home needs minor cosmetic work or major repairs, we'll make you a fair cash offer without requiring any fixes. You can sell your house exactly as it is today."
+    },
+    {
+      "question": "What's the difference between your cash offer and working with an agent?",
+      "answer": "Our cash offer option is faster (7-14 days vs 30-60+ days), requires no repairs, and has no agent fees. Working with one of our top agents typically nets a higher sale price but takes longer and may require some prep work. We'll help you understand both options and choose what's best for your situation."
+    },
+    {
+      "question": "Are there any fees or commissions?",
+      "answer": "With our cash offer option, there are NO fees, commissions, or closing costs. If you work with one of our agents, standard real estate commissions apply (typically 5-6%), but our agents' expertise often results in higher sale prices that more than offset the commission."
+    },
+    {
+      "question": "What types of houses do you buy in Las Vegas?",
+      "answer": "We buy all types of properties in the Las Vegas Valley: single-family homes, condos, townhomes, multi-family properties, and even land. We buy in any condition—from move-in ready to completely distressed. Location doesn't matter: Henderson, Summerlin, North Las Vegas, downtown—we cover the entire valley."
+    },
+    {
+      "question": "How do you determine your cash offer?",
+      "answer": "We analyze recent comparable sales in your neighborhood, assess your property's condition, and factor in current market conditions. Our goal is to make you a fair offer that reflects true market value while accounting for the speed and convenience we provide."
+    },
+    {
+      "question": "Is Alchemy Investments RE a licensed company?",
+      "answer": "Yes! We are a fully licensed Nevada real estate brokerage (License #S.0184768) with over 10 years of experience in the Las Vegas market. We operate professionally, transparently, and ethically in every transaction."
+    },
+    {
+      "question": "Do you buy houses in Henderson, Summerlin, and other Las Vegas areas?",
+      "answer": "Absolutely! We buy houses throughout the entire Las Vegas Valley, including Henderson, Summerlin, North Las Vegas, Boulder City, downtown Las Vegas, and all surrounding neighborhoods. If it's in the Vegas metro area, we're interested."
+    },
+    {
+      "question": "What if I'm behind on payments or facing foreclosure?",
+      "answer": "We can help! We've worked with many homeowners in difficult financial situations. Our quick closing timeline (7-14 days) can help you avoid foreclosure and protect your credit. Contact us immediately if you're facing foreclosure—the sooner we talk, the more options you'll have."
+    },
+    {
+      "question": "Can I sell if I have tenants in the property?",
+      "answer": "Yes! We buy tenant-occupied properties all the time. You don't need to evict your tenants or wait for them to leave. We can work around the existing tenancy or take over the lease—whatever works best for your situation."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Bobby Johnson",
+      "role": "House Seller",
+      "content": "After my tenants trashed the property, I didn't know what to do. Alchemy Investments gave me an honest assessment and a fair cash offer. They showed me the numbers—repair costs vs their offer—and it made total sense. The whole process was straightforward and stress-free.",
+      "rating": 5,
+      "location": "Las Vegas, NV"
+    },
+    {
+      "name": "Cena Jordan",
+      "role": "House Seller",
+      "content": "Selling my grandmother's house was emotional and overwhelming. The team at Alchemy Investments was incredibly kind and made everything so clear. They walked me through every step and made what could have been a nightmare into a smooth experience. I can't thank them enough.",
+      "rating": 5,
+      "location": "Henderson, NV"
+    }
+  ],
+  "cta": {
+    "heading": "Ready to Sell Your Las Vegas House Fast?",
+    "description": "Get a fair cash offer in 24 hours with no obligation. Or connect with one of our top agents. Either way, you're in expert hands.",
+    "primaryButton": "Get Your Free Offer",
+    "primaryLink": "#hero-form",
+    "secondaryButton": "Call Us: 702-718-6934",
+    "secondaryLink": "tel:702-718-6934"
+  },
+  "contact": {
+    "phone": "702-718-6934",
+    "email": "Casey@AlchemyInvestmentsRE.com",
+    "address": "8978 Spanish Ridge, Las Vegas, NV 89148",
+    "hours": "9 AM–6 PM, Monday–Friday",
+    "license": "S.0184768"
+  },
+  "migration": {
+    "originalUrl": "https://alchemyinvestmentsre.com/",
+    "priority": 1.0,
+    "lastModified": "2026-01-31",
+    "scrapedContent": true,
+    "seoOptimized": true,
+    "status": "complete"
+  }
+}

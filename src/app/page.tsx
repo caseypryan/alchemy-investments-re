@@ -155,9 +155,9 @@ export default function Home() {
 
               {/* Main Headline */}
               <h1 className="text-[44px] font-extrabold text-[#1a1a1a] leading-[1.2] mb-8">
-                Sell Your Las Vegas House Fast.
+                Sell Your Las Vegas House Fast
                 <br />
-                Compare Top Agents & Cash Offers.
+                - Cash Offers or Top 1% Agents
               </h1>
 
               {/* Search/Form Bar */}
@@ -264,26 +264,26 @@ export default function Home() {
 
               {/* Subtext */}
               <p className="text-[15px] text-[#555] leading-[1.6] max-w-[520px] mb-6">
-                No fees. No commissions. No repairs needed. Get a fair cash offer in 24 hours and close in as little as 7 days. Free, no-obligation offer.
+                Sell your house as-is with no repairs needed. Get a fair cash offer in 24 hours and close in 7-14 days, or work with top 1% Las Vegas agents. No fees, no commissions, no obligations.
               </p>
 
               {/* Trust Badges */}
               <div className="flex items-center gap-6 flex-wrap">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-full bg-[#22c55e] flex items-center justify-center text-white font-bold text-lg">
-                    A+
+                    ✓
                   </div>
-                  <span className="text-[#333] font-semibold text-sm">BBB Rated</span>
+                  <span className="text-[#333] font-semibold text-sm">Licensed Brokerage</span>
                 </div>
                 <div className="h-10 w-px bg-gray-300" />
                 <div className="text-[#333]">
-                  <div className="font-bold text-base">15+ Years</div>
-                  <div className="text-xs text-gray-600">In Business</div>
+                  <div className="font-bold text-base">10+ Years</div>
+                  <div className="text-xs text-gray-600">In Las Vegas</div>
                 </div>
                 <div className="h-10 w-px bg-gray-300" />
                 <div className="text-[#333]">
-                  <div className="font-bold text-base">2,000+</div>
-                  <div className="text-xs text-gray-600">Properties Sold</div>
+                  <div className="font-bold text-base">7-14 Days</div>
+                  <div className="text-xs text-gray-600">To Close</div>
                 </div>
               </div>
             </div>
@@ -309,7 +309,7 @@ export default function Home() {
         <section className="bg-[#f8f9fb] py-20">
           <div className="container mx-auto px-6">
             <h2 className="text-[42px] font-bold text-[#2b3d4f] text-center mb-16 leading-tight">
-              Better Agents. Better Rates. Zero Hassle.
+              Two Ways to Sell Your Las Vegas Home
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -323,10 +323,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-[22px] font-bold text-[#2b3d4f] mb-4">
-                  Top Las Vegas agents & cash buyers
+                  Option 1: Get an Instant Cash Offer
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Compare offers from experienced local agents and trusted cash buyers. Get multiple options and choose the best path forward for your unique situation.
+                  Sell your house as-is in any condition. No repairs, no showings, no contingencies. Get a fair cash offer in 24 hours and close in 7-14 days on your timeline.
                 </p>
               </div>
 
@@ -339,10 +339,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-[22px] font-bold text-[#2b3d4f] mb-4">
-                  The best rates in real estate
+                  Option 2: Work with Top 1% Agents
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  These agents have agreed to offer our customers competitive rates. You get top-producers for less than half their typical fee, saving thousands on average!
+                  Maximize your home's value with expert pricing and marketing. Our top Las Vegas agents offer competitive rates and proven results, saving you thousands while getting you top dollar.
                 </p>
               </div>
 
@@ -355,11 +355,12 @@ export default function Home() {
                     <path d="M40 50v-8M50 50v-12M60 50v-6" stroke="#4A90E2" strokeWidth="2" strokeLinecap="round" />
                   </svg>
                 </div>
+
                 <h3 className="text-[22px] font-bold text-[#2b3d4f] mb-4">
-                  Free with no obligation
+                  Licensed & Experienced Brokerage
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Sign up and compare agent matches in minutes. Choose the best fit, request more matches, or walk away at any time. Our service is completely free for you to use.
+                  Nevada licensed brokerage (S.0184768) with 10+ years serving the Las Vegas Valley. From Henderson to Summerlin, we buy houses in any condition and connect sellers with top agents.
                 </p>
               </div>
             </div>

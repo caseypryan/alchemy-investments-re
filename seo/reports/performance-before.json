@@ -1,0 +1,1292 @@
+{
+  "timestamp": "2026-02-01T02:29:53.284Z",
+  "dateRange": {
+    "start": "2025-11-03",
+    "end": "2026-02-01"
+  },
+  "search": {
+    "totalClicks": 75,
+    "totalImpressions": 1278,
+    "avgPosition": 25.19749101178438,
+    "avgCTR": 0.05868544600938967,
+    "topQueries": [
+      {
+        "query": "alchemy investments llc",
+        "clicks": 34,
+        "impressions": 383,
+        "position": 1.3333333333333333,
+        "ctr": 0
+      },
+      {
+        "query": "alchemy investments re",
+        "clicks": 26,
+        "impressions": 326,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "query": "alchemy investments",
+        "clicks": 11,
+        "impressions": 217,
+        "position": 7.888888888888889,
+        "ctr": 0
+      },
+      {
+        "query": "alchemy real estate",
+        "clicks": 3,
+        "impressions": 23,
+        "position": 20.5,
+        "ctr": 0
+      },
+      {
+        "query": "alchemy re",
+        "clicks": 1,
+        "impressions": 11,
+        "position": 6,
+        "ctr": 0
+      },
+      {
+        "query": "al chemy",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 3,
+        "ctr": 0
+      },
+      {
+        "query": "alcemy company",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 10,
+        "ctr": 0
+      },
+      {
+        "query": "alchemy",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 6.8,
+        "ctr": 0
+      },
+      {
+        "query": "alchemy advisors",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 9,
+        "ctr": 0
+      },
+      {
+        "query": "alchemy investment",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 46,
+        "ctr": 0
+      },
+      {
+        "query": "alchemy investors",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 19,
+        "ctr": 0
+      },
+      {
+        "query": "alchemy las vegas",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 14,
+        "ctr": 0
+      },
+      {
+        "query": "alchemy llc",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 9,
+        "ctr": 0
+      },
+      {
+        "query": "alchemy real estate advisors",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 78.5,
+        "ctr": 0
+      },
+      {
+        "query": "alcy",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 4,
+        "ctr": 0
+      },
+      {
+        "query": "best real estate investors near me",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "query": "boutique real estate investment firm",
+        "clicks": 0,
+        "impressions": 16,
+        "position": 7.8125,
+        "ctr": 0
+      },
+      {
+        "query": "brokerage firms",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 8.5,
+        "ctr": 0
+      },
+      {
+        "query": "casey ryan las vegas",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 8,
+        "ctr": 0
+      },
+      {
+        "query": "certified investor agent specialist",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 3,
+        "ctr": 0
+      },
+      {
+        "query": "investment companies",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 6.4,
+        "ctr": 0
+      },
+      {
+        "query": "investment properties",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "query": "investment properties las vegas",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "query": "investment property",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 21,
+        "ctr": 0
+      },
+      {
+        "query": "investments",
+        "clicks": 0,
+        "impressions": 52,
+        "position": 2.75,
+        "ctr": 0
+      },
+      {
+        "query": "investments las vegas",
+        "clicks": 0,
+        "impressions": 24,
+        "position": 5.666666666666667,
+        "ctr": 0
+      },
+      {
+        "query": "investments near me",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "query": "investors in las vegas",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 3,
+        "ctr": 0
+      },
+      {
+        "query": "investors near me",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "query": "invstments",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 14,
+        "ctr": 0
+      },
+      {
+        "query": "las vegas investment properties",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "query": "las vegas investors",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 13,
+        "ctr": 0
+      },
+      {
+        "query": "las vegas real estate investment",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 58.333333333333336,
+        "ctr": 0
+      },
+      {
+        "query": "las vegas real estate investors",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 7,
+        "ctr": 0
+      },
+      {
+        "query": "matt henney greystar",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 8,
+        "ctr": 0
+      },
+      {
+        "query": "private real estate investment firm",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 11.125,
+        "ctr": 0
+      },
+      {
+        "query": "private real estate investors",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 12,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investing",
+        "clicks": 0,
+        "impressions": 18,
+        "position": 12.61111111111111,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investmen",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 9,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investment",
+        "clicks": 0,
+        "impressions": 61,
+        "position": 1.0163934426229508,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investment advisor near me",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 2,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investment companies near me",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investments",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investments in las vegas",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 80,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investments las vegas",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 43,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investments llc",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 11,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investor",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 4.857142857142858,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investors",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 1.6,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investors las vegas",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 9,
+        "ctr": 0
+      },
+      {
+        "query": "real estate investors near me",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 40,
+        "ctr": 0
+      }
+    ],
+    "topPages": [
+      {
+        "url": "https://alchemyinvestmentsre.com/",
+        "clicks": 65,
+        "impressions": 554,
+        "position": 10.090314978425846,
+        "ctr": 0.11732851985559567
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/about-this-demo/",
+        "clicks": 6,
+        "impressions": 168,
+        "position": 32.863094545823756,
+        "ctr": 0.03571428571428571
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/properties/",
+        "clicks": 3,
+        "impressions": 142,
+        "position": 3.752724089635854,
+        "ctr": 0.02112676056338028
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/blog/",
+        "clicks": 1,
+        "impressions": 84,
+        "position": 4.611111111111112,
+        "ctr": 0.011904761904761904
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/category/business/",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 20,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/category/marketing/",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/category/real-estate/",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 20.5,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/compare-properties/",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 27.041666666666668,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/get-started/",
+        "clicks": 0,
+        "impressions": 64,
+        "position": 2.657819225251076,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/homepage-1/",
+        "clicks": 0,
+        "impressions": 49,
+        "position": 1.0204081632653061,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/homepage-3/",
+        "clicks": 0,
+        "impressions": 43,
+        "position": 8.011904761904763,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/property-type/family-home/",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/property/ample-apartment-at-last-floor-2/",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 41.333333333333336,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/property/ample-apartment-at-last-floor/",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 125.2,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/property/design-place-apartment/",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 46,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/property/luxury-villa-with-pool/",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 41,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/property/modern-apartment-2/",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 72.75,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/property/modern-day-apartment/",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 84.5,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/property/penthouse-apartment/",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 54,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/search-results/",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/speak-to-an-expert/",
+        "clicks": 0,
+        "impressions": 89,
+        "position": 3.407407407407408,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/state/nevada/",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/status/for-rent/",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 1,
+        "ctr": 0
+      },
+      {
+        "url": "https://alchemyinvestmentsre.com/status/for-sale/",
+        "clicks": 0,
+        "impressions": 30,
+        "position": 1,
+        "ctr": 0
+      }
+    ]
+  },
+  "analytics": {
+    "sessions": 503,
+    "pageViews": 853,
+    "users": 455,
+    "newUsers": 455,
+    "bounceRate": 0.6461232604373758,
+    "avgSessionDuration": 45.535118423459245,
+    "trafficSources": [
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 330,
+        "users": 326,
+        "percentage": 65.47619047619048
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 145,
+        "users": 104,
+        "percentage": 28.76984126984127
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 8,
+        "users": 7,
+        "percentage": 1.5873015873015872
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 7,
+        "users": 7,
+        "percentage": 1.3888888888888888
+      },
+      {
+        "source": "duckduckgo",
+        "medium": "organic",
+        "sessions": 5,
+        "users": 3,
+        "percentage": 0.992063492063492
+      },
+      {
+        "source": "scrub.sourcescrub.com",
+        "medium": "referral",
+        "sessions": 3,
+        "users": 3,
+        "percentage": 0.5952380952380952
+      },
+      {
+        "source": "bvpr.ratraiser.online",
+        "medium": "referral",
+        "sessions": 1,
+        "users": 1,
+        "percentage": 0.1984126984126984
+      },
+      {
+        "source": "cvtblog.online",
+        "medium": "referral",
+        "sessions": 1,
+        "users": 1,
+        "percentage": 0.1984126984126984
+      },
+      {
+        "source": "dashboard.searchatlas.com",
+        "medium": "referral",
+        "sessions": 1,
+        "users": 1,
+        "percentage": 0.1984126984126984
+      },
+      {
+        "source": "rss",
+        "medium": "rss",
+        "sessions": 1,
+        "users": 1,
+        "percentage": 0.1984126984126984
+      },
+      {
+        "source": "yahoo",
+        "medium": "organic",
+        "sessions": 1,
+        "users": 1,
+        "percentage": 0.1984126984126984
+      },
+      {
+        "source": "yahoo.com",
+        "medium": "referral",
+        "sessions": 1,
+        "users": 1,
+        "percentage": 0.1984126984126984
+      }
+    ],
+    "demographics": {
+      "countries": [
+        {
+          "country": "United States",
+          "sessions": 271,
+          "percentage": 46.56357388316151
+        },
+        {
+          "country": "China",
+          "sessions": 179,
+          "percentage": 30.756013745704468
+        },
+        {
+          "country": "Singapore",
+          "sessions": 76,
+          "percentage": 13.058419243986256
+        },
+        {
+          "country": "Germany",
+          "sessions": 13,
+          "percentage": 2.2336769759450172
+        },
+        {
+          "country": "India",
+          "sessions": 13,
+          "percentage": 2.2336769759450172
+        },
+        {
+          "country": "France",
+          "sessions": 4,
+          "percentage": 0.6872852233676976
+        },
+        {
+          "country": "Philippines",
+          "sessions": 4,
+          "percentage": 0.6872852233676976
+        },
+        {
+          "country": "Brazil",
+          "sessions": 3,
+          "percentage": 0.5154639175257731
+        },
+        {
+          "country": "Indonesia",
+          "sessions": 3,
+          "percentage": 0.5154639175257731
+        },
+        {
+          "country": "Italy",
+          "sessions": 3,
+          "percentage": 0.5154639175257731
+        },
+        {
+          "country": "Canada",
+          "sessions": 2,
+          "percentage": 0.3436426116838488
+        },
+        {
+          "country": "United Kingdom",
+          "sessions": 2,
+          "percentage": 0.3436426116838488
+        },
+        {
+          "country": "Vietnam",
+          "sessions": 2,
+          "percentage": 0.3436426116838488
+        },
+        {
+          "country": "Bangladesh",
+          "sessions": 1,
+          "percentage": 0.1718213058419244
+        },
+        {
+          "country": "Bulgaria",
+          "sessions": 1,
+          "percentage": 0.1718213058419244
+        },
+        {
+          "country": "Cambodia",
+          "sessions": 1,
+          "percentage": 0.1718213058419244
+        },
+        {
+          "country": "Iraq",
+          "sessions": 1,
+          "percentage": 0.1718213058419244
+        },
+        {
+          "country": "Morocco",
+          "sessions": 1,
+          "percentage": 0.1718213058419244
+        },
+        {
+          "country": "Spain",
+          "sessions": 1,
+          "percentage": 0.1718213058419244
+        },
+        {
+          "country": "United Arab Emirates",
+          "sessions": 1,
+          "percentage": 0.1718213058419244
+        }
+      ],
+      "cities": [
+        {
+          "city": "Lanzhou",
+          "sessions": 175,
+          "percentage": 35
+        },
+        {
+          "city": "(not set)",
+          "sessions": 88,
+          "percentage": 17.599999999999998
+        },
+        {
+          "city": "Singapore",
+          "sessions": 73,
+          "percentage": 14.6
+        },
+        {
+          "city": "Las Vegas",
+          "sessions": 58,
+          "percentage": 11.600000000000001
+        },
+        {
+          "city": "Los Angeles",
+          "sessions": 46,
+          "percentage": 9.2
+        },
+        {
+          "city": "San Jose",
+          "sessions": 14,
+          "percentage": 2.8000000000000003
+        },
+        {
+          "city": "Columbus",
+          "sessions": 10,
+          "percentage": 2
+        },
+        {
+          "city": "Ashburn",
+          "sessions": 4,
+          "percentage": 0.8
+        },
+        {
+          "city": "Fresno",
+          "sessions": 4,
+          "percentage": 0.8
+        },
+        {
+          "city": "New York",
+          "sessions": 4,
+          "percentage": 0.8
+        },
+        {
+          "city": "Santa Clara",
+          "sessions": 4,
+          "percentage": 0.8
+        },
+        {
+          "city": "Council Bluffs",
+          "sessions": 3,
+          "percentage": 0.6
+        },
+        {
+          "city": "Miami",
+          "sessions": 3,
+          "percentage": 0.6
+        },
+        {
+          "city": "Boardman",
+          "sessions": 2,
+          "percentage": 0.4
+        },
+        {
+          "city": "Boulogne-Billancourt",
+          "sessions": 2,
+          "percentage": 0.4
+        },
+        {
+          "city": "Chennai",
+          "sessions": 2,
+          "percentage": 0.4
+        },
+        {
+          "city": "Chicago",
+          "sessions": 2,
+          "percentage": 0.4
+        },
+        {
+          "city": "Dallas",
+          "sessions": 2,
+          "percentage": 0.4
+        },
+        {
+          "city": "Denver",
+          "sessions": 2,
+          "percentage": 0.4
+        },
+        {
+          "city": "Jakarta",
+          "sessions": 2,
+          "percentage": 0.4
+        }
+      ]
+    },
+    "conversions": {
+      "totalConversions": 0,
+      "conversionRate": 0,
+      "events": []
+    }
+  },
+  "pages": [
+    {
+      "url": "https://alchemyinvestmentsre.com/",
+      "clicks": 65,
+      "impressions": 554,
+      "position": 10.090314978425846,
+      "ctr": 0.11732851985559567,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 560.2193700431483
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/properties/",
+      "clicks": 3,
+      "impressions": 142,
+      "position": 3.752724089635854,
+      "ctr": 0.02112676056338028,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 221.6945518207283
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/speak-to-an-expert/",
+      "clicks": 0,
+      "impressions": 89,
+      "position": 3.407407407407408,
+      "ctr": 0,
+      "pageViews": 2,
+      "sessions": 2,
+      "bounceRate": 0,
+      "avgDuration": 15.317011,
+      "combinedScore": 216.0851851851852
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/blog/",
+      "clicks": 1,
+      "impressions": 84,
+      "position": 4.611111111111112,
+      "ctr": 0.011904761904761904,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 204.17777777777778
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/homepage-1/",
+      "clicks": 0,
+      "impressions": 49,
+      "position": 1.0204081632653061,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 202.8591836734694
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/get-started/",
+      "clicks": 0,
+      "impressions": 64,
+      "position": 2.657819225251076,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 201.08436154949786
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/status/for-sale/",
+      "clicks": 0,
+      "impressions": 30,
+      "position": 1,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 201
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/property-type/family-home/",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 1,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 199.2
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/status/for-rent/",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 1,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 198.4
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/state/nevada/",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 1,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 198.3
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/category/marketing/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 198.1
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/search-results/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 1,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 198.1
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/homepage-3/",
+      "clicks": 0,
+      "impressions": 43,
+      "position": 8.011904761904763,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 188.2761904761905
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/about-this-demo/",
+      "clicks": 6,
+      "impressions": 168,
+      "position": 32.863094545823756,
+      "ctr": 0.03571428571428571,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 181.07381090835247
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/category/business/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 20,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 160.1
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/category/real-estate/",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 20.5,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 159.2
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/compare-properties/",
+      "clicks": 0,
+      "impressions": 14,
+      "position": 27.041666666666668,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 147.31666666666666
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/property/luxury-villa-with-pool/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 41,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 118.1
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/property/ample-apartment-at-last-floor-2/",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 41.333333333333336,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 117.63333333333333
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/property/design-place-apartment/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 46,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 108.1
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/property/penthouse-apartment/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 54,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 92.1
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/property/modern-apartment-2/",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 72.75,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 54.9
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/property/modern-day-apartment/",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 84.5,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 31.2
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/property/ample-apartment-at-last-floor/",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 125.2,
+      "ctr": 0,
+      "pageViews": 0,
+      "sessions": 0,
+      "bounceRate": 0,
+      "avgDuration": 0,
+      "combinedScore": 0.5
+    }
+  ],
+  "topPerforming": [
+    {
+      "url": "https://alchemyinvestmentsre.com/",
+      "clicks": 65,
+      "impressions": 554,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 560.2193700431483
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/properties/",
+      "clicks": 3,
+      "impressions": 142,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 221.6945518207283
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/speak-to-an-expert/",
+      "clicks": 0,
+      "impressions": 89,
+      "pageViews": 2,
+      "sessions": 2,
+      "combinedScore": 216.0851851851852
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/blog/",
+      "clicks": 1,
+      "impressions": 84,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 204.17777777777778
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/homepage-1/",
+      "clicks": 0,
+      "impressions": 49,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 202.8591836734694
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/get-started/",
+      "clicks": 0,
+      "impressions": 64,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 201.08436154949786
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/status/for-sale/",
+      "clicks": 0,
+      "impressions": 30,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 201
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/property-type/family-home/",
+      "clicks": 0,
+      "impressions": 12,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 199.2
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/status/for-rent/",
+      "clicks": 0,
+      "impressions": 4,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 198.4
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/state/nevada/",
+      "clicks": 0,
+      "impressions": 3,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 198.3
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/category/marketing/",
+      "clicks": 0,
+      "impressions": 1,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 198.1
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/search-results/",
+      "clicks": 0,
+      "impressions": 1,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 198.1
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/homepage-3/",
+      "clicks": 0,
+      "impressions": 43,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 188.2761904761905
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/about-this-demo/",
+      "clicks": 6,
+      "impressions": 168,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 181.07381090835247
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/category/business/",
+      "clicks": 0,
+      "impressions": 1,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 160.1
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/category/real-estate/",
+      "clicks": 0,
+      "impressions": 2,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 159.2
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/compare-properties/",
+      "clicks": 0,
+      "impressions": 14,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 147.31666666666666
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/property/luxury-villa-with-pool/",
+      "clicks": 0,
+      "impressions": 1,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 118.1
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/property/ample-apartment-at-last-floor-2/",
+      "clicks": 0,
+      "impressions": 3,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 117.63333333333333
+    },
+    {
+      "url": "https://alchemyinvestmentsre.com/property/design-place-apartment/",
+      "clicks": 0,
+      "impressions": 1,
+      "pageViews": 0,
+      "sessions": 0,
+      "combinedScore": 108.1
+    }
+  ]
+}

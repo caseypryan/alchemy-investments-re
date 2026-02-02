@@ -1,0 +1,171 @@
+{
+  "slug": "summerlin",
+  "type": "location",
+  "seo": {
+    "title": "Sell Your House Fast in Summerlin, NV | Cash Offers in 24 Hours",
+    "description": "Get a fair cash offer for your Summerlin home in 24 hours. We buy houses as-is in any condition. No repairs, no fees. Close in 7-14 days. Licensed Nevada brokerage.",
+    "keywords": [
+      "sell house fast Summerlin",
+      "cash home buyers Summerlin",
+      "we buy houses Summerlin",
+      "sell house as-is Summerlin NV",
+      "Summerlin Nevada cash buyers"
+    ],
+    "canonical": "https://alchemyinvestmentsre.com/locations/summerlin"
+  },
+  "hero": {
+    "heading": "Sell Your Summerlin Home Fast for Cash",
+    "subheading": "Get a fair, no-obligation cash offer in 24 hours. Close on your timeline.",
+    "cta": "Get Your Cash Offer",
+    "ctaLink": "/#hero-form"
+  },
+  "location": {
+    "city": "Summerlin",
+    "state": "Nevada",
+    "stateAbbr": "NV",
+    "zipCodes": ["89128", "89134", "89135", "89138", "89144", "89145", "89149"],
+    "neighborhoods": [
+      "The Paseos",
+      "The Trails",
+      "The Hills",
+      "The Ridges",
+      "Red Rock Country Club",
+      "The Pueblo",
+      "Downtown Summerlin",
+      "Regent",
+      "Stonebridge"
+    ],
+    "population": 100000,
+    "medianHomePrice": "$550,000",
+    "coordinates": {
+      "latitude": 36.1699,
+      "longitude": -115.3268
+    }
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "heading": "Why Summerlin Homeowners Choose Alchemy Investments RE",
+      "content": "Summerlin is Las Vegas's premier master-planned community, known for its upscale neighborhoods, world-class amenities, and stunning Red Rock Canyon views. Whether you own a luxury estate in The Ridges, a family home in The Trails, or a condo near Downtown Summerlin, we're here to help you sell your house fast for cash.\n\nAt Alchemy Investments RE, we specialize in buying homes throughout Summerlin in any condition. From luxury properties to investment opportunities, we make fair cash offers and can close in as little as 7-14 days. No repairs, no agent fees, no closing costs—just a simple, stress-free sale."
+    },
+    {
+      "type": "benefits",
+      "heading": "Benefits of Selling Your Summerlin Home to Us",
+      "items": [
+        {
+          "icon": "Clock",
+          "title": "Fast Cash Offers",
+          "description": "Receive a fair, no-obligation cash offer within 24 hours of contacting us."
+        },
+        {
+          "icon": "Home",
+          "title": "Sell As-Is",
+          "description": "No need to make repairs, clean, or stage your Summerlin home. We buy it exactly as it is."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "No Fees or Commissions",
+          "description": "Save thousands on realtor commissions, closing costs, and other hidden fees."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Close on Your Timeline",
+          "description": "Choose your closing date. We can close in 7-14 days or wait until you're ready."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "No Contingencies",
+          "description": "Our cash offers aren't contingent on financing, appraisals, or inspections."
+        },
+        {
+          "icon": "Users",
+          "title": "Local Summerlin Experts",
+          "description": "We know Summerlin's neighborhoods, market trends, and property values inside and out."
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "heading": "How to Sell Your Summerlin House for Cash",
+      "items": [
+        {
+          "step": 1,
+          "title": "Tell Us About Your Property",
+          "description": "Fill out our simple form or call (702) 718-6934. Tell us about your Summerlin home."
+        },
+        {
+          "step": 2,
+          "title": "Get Your Cash Offer",
+          "description": "We'll evaluate your property and present a fair, no-obligation cash offer within 24 hours."
+        },
+        {
+          "step": 3,
+          "title": "Choose Your Closing Date",
+          "description": "Accept our offer and pick a closing date that works for you. We're flexible with your timeline."
+        },
+        {
+          "step": 4,
+          "title": "Get Paid and Move On",
+          "description": "Close at a local title company and receive your cash. It's that simple."
+        }
+      ]
+    },
+    {
+      "type": "neighborhoods",
+      "heading": "We Buy Houses in All Summerlin Neighborhoods",
+      "content": "No matter where your property is located in Summerlin, we're interested in making you a fair cash offer:",
+      "neighborhoods": [
+        {
+          "name": "The Ridges",
+          "description": "Ultra-luxury guard-gated community with custom estates and stunning Red Rock views."
+        },
+        {
+          "name": "Red Rock Country Club",
+          "description": "Prestigious golf community featuring the Arnold Palmer-designed championship course."
+        },
+        {
+          "name": "The Trails",
+          "description": "Established community with family-friendly neighborhoods and easy access to trails."
+        },
+        {
+          "name": "The Hills",
+          "description": "Upscale community featuring larger lots and mountain views."
+        },
+        {
+          "name": "Downtown Summerlin",
+          "description": "Modern urban living near shopping, dining, and entertainment at Downtown Summerlin."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you buy luxury homes in Summerlin?",
+      "answer": "Yes! We buy homes of all values in Summerlin, from condos to multi-million dollar luxury estates in The Ridges and Red Rock Country Club."
+    },
+    {
+      "question": "How long does it take to sell my Summerlin house?",
+      "answer": "We can close in as little as 7-14 days, though we're flexible if you need more time. The process is much faster than traditional sales which take 30-60+ days."
+    },
+    {
+      "question": "Will you buy my Summerlin condo or townhome?",
+      "answer": "Absolutely! We buy all property types in Summerlin including single-family homes, condos, townhomes, and land."
+    }
+  ],
+  "testimonials": [],
+  "cta": {
+    "heading": "Ready to Sell Your Summerlin House?",
+    "description": "Get a fair cash offer in 24 hours. No repairs, no fees, no obligations.",
+    "primaryButton": "Get Your Free Offer",
+    "primaryLink": "/#hero-form",
+    "secondaryButton": "Call (702) 718-6934",
+    "secondaryLink": "tel:702-718-6934"
+  },
+  "migration": {
+    "originalUrl": null,
+    "priority": 0.9,
+    "lastModified": "2026-01-31",
+    "seoOptimized": true,
+    "status": "new"
+  }
+}

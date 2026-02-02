@@ -28,6 +28,12 @@ yarn-error.log*
 .env*.local
 .env
 
+# google api credentials
+credentials.json
+*-credentials.json
+token.json
+.google-credentials
+
 # vercel
 .vercel
 

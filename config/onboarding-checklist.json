@@ -1,0 +1,115 @@
+{
+  "$schema": "./schemas/onboarding.schema.json",
+  "_comment": "Track SEO migration project progress",
+
+  "steps": [
+    {
+      "id": "gsc-setup",
+      "title": "Connect Google Search Console",
+      "description": "Set up GSC property and verify ownership",
+      "completed": false,
+      "required": true
+    },
+    {
+      "id": "export-urls",
+      "title": "Export Old Site URLs",
+      "description": "Export all 110 indexed URLs from Google Search Console",
+      "completed": false,
+      "required": true
+    },
+    {
+      "id": "categorize-pages",
+      "title": "Categorize Pages",
+      "description": "Organize pages into locations, services, neighborhoods, and blog categories",
+      "completed": false,
+      "required": true
+    },
+    {
+      "id": "content-architecture",
+      "title": "Set Up Content Architecture",
+      "description": "Create directory structure, type definitions, and content utilities",
+      "completed": true,
+      "required": true
+    },
+    {
+      "id": "scrape-content",
+      "title": "Scrape Old Site Content",
+      "description": "Use /scrape-site to extract content from all 110 pages",
+      "completed": false,
+      "required": true,
+      "command": "/scrape-site"
+    },
+    {
+      "id": "seo-analysis",
+      "title": "Run SEO Analysis",
+      "description": "Use /analyze-seo for each page category to optimize content",
+      "completed": false,
+      "required": true,
+      "command": "/analyze-seo"
+    },
+    {
+      "id": "generate-keywords",
+      "title": "Generate Keyword Plans",
+      "description": "Use /generate-keyword-plan for each page to optimize titles and descriptions",
+      "completed": false,
+      "required": true,
+      "command": "/generate-keyword-plan"
+    },
+    {
+      "id": "create-json-files",
+      "title": "Create All JSON Content Files",
+      "description": "Transform scraped content into 110 JSON files with SEO optimization",
+      "completed": false,
+      "required": true
+    },
+    {
+      "id": "implement-pages",
+      "title": "Implement Dynamic Routes",
+      "description": "Create dynamic page templates for all categories",
+      "completed": false,
+      "required": true
+    },
+    {
+      "id": "update-sitemap",
+      "title": "Update Sitemap",
+      "description": "Make sitemap dynamic to include all 110+ pages",
+      "completed": false,
+      "required": true
+    },
+    {
+      "id": "setup-redirects",
+      "title": "Configure Redirects",
+      "description": "Set up 301 redirects from old URLs to new structure",
+      "completed": false,
+      "required": true
+    },
+    {
+      "id": "local-testing",
+      "title": "Local Testing",
+      "description": "Test build, verify pages, check metadata and schema markup",
+      "completed": false,
+      "required": true
+    },
+    {
+      "id": "staging-deploy",
+      "title": "Deploy to Staging",
+      "description": "Deploy to Vercel staging and QA all pages",
+      "completed": false,
+      "required": true
+    },
+    {
+      "id": "production-deploy",
+      "title": "Production Deployment",
+      "description": "Deploy to production and submit sitemap to GSC",
+      "completed": false,
+      "required": true
+    },
+    {
+      "id": "monitor-indexing",
+      "title": "Monitor Indexing",
+      "description": "Track GSC indexing status and fix any crawl errors",
+      "completed": false,
+      "required": true
+    }
+  ]
+}

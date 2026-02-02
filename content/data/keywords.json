@@ -1,0 +1,68 @@
+{
+  "_comment": "Primary and secondary keywords for SEO optimization",
+  "primary": [
+    "sell house fast Las Vegas",
+    "cash home buyers Las Vegas",
+    "we buy houses Las Vegas",
+    "sell house as-is Las Vegas",
+    "cash offer for house Las Vegas"
+  ],
+  "secondary": [
+    "sell inherited house Las Vegas",
+    "stop foreclosure Las Vegas",
+    "sell house Henderson",
+    "cash home buyers Henderson",
+    "sell house fast North Las Vegas",
+    "we buy houses Summerlin",
+    "cash for houses Las Vegas",
+    "sell house without realtor Las Vegas",
+    "quick home sale Las Vegas",
+    "sell distressed property Las Vegas"
+  ],
+  "longTail": [
+    "how to sell house fast in Las Vegas",
+    "best cash home buyers Las Vegas Nevada",
+    "sell my house as-is for cash Las Vegas",
+    "avoid foreclosure sell house Las Vegas",
+    "inherited house cash buyer Las Vegas",
+    "sell rental property fast Las Vegas",
+    "divorce sell house quickly Las Vegas",
+    "sell house with code violations Las Vegas"
+  ],
+  "location-based": {
+    "henderson": [
+      "sell house fast Henderson NV",
+      "cash home buyers Henderson Nevada",
+      "we buy houses Henderson",
+      "sell house Green Valley",
+      "cash offer Henderson home"
+    ],
+    "north-las-vegas": [
+      "sell house fast North Las Vegas",
+      "cash home buyers North Las Vegas",
+      "we buy houses North Las Vegas NV"
+    ],
+    "summerlin": [
+      "sell house fast Summerlin",
+      "cash home buyers Summerlin Las Vegas",
+      "we buy houses Summerlin NV"
+    ]
+  },
+  "service-based": {
+    "foreclosure": [
+      "stop foreclosure Las Vegas",
+      "avoid foreclosure sell house fast",
+      "pre-foreclosure cash offer Las Vegas"
+    ],
+    "inherited": [
+      "sell inherited house Las Vegas",
+      "inherited property cash buyer Nevada",
+      "probate house sale Las Vegas"
+    ],
+    "divorce": [
+      "sell house fast divorce Las Vegas",
+      "divorce property sale Nevada",
+      "quick house sale divorce settlement"
+    ]
+  }
+}

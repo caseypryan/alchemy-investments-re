@@ -1,0 +1,65 @@
+{
+  "$schema": "./schemas/business.schema.json",
+  "_comment": "Business information for Alchemy Investments RE",
+
+  "name": "Alchemy Investments RE",
+  "legalName": "Alchemy Investments RE",
+  "type": "RealEstateAgent",
+
+  "contact": {
+    "phone": "7025476664",
+    "phoneDisplay": "(702) 547-6664",
+    "email": "info@alchemyinvestmentsre.com",
+    "supportEmail": "info@alchemyinvestmentsre.com"
+  },
+
+  "address": {
+    "street": "",
+    "suite": "",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89147",
+    "country": "US"
+  },
+
+  "hours": {
+    "monday": "Available 24/7",
+    "tuesday": "Available 24/7",
+    "wednesday": "Available 24/7",
+    "thursday": "Available 24/7",
+    "friday": "Available 24/7",
+    "saturday": "Available 24/7",
+    "sunday": "Available 24/7"
+  },
+
+  "hoursDisplay": "Available 7 Days a Week",
+
+  "serviceArea": "Las Vegas, Henderson, North Las Vegas, Summerlin, Enterprise, Paradise, Pahrump, Boulder City, Green Valley",
+  "yearEstablished": "2010",
+
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "twitter": "",
+    "linkedin": "",
+    "youtube": "",
+    "tiktok": ""
+  },
+
+  "geo": {
+    "latitude": 36.1699,
+    "longitude": -115.1398,
+    "serviceArea": [
+      "Las Vegas",
+      "Henderson",
+      "North Las Vegas",
+      "Summerlin",
+      "Enterprise",
+      "Paradise",
+      "Pahrump",
+      "Boulder City",
+      "Green Valley",
+      "Spring Valley"
+    ]
+  }
+}

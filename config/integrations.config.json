@@ -1,0 +1,78 @@
+{
+  "$schema": "./schemas/integrations.schema.json",
+  "_comment": "Third-party integrations for Alchemy Investments RE",
+
+  "analytics": {
+    "googleAnalytics": {
+      "enabled": false,
+      "measurementId": ""
+    },
+    "googleTagManager": {
+      "enabled": false,
+      "containerId": ""
+    },
+    "posthog": {
+      "enabled": false,
+      "apiHost": "https://us.i.posthog.com"
+    },
+    "vercel": {
+      "enabled": true
+    }
+  },
+
+  "forms": {
+    "provider": "podio",
+    "webhookEnabled": true,
+    "webhookUrl": "https://podio.com/api/webhook",
+    "emailNotifications": true
+  },
+
+  "chat": {
+    "enabled": false,
+    "provider": ""
+  },
+
+  "email": {
+    "provider": "",
+    "fromName": "Alchemy Investments RE",
+    "fromEmail": "info@alchemyinvestmentsre.com"
+  },
+
+  "crm": {
+    "enabled": true,
+    "provider": "podio"
+  },
+
+  "maps": {
+    "provider": "google",
+    "showOnContact": true
+  },
+
+  "googleSearchConsole": {
+    "enabled": true,
+    "propertyUrl": "https://alchemyinvestmentsre.com",
+    "autoSubmitSitemap": true,
+    "features": {
+      "urlDiscovery": true,
+      "performanceTracking": true,
+      "indexingMonitoring": true
+    }
+  },
+
+  "googleAnalytics4": {
+    "enabled": true,
+    "propertyId": "",
+    "version": "GA4",
+    "features": {
+      "pageMetrics": true,
+      "trafficSources": true,
+      "demographics": true,
+      "conversions": true
+    },
+    "conversionEvents": [
+      "form_submission",
+      "phone_call",
+      "email_click"
+    ]
+  }
+}

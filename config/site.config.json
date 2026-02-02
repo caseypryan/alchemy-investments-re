@@ -1,0 +1,55 @@
+{
+  "$schema": "./schemas/site.schema.json",
+  "_comment": "Site-level configuration for Alchemy Investments RE",
+
+  "siteName": "Alchemy Investments RE",
+  "siteTagline": "Your Trusted Las Vegas Cash Home Buyer",
+  "siteDescription": "Alchemy Investments RE is a trusted cash home buyer serving Las Vegas and surrounding areas. We buy homes as-is—no repairs, fees, or commissions. Get a fair, no-obligation cash offer and close on your timeline.",
+  "siteUrl": "https://alchemyinvestmentsre.com",
+
+  "theme": {
+    "primaryColor": "#0f172a",
+    "secondaryColor": "#1e293b",
+    "accentColor": "#3b82f6",
+    "backgroundColor": "#ffffff",
+    "textColor": "#1e293b"
+  },
+
+  "fonts": {
+    "heading": "Inter",
+    "body": "Inter"
+  },
+
+  "logo": {
+    "src": "/logo.svg",
+    "alt": "Alchemy Investments RE",
+    "width": 200,
+    "height": 50
+  },
+
+  "favicon": "/favicon.ico",
+
+  "seo": {
+    "defaultTitle": "Alchemy Investments RE | Cash Home Buyers in Las Vegas",
+    "titleTemplate": "%s | Alchemy Investments RE",
+    "defaultDescription": "Sell your Las Vegas home fast for cash. No repairs, no fees, no commissions. Get a fair, no-obligation cash offer and close on your timeline.",
+    "defaultKeywords": [
+      "sell my house fast las vegas",
+      "cash home buyers las vegas",
+      "we buy houses las vegas",
+      "sell house as-is vegas",
+      "cash offer for house las vegas"
+    ],
+    "ogImage": "/og-image.jpg",
+    "twitterHandle": ""
+  },
+
+  "features": {
+    "blog": true,
+    "contactForm": true,
+    "newsletter": false,
+    "testimonials": true,
+    "faq": true,
+    "chat": false
+  }
+}

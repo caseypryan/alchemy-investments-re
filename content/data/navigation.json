@@ -1,0 +1,150 @@
+{
+  "_comment": "Site navigation structure",
+  "main": [
+    {
+      "label": "Home",
+      "href": "/",
+      "description": "Get a cash offer for your home"
+    },
+    {
+      "label": "About",
+      "href": "/about",
+      "description": "Learn about our company"
+    },
+    {
+      "label": "How It Works",
+      "href": "/#how-it-works",
+      "description": "Our simple 3-step process"
+    },
+    {
+      "label": "Locations",
+      "href": "/locations",
+      "description": "Areas we serve",
+      "submenu": [
+        {
+          "label": "Las Vegas",
+          "href": "/locations/las-vegas"
+        },
+        {
+          "label": "Henderson",
+          "href": "/locations/henderson"
+        },
+        {
+          "label": "North Las Vegas",
+          "href": "/locations/north-las-vegas"
+        },
+        {
+          "label": "Summerlin",
+          "href": "/locations/summerlin"
+        }
+      ]
+    },
+    {
+      "label": "Services",
+      "href": "/services",
+      "description": "How we can help",
+      "submenu": [
+        {
+          "label": "Stop Foreclosure",
+          "href": "/services/stop-foreclosure"
+        },
+        {
+          "label": "Sell Inherited Property",
+          "href": "/services/inherited-property"
+        },
+        {
+          "label": "Divorce Property Sale",
+          "href": "/services/divorce-property"
+        },
+        {
+          "label": "Sell As-Is",
+          "href": "/services/sell-as-is"
+        }
+      ]
+    },
+    {
+      "label": "Blog",
+      "href": "/blog",
+      "description": "Real estate tips and guides"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact",
+      "description": "Get in touch with us"
+    }
+  ],
+  "footer": {
+    "company": [
+      {
+        "label": "About Us",
+        "href": "/about"
+      },
+      {
+        "label": "How It Works",
+        "href": "/#how-it-works"
+      },
+      {
+        "label": "Our Agents",
+        "href": "/our-agents"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "services": [
+      {
+        "label": "Stop Foreclosure",
+        "href": "/services/stop-foreclosure"
+      },
+      {
+        "label": "Inherited Property",
+        "href": "/services/inherited-property"
+      },
+      {
+        "label": "Divorce Property",
+        "href": "/services/divorce-property"
+      },
+      {
+        "label": "Sell As-Is",
+        "href": "/services/sell-as-is"
+      }
+    ],
+    "locations": [
+      {
+        "label": "Las Vegas",
+        "href": "/locations/las-vegas"
+      },
+      {
+        "label": "Henderson",
+        "href": "/locations/henderson"
+      },
+      {
+        "label": "North Las Vegas",
+        "href": "/locations/north-las-vegas"
+      },
+      {
+        "label": "Summerlin",
+        "href": "/locations/summerlin"
+      }
+    ],
+    "resources": [
+      {
+        "label": "Blog",
+        "href": "/blog"
+      },
+      {
+        "label": "FAQ",
+        "href": "/faq"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms of Service",
+        "href": "/terms"
+      }
+    ]
+  }
+}

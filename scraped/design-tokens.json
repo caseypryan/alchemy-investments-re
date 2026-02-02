@@ -1,0 +1,214 @@
+{
+  "colors": {
+    "primary": {
+      "main": "var(--primary)",
+      "light": "var(--primary-light)",
+      "description": "Dark blue/navy for header, footer, and primary branding. Used in gradients."
+    },
+    "secondary": {
+      "main": "var(--secondary)",
+      "light": "var(--secondary-light)",
+      "description": "Accent color for CTAs, checkmarks, and interactive elements"
+    },
+    "text": {
+      "primary": "#111827",
+      "secondary": "#374151",
+      "muted": "#6b7280",
+      "light": "#9ca3af"
+    },
+    "background": {
+      "white": "#ffffff",
+      "gray50": "#f9fafb",
+      "gray100": "#f3f4f6"
+    },
+    "success": {
+      "main": "#16a34a",
+      "text": "#059669"
+    },
+    "rating": {
+      "yellow": "#fbbf24"
+    },
+    "border": {
+      "gray200": "#e5e7eb",
+      "gray300": "#d1d5db",
+      "gray600": "#4b5563"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "heading": "Quicksand, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+      "body": "Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+      "sans": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+    },
+    "fontSize": {
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem",
+      "5xl": "3rem",
+      "6xl": "3.75rem"
+    },
+    "fontWeight": {
+      "normal": "400",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700"
+    },
+    "lineHeight": {
+      "tight": "1.25",
+      "normal": "1.5",
+      "relaxed": "1.625"
+    }
+  },
+  "spacing": {
+    "section": {
+      "py16": "4rem",
+      "py20": "5rem",
+      "py32": "8rem"
+    },
+    "card": {
+      "p6": "1.5rem",
+      "p8": "2rem"
+    },
+    "form": {
+      "px4": "1rem",
+      "py3": "0.75rem"
+    },
+    "gap": {
+      "4": "1rem",
+      "6": "1.5rem",
+      "8": "2rem",
+      "12": "3rem"
+    }
+  },
+  "borderRadius": {
+    "default": "0.5rem",
+    "lg": "0.5rem",
+    "full": "9999px"
+  },
+  "shadows": {
+    "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)"
+  },
+  "components": {
+    "header": {
+      "background": "var(--primary)",
+      "color": "white",
+      "position": "sticky",
+      "top": "0",
+      "zIndex": "50",
+      "shadow": "shadow-lg",
+      "padding": "py-4"
+    },
+    "button": {
+      "primary": {
+        "className": "btn-primary",
+        "description": "Defined in globals.css - solid background button"
+      },
+      "outline": {
+        "className": "btn-outline",
+        "description": "Defined in globals.css - bordered button"
+      }
+    },
+    "card": {
+      "background": "white",
+      "borderRadius": "rounded-lg",
+      "padding": "p-6 or p-8",
+      "shadow": "shadow-lg or shadow-2xl",
+      "hover": "hover:shadow-lg transition-shadow"
+    },
+    "form": {
+      "input": {
+        "padding": "px-4 py-3",
+        "border": "border border-gray-300",
+        "borderRadius": "rounded-lg",
+        "focus": "focus:outline-none focus:ring-2 focus:ring-secondary"
+      }
+    },
+    "hero": {
+      "background": "bg-gradient-to-br from-primary via-primary-light to-primary",
+      "color": "text-white",
+      "padding": "py-20 md:py-32",
+      "layout": "grid md:grid-cols-2 gap-12"
+    },
+    "stats": {
+      "background": "bg-gray-100",
+      "border": "border-b border-gray-200",
+      "padding": "py-8",
+      "layout": "grid grid-cols-2 md:grid-cols-4 gap-6",
+      "numberSize": "text-3xl",
+      "numberColor": "text-primary",
+      "labelSize": "text-sm",
+      "labelColor": "text-gray-600"
+    },
+    "processSteps": {
+      "circle": {
+        "size": "w-16 h-16",
+        "background": "bg-secondary",
+        "color": "text-white",
+        "fontSize": "text-2xl",
+        "fontWeight": "font-bold",
+        "borderRadius": "rounded-full"
+      },
+      "connector": {
+        "display": "hidden md:block absolute",
+        "height": "h-0.5",
+        "background": "bg-secondary-light",
+        "opacity": "opacity-30"
+      }
+    },
+    "table": {
+      "headerBackground": "bg-gray-100",
+      "highlightColumn": "bg-secondary text-white",
+      "rowAlternate": "bg-gray-50 / bg-white",
+      "padding": "p-4",
+      "successText": "text-green-600 font-semibold"
+    },
+    "testimonial": {
+      "background": "bg-white",
+      "borderRadius": "rounded-lg",
+      "shadow": "shadow-lg",
+      "padding": "p-6",
+      "stars": "text-yellow-400"
+    },
+    "locationCard": {
+      "background": "bg-gray-50",
+      "borderRadius": "rounded-lg",
+      "padding": "p-4",
+      "hover": "hover:bg-primary hover:text-white transition-colors cursor-pointer"
+    },
+    "footer": {
+      "background": "bg-primary",
+      "color": "text-white",
+      "padding": "py-12",
+      "linkColor": "text-gray-300",
+      "linkHover": "hover:text-secondary-light transition-colors",
+      "border": "border-t border-gray-600"
+    }
+  },
+  "gradients": {
+    "hero": "bg-gradient-to-br from-primary via-primary-light to-primary",
+    "cta": "bg-gradient-to-r from-primary to-primary-light"
+  },
+  "transitions": {
+    "default": "transition-colors",
+    "shadow": "transition-shadow",
+    "opacity": "transition-opacity"
+  },
+  "layout": {
+    "container": {
+      "className": "container-custom",
+      "description": "Custom container defined in globals.css"
+    },
+    "grids": {
+      "stats": "grid grid-cols-2 md:grid-cols-4 gap-6",
+      "features": "grid md:grid-cols-3 gap-8",
+      "locations": "grid md:grid-cols-5 gap-6",
+      "hero": "grid md:grid-cols-2 gap-12"
+    }
+  }
+}

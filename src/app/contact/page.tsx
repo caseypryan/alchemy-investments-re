@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import ContactForm from './ContactForm'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Alchemy Investments RE | Call 702-718-6934 for Cash Offer',
@@ -63,135 +64,7 @@ export default function ContactPage() {
 
             {/* Form */}
             <div className="max-w-3xl mx-auto">
-              <div className="bg-white rounded-lg shadow-xl p-8 border-2 border-gray-100">
-                <h2 className="text-3xl font-heading mb-2 text-center">Get Your Free Cash Offer</h2>
-                <p className="text-center text-gray-600 mb-8">
-                  Fill out the form below and we'll contact you within 24 hours with a no-obligation offer
-                </p>
-
-                <form className="space-y-6">
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-semibold text-gray-700 mb-2">
-                        First Name *
-                      </label>
-                      <input
-                        type="text"
-                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-semibold text-gray-700 mb-2">
-                        Last Name *
-                      </label>
-                      <input
-                        type="text"
-                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
-                        required
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-semibold text-gray-700 mb-2">
-                        Email Address *
-                      </label>
-                      <input
-                        type="email"
-                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-semibold text-gray-700 mb-2">
-                        Phone Number *
-                      </label>
-                      <input
-                        type="tel"
-                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
-                        required
-                      />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Property Address *
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="123 Main St, Las Vegas, NV 89101"
-                      className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
-                      required
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Property Condition
-                    </label>
-                    <select className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary">
-                      <option value="">Select condition...</option>
-                      <option value="excellent">Excellent - Move-in ready</option>
-                      <option value="good">Good - Minor repairs needed</option>
-                      <option value="fair">Fair - Moderate repairs needed</option>
-                      <option value="poor">Poor - Major repairs needed</option>
-                      <option value="uninhabitable">Uninhabitable</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Your Situation (Optional)
-                    </label>
-                    <select className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary">
-                      <option value="">Select one...</option>
-                      <option value="foreclosure">Facing Foreclosure</option>
-                      <option value="divorce">Going Through Divorce</option>
-                      <option value="inherited">Inherited Property</option>
-                      <option value="relocating">Relocating</option>
-                      <option value="downsizing">Downsizing</option>
-                      <option value="behind-payments">Behind on Payments</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Ideal Timeline
-                    </label>
-                    <select className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary">
-                      <option value="">Select timeline...</option>
-                      <option value="asap">As soon as possible (7-14 days)</option>
-                      <option value="1-month">Within 1 month</option>
-                      <option value="2-3-months">2-3 months</option>
-                      <option value="flexible">Flexible</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Additional Details (Optional)
-                    </label>
-                    <textarea
-                      rows={4}
-                      placeholder="Tell us more about your property and situation..."
-                      className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-secondary"
-                    />
-                  </div>
-
-                  <button type="submit" className="w-full btn-primary text-lg py-4">
-                    Submit Request - Get My Cash Offer
-                  </button>
-
-                  <p className="text-sm text-gray-500 text-center">
-                    By submitting this form, you agree to our privacy policy. We will never share
-                    your information with third parties.
-                  </p>
-                </form>
-              </div>
+              <ContactForm />
             </div>
           </div>
         </section>

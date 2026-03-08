@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import AddressAutocompleteInput from '@/components/AddressAutocompleteInput'
 
 interface FieldErrors {
   address?: string
@@ -127,11 +128,10 @@ export default function HomepageHeroForm() {
             {!formExpanded ? (
               <div className="flex">
                 <div className="flex-1 relative bg-white">
-                  <input
-                    type="text"
-                    placeholder="Enter your address"
+                  <AddressAutocompleteInput
                     value={address}
-                    onChange={(e) => setAddress(e.target.value)}
+                    onChange={setAddress}
+                    placeholder="Enter your address"
                     className="w-full px-5 py-4 text-base focus:outline-none border-none bg-transparent"
                   />
                   <svg
@@ -185,10 +185,9 @@ export default function HomepageHeroForm() {
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Property Address *
                   </label>
-                  <input
-                    type="text"
+                  <AddressAutocompleteInput
                     value={address}
-                    onChange={(e) => { setAddress(e.target.value); if (errors.address) setErrors(p => ({ ...p, address: undefined })) }}
+                    onChange={(val) => { setAddress(val); if (errors.address) setErrors(p => ({ ...p, address: undefined })) }}
                     className={inputClass(errors.address)}
                     placeholder="123 Main St, Las Vegas, NV"
                   />

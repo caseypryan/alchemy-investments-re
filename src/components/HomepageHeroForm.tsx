@@ -2,6 +2,13 @@
 
 import { useState } from 'react'
 
+interface FieldErrors {
+  address?: string
+  fullName?: string
+  phone?: string
+  email?: string
+}
+
 export default function HomepageHeroForm() {
   const [activeTab, setActiveTab] = useState('sell')
   const [formExpanded, setFormExpanded] = useState(false)
@@ -11,9 +18,21 @@ export default function HomepageHeroForm() {
   const [email, setEmail] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitSuccess, setSubmitSuccess] = useState(false)
+  const [errors, setErrors] = useState<FieldErrors>({})
+
+  const validate = (): boolean => {
+    const newErrors: FieldErrors = {}
+    if (!address.trim()) newErrors.address = 'Property address is required'
+    if (!fullName.trim()) newErrors.fullName = 'Full name is required'
+    if (!phone.trim()) newErrors.phone = 'Phone number is required'
+    if (!email.trim()) newErrors.email = 'Email address is required'
+    setErrors(newErrors)
+    return Object.keys(newErrors).length === 0
+  }
 
   const handleHeroFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    if (!validate()) return
     setIsSubmitting(true)
 
     const formData = {
@@ -47,9 +66,10 @@ export default function HomepageHeroForm() {
         setFullName('')
         setPhone('')
         setEmail('')
+        setErrors({})
         setFormExpanded(false)
         setSubmitSuccess(false)
-      }, 3000)
+      }, 6000)
     } catch (error) {
       console.error('Form submission error:', error)
       alert('There was an error submitting your form. Please call us at (702) 718-6934.')
@@ -57,6 +77,11 @@ export default function HomepageHeroForm() {
       setIsSubmitting(false)
     }
   }
+
+  const inputClass = (error?: string) =>
+    `w-full px-4 py-3 border-2 rounded focus:outline-none transition-colors ${
+      error ? 'border-red-400 focus:border-red-500' : 'border-gray-300 focus:border-brand-blue'
+    }`
 
   return (
     <section className="relative min-h-[550px] flex items-center">
@@ -73,7 +98,7 @@ export default function HomepageHeroForm() {
             <button
               onClick={() => setActiveTab('sell')}
               className={`text-[13px] font-semibold tracking-wider pb-2 transition-all ${
-                activeTab === 'sell' ? 'text-[#333] border-b-3 border-[#22c55e]' : 'text-[#888]'
+                activeTab === 'sell' ? 'text-[#333] border-b-3 border-brand-green' : 'text-[#888]'
               }`}
               style={{ borderBottomWidth: activeTab === 'sell' ? '3px' : '0' }}
             >
@@ -82,7 +107,7 @@ export default function HomepageHeroForm() {
             <button
               onClick={() => setActiveTab('buy')}
               className={`text-[13px] font-semibold tracking-wider pb-2 transition-all ${
-                activeTab === 'buy' ? 'text-[#333] border-b-3 border-[#22c55e]' : 'text-[#888]'
+                activeTab === 'buy' ? 'text-[#333] border-b-3 border-brand-green' : 'text-[#888]'
               }`}
               style={{ borderBottomWidth: activeTab === 'buy' ? '3px' : '0' }}
             >
@@ -113,6 +138,7 @@ export default function HomepageHeroForm() {
                     className="absolute right-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
+                    aria-hidden="true"
                   >
                     <path
                       fillRule="evenodd"
@@ -123,7 +149,7 @@ export default function HomepageHeroForm() {
                 </div>
                 <button
                   onClick={() => setFormExpanded(true)}
-                  className="bg-[#12C190] hover:bg-[#10a87a] text-white font-semibold px-8 py-4 text-base transition-colors border-l-0"
+                  className="bg-brand-green hover:bg-[#16a34a] text-white font-semibold px-8 py-4 text-base transition-colors border-l-0"
                 >
                   Get Started
                 </button>
@@ -132,10 +158,11 @@ export default function HomepageHeroForm() {
               <div className="p-8 text-center animate-in fade-in duration-300">
                 <div className="mb-4">
                   <svg
-                    className="w-16 h-16 text-[#22c55e] mx-auto"
+                    className="w-16 h-16 text-brand-green mx-auto"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
+                    aria-hidden="true"
                   >
                     <path
                       strokeLinecap="round"
@@ -145,13 +172,14 @@ export default function HomepageHeroForm() {
                     />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-[#2b3d4f] mb-2">Thank You!</h3>
+                <h3 className="text-2xl font-bold text-navy mb-2">Thank You!</h3>
                 <p className="text-gray-600">We&apos;ll be in touch with you shortly.</p>
               </div>
             ) : (
               <form
                 onSubmit={handleHeroFormSubmit}
                 className="p-6 space-y-4 animate-in fade-in slide-in-from-top-4 duration-500"
+                noValidate
               >
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -160,11 +188,11 @@ export default function HomepageHeroForm() {
                   <input
                     type="text"
                     value={address}
-                    onChange={(e) => setAddress(e.target.value)}
-                    required
-                    className="w-full px-4 py-3 border-2 border-gray-300 rounded focus:border-[#4A90E2] focus:outline-none"
+                    onChange={(e) => { setAddress(e.target.value); if (errors.address) setErrors(p => ({ ...p, address: undefined })) }}
+                    className={inputClass(errors.address)}
                     placeholder="123 Main St, Las Vegas, NV"
                   />
+                  {errors.address && <p className="mt-1 text-sm text-red-500">{errors.address}</p>}
                 </div>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
@@ -174,11 +202,11 @@ export default function HomepageHeroForm() {
                     <input
                       type="text"
                       value={fullName}
-                      onChange={(e) => setFullName(e.target.value)}
-                      required
-                      className="w-full px-4 py-3 border-2 border-gray-300 rounded focus:border-[#4A90E2] focus:outline-none"
+                      onChange={(e) => { setFullName(e.target.value); if (errors.fullName) setErrors(p => ({ ...p, fullName: undefined })) }}
+                      className={inputClass(errors.fullName)}
                       placeholder="John Doe"
                     />
+                    {errors.fullName && <p className="mt-1 text-sm text-red-500">{errors.fullName}</p>}
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -187,11 +215,11 @@ export default function HomepageHeroForm() {
                     <input
                       type="tel"
                       value={phone}
-                      onChange={(e) => setPhone(e.target.value)}
-                      required
-                      className="w-full px-4 py-3 border-2 border-gray-300 rounded focus:border-[#4A90E2] focus:outline-none"
+                      onChange={(e) => { setPhone(e.target.value); if (errors.phone) setErrors(p => ({ ...p, phone: undefined })) }}
+                      className={inputClass(errors.phone)}
                       placeholder="(702) 123-4567"
                     />
+                    {errors.phone && <p className="mt-1 text-sm text-red-500">{errors.phone}</p>}
                   </div>
                 </div>
                 <div>
@@ -201,11 +229,11 @@ export default function HomepageHeroForm() {
                   <input
                     type="email"
                     value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                    className="w-full px-4 py-3 border-2 border-gray-300 rounded focus:border-[#4A90E2] focus:outline-none"
+                    onChange={(e) => { setEmail(e.target.value); if (errors.email) setErrors(p => ({ ...p, email: undefined })) }}
+                    className={inputClass(errors.email)}
                     placeholder="john@example.com"
                   />
+                  {errors.email && <p className="mt-1 text-sm text-red-500">{errors.email}</p>}
                 </div>
                 <div className="flex gap-3 pt-2">
                   <button
@@ -219,7 +247,7 @@ export default function HomepageHeroForm() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="flex-1 bg-[#12C190] hover:bg-[#10a87a] text-white font-semibold px-8 py-3 rounded text-base transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="flex-1 bg-brand-green hover:bg-[#16a34a] text-white font-semibold px-8 py-3 rounded text-base transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {isSubmitting ? 'Submitting...' : 'Submit'}
                   </button>
@@ -238,7 +266,7 @@ export default function HomepageHeroForm() {
           {/* Trust Badges */}
           <div className="flex items-center gap-6 flex-wrap">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full bg-[#22c55e] flex items-center justify-center text-white font-bold text-lg">
+              <div className="w-12 h-12 rounded-full bg-brand-green flex items-center justify-center text-white font-bold text-lg">
                 ✓
               </div>
               <span className="text-[#333] font-semibold text-sm">Licensed Brokerage</span>

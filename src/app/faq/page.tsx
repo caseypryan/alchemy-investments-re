@@ -152,13 +152,13 @@ export default function FAQPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:702-718-6934"
-                className="inline-block bg-[#12C190] hover:bg-[#10a87a] text-white font-semibold px-8 py-4 rounded transition-colors"
+                className="inline-block bg-brand-green hover:bg-[#16a34a] text-white font-semibold px-8 py-4 rounded transition-colors"
               >
                 Call: (702) 718-6934
               </a>
               <a
                 href="/contact"
-                className="inline-block border-2 border-[#4A90E2] text-[#4A90E2] hover:bg-[#4A90E2] hover:text-white font-semibold px-8 py-4 rounded transition-colors"
+                className="inline-block border-2 border-brand-blue text-brand-blue hover:bg-brand-blue hover:text-white font-semibold px-8 py-4 rounded transition-colors"
               >
                 Contact Us
               </a>

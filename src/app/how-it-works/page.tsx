@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import CheckIcon from '@/components/icons/CheckIcon'
 
 export const metadata: Metadata = {
   title: 'How It Works | Sell Your Las Vegas House Fast in 3 Steps',
@@ -149,30 +150,25 @@ export default function HowItWorksPage() {
                     <ul className="space-y-3">
                       {step.details.map((detail) => (
                         <li key={detail} className="flex items-center gap-3 text-gray-700">
-                          <svg
-                            className="w-5 h-5 text-[#12C190] flex-shrink-0"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth={2.5}
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
+                          <CheckIcon className="w-5 h-5 text-brand-green flex-shrink-0" />
                           {detail}
                         </li>
                       ))}
                     </ul>
                   </div>
                   <div
-                    className={`bg-[#f8f9fb] rounded-2xl h-64 flex items-center justify-center ${index % 2 === 1 ? 'md:order-1' : ''}`}
+                    className={`bg-navy-light rounded-2xl p-10 flex flex-col items-center justify-center gap-6 ${index % 2 === 1 ? 'md:order-1' : ''}`}
                   >
+                    <div className="w-20 h-20 rounded-full bg-brand-blue/10 border-2 border-brand-blue/20 flex items-center justify-center">
+                      <span className="text-3xl font-black text-brand-blue">0{step.number}</span>
+                    </div>
                     <div className="text-center">
-                      <div className="text-8xl font-black text-[#e8edf2]">0{step.number}</div>
-                      <div className="text-[#4A90E2] font-semibold text-lg mt-2">{step.title}</div>
+                      <p className="font-semibold text-navy text-lg leading-snug">{step.title}</p>
+                      <div className="mt-3 flex justify-center gap-1.5">
+                        {step.details.slice(0, 2).map((d) => (
+                          <span key={d} className="text-xs bg-white border border-gray-200 text-gray-600 px-2 py-1 rounded-full">{d}</span>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -190,7 +186,8 @@ export default function HowItWorksPage() {
             <p className="text-gray-600 text-center mb-12 text-lg">
               See how selling to Alchemy Investments RE compares to listing with an agent
             </p>
-            <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
+            <div className="overflow-x-auto">
+            <div className="bg-white rounded-2xl shadow-sm overflow-hidden min-w-[480px]">
               <div className="grid grid-cols-3 bg-[#2b3d4f] text-white text-center py-4 px-6 font-bold">
                 <div className="text-left text-sm uppercase tracking-wide opacity-70">Factor</div>
                 <div className="text-[#12C190]">Alchemy Cash Sale</div>
@@ -207,6 +204,7 @@ export default function HowItWorksPage() {
                 </div>
               ))}
             </div>
+            </div>
           </div>
         </section>
 
@@ -220,7 +218,7 @@ export default function HowItWorksPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/"
-                className="bg-[#12C190] hover:bg-[#10a87a] text-white font-semibold px-10 py-4 rounded-lg text-lg transition-colors"
+                className="bg-brand-green hover:bg-[#16a34a] text-white font-semibold px-10 py-4 rounded-lg text-lg transition-colors"
               >
                 Get My Cash Offer
               </Link>

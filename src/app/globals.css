@@ -31,7 +31,11 @@
 
 @layer components {
   .btn-primary {
-    @apply px-10 py-4 bg-emerald-500 text-white font-bold text-lg rounded-md hover:bg-emerald-600 transition-all duration-200 shadow-sm hover:shadow-md text-center;
+    @apply px-10 py-4 bg-brand-green text-white font-bold text-lg rounded-md hover:bg-[#16a34a] transition-all duration-200 shadow-sm hover:shadow-md text-center;
+  }
+
+  .btn-success {
+    @apply px-10 py-4 bg-brand-teal text-white font-bold text-lg rounded-md hover:opacity-90 transition-all duration-200 shadow-sm text-center;
   }
 
   .btn-outline {

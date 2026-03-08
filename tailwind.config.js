@@ -8,27 +8,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          DEFAULT: '#0EA5E9', // Light teal blue like ListWithClever
-          light: '#38BDF8',
-          dark: '#0284C7',
-        },
-        secondary: {
-          DEFAULT: '#10B981', // Green for CTAs
-          light: '#34D399',
-          dark: '#059669',
-        },
-        accent: {
-          DEFAULT: '#F59E0B',
-          light: '#FCD34D',
-        },
         navy: {
-          DEFAULT: '#1E3A5F', // Dark navy for footer
-          dark: '#0F172A',
-        }
+          DEFAULT: '#2b3d4f',
+          dark: '#1a2b3a',
+          light: '#f8f9fb',
+        },
+        brand: {
+          blue: '#4A90E2',   // links, icons, focus borders
+          green: '#22c55e',  // primary CTAs
+          teal: '#12C190',   // success states, checkmarks
+        },
       },
       fontFamily: {
         sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif'],
+        heading: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif'],
       },
     },
   },

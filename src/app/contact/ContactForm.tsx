@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import AddressAutocompleteInput from '@/components/AddressAutocompleteInput'
 
-const WEBHOOK_URL = 'https://workflow-automation.podio.com/catch/z1d60g243a5ygwz'
+const WEBHOOK_URL = '/api/submit-form'
 
 interface FieldErrors {
   firstName?: string

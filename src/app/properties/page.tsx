@@ -28,7 +28,7 @@ export default function PropertiesPage() {
     }
 
     try {
-      await fetch('https://workflow-automation.podio.com/catch/z1d60g243a5ygwz', {
+      await fetch('/api/submit-form', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(webhookData)

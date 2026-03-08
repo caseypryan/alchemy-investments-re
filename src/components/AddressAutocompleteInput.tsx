@@ -95,7 +95,7 @@ export default function AddressAutocompleteInput({
   }, [])
 
   return (
-    <div ref={containerRef} className="relative">
+    <div ref={containerRef} className="relative w-full">
       <input
         type="text"
         id={id}

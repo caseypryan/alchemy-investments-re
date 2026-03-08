@@ -1,0 +1,120 @@
+{
+  "slug": "centennial-hills",
+  "type": "neighborhood",
+  "seo": {
+    "title": "Sell Your House Fast in Centennial Hills Las Vegas | Cash Home Buyers",
+    "description": "Get a cash offer for your Centennial Hills home in 24 hours. We buy houses as-is throughout northwest Las Vegas. No repairs, no fees, close in 7 days.",
+    "keywords": [
+      "sell house Centennial Hills Las Vegas",
+      "cash home buyers Centennial Hills",
+      "we buy houses Centennial Hills NV",
+      "sell house northwest Las Vegas"
+    ],
+    "canonical": "https://alchemyinvestmentsre.com/neighborhoods/centennial-hills"
+  },
+  "hero": {
+    "heading": "Sell Your Centennial Hills Home Fast for Cash",
+    "subheading": "Cash offer in 24 hours. Close on your timeline. No repairs, no fees.",
+    "cta": "Get Your Cash Offer",
+    "ctaLink": "/#hero-form"
+  },
+  "neighborhood": {
+    "name": "Centennial Hills",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "description": "Centennial Hills is a master-planned community in northwest Las Vegas, situated between US-95 and the Spring Mountains foothills. Developed primarily from the late 1990s through the 2010s, it features newer housing stock, strong schools, and a family-friendly environment.",
+    "medianHomePrice": "$450,000",
+    "yearEstablished": 1998,
+    "keyAmenities": [
+      "Centennial Hills Community Center and Aquatic Complex",
+      "Centennial Hills Hospital",
+      "Providence Recreation Center",
+      "Snow Canyon Trail",
+      "Numerous parks and trail systems",
+      "Skye Canyon Park (nearby)"
+    ],
+    "demographics": {
+      "medianAge": 34,
+      "medianIncome": "$82,000",
+      "homeownershipRate": "72%"
+    }
+  },
+  "parentLocation": "las-vegas",
+  "sections": [
+    {
+      "type": "intro",
+      "heading": "We Buy Houses Throughout Centennial Hills",
+      "content": "Centennial Hills has become one of Las Vegas's most desirable residential communities. Its newer housing stock, top-rated schools, and proximity to outdoor recreation make it popular with families — and its strong market fundamentals make it attractive to cash buyers.\n\nAlchemy Investments RE buys homes throughout Centennial Hills and the surrounding northwest Las Vegas communities including Providence, Skye Canyon, and the Meadows Village area. Whether your home needs updates or is in excellent condition, we'll make you a fair cash offer."
+    },
+    {
+      "type": "benefits",
+      "heading": "Why Centennial Hills Homeowners Sell to Us",
+      "items": [
+        {
+          "icon": "Clock",
+          "title": "Fast Cash Offer",
+          "description": "Receive a written cash offer for your Centennial Hills home within 24 hours of contacting us."
+        },
+        {
+          "icon": "Home",
+          "title": "Sell As-Is",
+          "description": "No repairs, no cleaning, no staging. We buy your home in its current condition."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "No Commissions or Fees",
+          "description": "Save the 5–6% agent commission and thousands in closing costs. We cover our own costs."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Flexible Closing",
+          "description": "Close in 7 days or choose a timeline that works with your move. We're flexible."
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "heading": "Common Reasons Centennial Hills Homeowners Sell for Cash",
+      "html": "<ul><li><strong>Relocation:</strong> Many Centennial Hills residents are relocating professionals who need to sell quickly without managing a long listing process.</li><li><strong>Upsizing or Downsizing:</strong> Growing families or empty nesters looking to transition without the uncertainty of a contingent sale.</li><li><strong>Investment Property Exit:</strong> Landlords looking to exit rental properties in a strong seller's market.</li><li><strong>Inherited Properties:</strong> Out-of-state heirs who don't want to manage repairs or listing from a distance.</li><li><strong>Financial Hardship:</strong> Homeowners who need to liquidate quickly to address financial challenges.</li></ul>"
+    },
+    {
+      "type": "faqs",
+      "heading": "Centennial Hills Home Selling FAQs"
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Sell Your Centennial Hills Home?",
+      "content": "Get your free, no-obligation cash offer today.",
+      "cta": "Get My Cash Offer",
+      "ctaLink": "/#hero-form"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What neighborhoods near Centennial Hills do you buy in?",
+      "answer": "We buy throughout all of northwest Las Vegas, including Centennial Hills, Providence, Skye Canyon, Lone Mountain, Peccole Ranch, The Lakes, and all surrounding communities."
+    },
+    {
+      "question": "How is the real estate market in Centennial Hills?",
+      "answer": "Centennial Hills has maintained strong property values thanks to its family-friendly environment, newer homes, and quality schools. Median prices in the $420,000–$550,000 range. Well-maintained homes sell relatively quickly in this market."
+    },
+    {
+      "question": "Do you buy newer homes in Centennial Hills?",
+      "answer": "Yes. We buy Centennial Hills homes of all ages and conditions. Newer doesn't mean we're not interested — we purchase move-in-ready homes as well as those needing work."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Mark & Lisa P.",
+      "location": "Centennial Hills, Las Vegas",
+      "rating": 5,
+      "text": "We were relocating to Colorado and couldn't wait 3 months for a traditional sale. Alchemy gave us a solid offer and closed in 11 days. Exactly what we needed.",
+      "date": "2025-11-08"
+    }
+  ],
+  "migration": {
+    "lastModified": "2026-03-07",
+    "priority": 0.7,
+    "changeFrequency": "monthly"
+  }
+}

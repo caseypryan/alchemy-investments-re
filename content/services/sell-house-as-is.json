@@ -1,0 +1,135 @@
+{
+  "slug": "sell-house-as-is",
+  "type": "service",
+  "seo": {
+    "title": "Sell Your House As-Is in Las Vegas | No Repairs Required | Alchemy Investments RE",
+    "description": "Sell your Las Vegas house as-is for cash. No repairs, no cleaning, no staging. We buy homes in any condition throughout the Las Vegas Valley. Get a cash offer in 24 hours.",
+    "keywords": [
+      "sell house as-is Las Vegas",
+      "sell house without repairs Las Vegas",
+      "cash buyer as-is Las Vegas",
+      "sell fixer upper Las Vegas",
+      "sell damaged house Las Vegas"
+    ],
+    "canonical": "https://alchemyinvestmentsre.com/services/sell-house-as-is"
+  },
+  "hero": {
+    "heading": "Sell Your Las Vegas House As-Is for Cash",
+    "subheading": "No repairs. No cleaning. No staging. We buy it exactly the way it is.",
+    "cta": "Get Your As-Is Cash Offer",
+    "ctaLink": "/#hero-form"
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "heading": "What 'As-Is' Really Means When We Buy Your Home",
+      "content": "When we say we buy houses as-is, we mean it literally. We've purchased Las Vegas homes with:\n\n• Active roof leaks and major water damage\n• Foundation cracks and structural issues\n• Fire and smoke damage\n• Mold and pest infestations\n• Full of furniture, belongings, and years of accumulated items\n• Code violations and permit issues\n• Non-functioning HVAC, plumbing, or electrical systems\n• Squatters or problem tenants in place\n\nNone of this stops us from making you a fair cash offer. We account for all condition issues in our valuation — you don't spend a dollar on repairs, and you're under no obligation to clean or stage the property."
+    },
+    {
+      "type": "benefits",
+      "heading": "Benefits of an As-Is Sale",
+      "items": [
+        {
+          "icon": "Hammer",
+          "title": "Zero Repairs Required",
+          "description": "Don't spend $10,000–$50,000+ getting a property ready for market. We buy it exactly as it stands today."
+        },
+        {
+          "icon": "Sparkles",
+          "title": "No Cleaning or Staging",
+          "description": "Leave anything you don't want. We handle all cleanout and property prep after the purchase."
+        },
+        {
+          "icon": "Clock",
+          "title": "Sell in Days, Not Months",
+          "description": "Skip the 60–120 day traditional listing process. We can close in as little as 7 days."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "No Agent Commissions",
+          "description": "Save the 5–6% you'd pay a listing agent. Our offer is what you receive — no deductions."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "No Deal-Killing Inspections",
+          "description": "Cash purchases don't require buyer inspections that can kill deals at the last minute."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Close on Your Timeline",
+          "description": "7 days or 60 days — you choose when to close. We work around your moving schedule."
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "heading": "The Hidden Cost of Making Repairs Before Selling",
+      "html": "<p>Many homeowners believe they need to repair their Las Vegas home before selling in order to get a fair price. But the math often tells a different story:</p><h3>What Repairs Actually Cost</h3><ul><li><strong>New roof:</strong> $8,000–$18,000</li><li><strong>HVAC replacement:</strong> $5,000–$12,000</li><li><strong>Foundation repair:</strong> $10,000–$50,000+</li><li><strong>Kitchen remodel:</strong> $15,000–$40,000</li><li><strong>Full paint and flooring:</strong> $8,000–$20,000</li><li><strong>Water damage remediation:</strong> $3,000–$15,000</li></ul><p>Beyond the dollars, repairs take time — usually weeks to months to plan, hire contractors, complete, and inspect. During that time, you're still paying mortgage, HOA, utilities, and insurance.</p><h3>The As-Is Cash Sale Math</h3><p>A cash buyer will offer less than full retail value, but when you subtract repair costs, carrying costs during the listing period, agent commissions (5–6%), and buyer concessions, the net difference is often surprisingly small — sometimes the cash sale puts more money in your pocket.</p><p>Request a free offer from us and run the numbers yourself. We're transparent about how we arrive at our offer, and there's zero obligation to accept.</p>"
+    },
+    {
+      "type": "richtext",
+      "heading": "Types of Properties We Buy As-Is",
+      "html": "<p>We have experience purchasing Las Vegas properties in every type of distressed or as-is condition:</p><ul><li><strong>Fire-damaged homes:</strong> We buy properties with structural fire damage, smoke damage, and incomplete repairs from prior fire claims.</li><li><strong>Water-damaged homes:</strong> Flood damage, roof leaks, burst pipes — we assess and make offers regardless of extent.</li><li><strong>Homes with foundation issues:</strong> Cracks, settlement, slab issues — we work with properties that conventional lenders won't touch.</li><li><strong>Hoarder houses:</strong> Properties packed full of belongings. You take what you want; we handle the rest.</li><li><strong>Rental properties with tenants:</strong> Difficult tenants, lease violations, unpaid rent — we purchase with tenants in place.</li><li><strong>Code violation properties:</strong> Unpermitted additions, code violations, building department notices — we navigate these issues.</li><li><strong>Outdated properties:</strong> Homes with 1980s–1990s interiors, old electrical panels, galvanized plumbing, or original kitchens and baths.</li><li><strong>Vacant properties:</strong> Long-vacant homes with deferred maintenance, vandalism, or squatter issues.</li></ul>"
+    },
+    {
+      "type": "faqs",
+      "heading": "As-Is Sale FAQs"
+    },
+    {
+      "type": "cta",
+      "heading": "Get Your As-Is Cash Offer Today",
+      "content": "No repairs needed. No fees. No obligation. Just a fair offer from a licensed Nevada real estate professional.",
+      "cta": "Get My As-Is Offer",
+      "ctaLink": "/#hero-form"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I really not need to make any repairs?",
+      "answer": "Correct. When we say as-is, we mean as-is. You don't repair, clean, paint, or remove anything you don't want to. We factor the property's current condition into our offer. We've bought homes in every imaginable state — from minor cosmetic issues to serious structural damage."
+    },
+    {
+      "question": "Will a property in bad condition get a very low offer?",
+      "answer": "Our offer reflects the property's current market value minus the cost of any work needed to bring it to a sellable condition. While yes, a home needing $50,000 in repairs will receive a lower offer than a move-in-ready home, you need to weigh that against what you'd spend on repairs, agent commissions, closing costs, and carrying costs in a traditional sale — the net difference is often much smaller than you'd expect."
+    },
+    {
+      "question": "Do you need to inspect the property before making an offer?",
+      "answer": "We do a brief walkthrough to assess the property's condition. This usually takes 15–30 minutes. Unlike a buyer's inspection, this is our evaluation — not a contingency that can later kill the deal. Once we make an offer, we honor it."
+    },
+    {
+      "question": "What if there are code violations or permit issues?",
+      "answer": "Code violations, unpermitted additions, and building department holds are something we deal with regularly in Las Vegas. These issues complicate a traditional sale significantly — financed buyers typically can't purchase properties with open code violations. We can. We factor these issues into our offer and handle them after the purchase."
+    },
+    {
+      "question": "Can I leave items behind that I don't want?",
+      "answer": "Yes. Take what you want and leave the rest. Furniture, appliances, personal belongings, junk — we handle all cleanout after the purchase. This is one of the major conveniences of an as-is sale."
+    },
+    {
+      "question": "Is selling as-is for cash a good idea?",
+      "answer": "It depends on your situation. If your home needs significant repairs, your timeline is tight, or you want certainty (no deals falling through due to financing or inspection contingencies), an as-is cash sale is often the most practical and financially smart choice. We're happy to walk you through the numbers so you can compare your options."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Tom H.",
+      "location": "North Las Vegas, NV",
+      "rating": 5,
+      "text": "The house had serious water damage and my contractor quoted me $35,000 in repairs. I didn't have the money or the time. Casey made me a fair offer and I walked away in two weeks. Couldn't have asked for a better outcome given the circumstances.",
+      "date": "2025-12-01"
+    },
+    {
+      "name": "Betty M.",
+      "location": "Henderson, NV",
+      "rating": 5,
+      "text": "My mom's house was full of 40 years of belongings. I dreaded the thought of cleaning it out before listing. Alchemy bought it as-is and I just took the things that mattered to me. They handled everything else. Total lifesaver.",
+      "date": "2025-09-18"
+    }
+  ],
+  "migration": {
+    "oldUrl": "",
+    "redirectFrom": [],
+    "lastModified": "2026-03-07",
+    "priority": 0.9,
+    "changeFrequency": "monthly"
+  }
+}

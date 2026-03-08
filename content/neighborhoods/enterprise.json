@@ -1,0 +1,120 @@
+{
+  "slug": "enterprise",
+  "type": "neighborhood",
+  "seo": {
+    "title": "Sell Your House Fast in Enterprise (Southwest Las Vegas) | Cash Home Buyers",
+    "description": "Get a cash offer for your Enterprise / southwest Las Vegas home in 24 hours. We buy houses as-is in any condition. No repairs, no fees. Close in as little as 7 days.",
+    "keywords": [
+      "sell house Enterprise Las Vegas",
+      "cash home buyers southwest Las Vegas",
+      "we buy houses Enterprise NV",
+      "sell house fast southwest Las Vegas"
+    ],
+    "canonical": "https://alchemyinvestmentsre.com/neighborhoods/enterprise"
+  },
+  "hero": {
+    "heading": "Sell Your Enterprise Home Fast for Cash",
+    "subheading": "Cash offer in 24 hours. Any condition. No repairs, no fees, no commissions.",
+    "cta": "Get Your Cash Offer",
+    "ctaLink": "/#hero-form"
+  },
+  "neighborhood": {
+    "name": "Enterprise",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "description": "Enterprise is one of Nevada's most populous unincorporated communities, covering much of southwest Las Vegas. It stretches from the I-215 beltway south toward the Henderson border and includes some of the newest master-planned developments in the Las Vegas Valley, including Southern Highlands and Mountains Edge.",
+    "medianHomePrice": "$430,000",
+    "yearEstablished": 1990,
+    "keyAmenities": [
+      "Mountains Edge Regional Park",
+      "Southern Highlands Golf Club",
+      "Exploration Peak Park",
+      "St. Rose Dominican Hospital — San Martin Campus",
+      "Access to I-215 beltway",
+      "Numerous newer retail and dining developments"
+    ],
+    "demographics": {
+      "medianAge": 35,
+      "medianIncome": "$78,000",
+      "homeownershipRate": "69%"
+    }
+  },
+  "parentLocation": "las-vegas",
+  "sections": [
+    {
+      "type": "intro",
+      "heading": "We Buy Houses Throughout Enterprise and Southwest Las Vegas",
+      "content": "Enterprise encompasses some of Las Vegas's most sought-after newer communities alongside established neighborhoods built in the early 2000s. Alchemy Investments RE purchases homes throughout all of Enterprise — from newer construction in Mountains Edge to older established areas closer to Rainbow Boulevard.\n\nWhether your southwest Las Vegas home is move-in ready or needs significant work, we'll give you a straightforward cash offer within 24 hours. No repairs, no staging, and no agent fees."
+    },
+    {
+      "type": "benefits",
+      "heading": "Why Southwest Las Vegas Homeowners Choose Us",
+      "items": [
+        {
+          "icon": "Clock",
+          "title": "Offer in 24 Hours",
+          "description": "We evaluate your Enterprise property quickly and deliver a written cash offer within one business day."
+        },
+        {
+          "icon": "Home",
+          "title": "As-Is Purchase",
+          "description": "We buy in any condition — newer builds with deferred maintenance or older homes needing full renovation."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "No Fees or Commissions",
+          "description": "The offer we make is what you receive. No realtor fees, no closing costs deducted from your proceeds."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Your Closing Date",
+          "description": "Need to close fast or need more time to move? We accommodate your specific timeline."
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "heading": "Neighborhoods We Buy In Across Enterprise",
+      "html": "<p>Enterprise covers a broad area of southwest Las Vegas. We buy throughout all of it, including:</p><ul><li><strong>Mountains Edge:</strong> One of Las Vegas's most successful master-planned communities with parks, trails, and modern homes.</li><li><strong>Southern Highlands:</strong> Upscale gated community with luxury single-family homes and the Southern Highlands Golf Club.</li><li><strong>Coronado Ranch:</strong> Established community in the southwest with a diverse mix of homes and convenient access.</li><li><strong>Inspirada (Enterprise portion):</strong> Award-winning new community on the Enterprise/Henderson border.</li><li><strong>Tuscany Suites area:</strong> Centrally located Enterprise neighborhood with older established homes.</li><li><strong>Anthem Country Club (Enterprise portion):</strong> Luxury guard-gated golf community straddling the Henderson/Enterprise line.</li></ul>"
+    },
+    {
+      "type": "faqs",
+      "heading": "Enterprise Home Selling FAQs"
+    },
+    {
+      "type": "cta",
+      "heading": "Get Your Enterprise Cash Offer",
+      "content": "Free, no-obligation cash offer within 24 hours. No repairs needed.",
+      "cta": "Get My Cash Offer",
+      "ctaLink": "/#hero-form"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What zip codes in Enterprise do you buy in?",
+      "answer": "We buy throughout the Enterprise unincorporated community, which covers zip codes including 89139, 89141, 89148, 89166, and 89178. We also buy in the adjacent communities of Southern Highlands, Mountains Edge, and the Henderson border areas."
+    },
+    {
+      "question": "Do you buy homes in Southern Highlands?",
+      "answer": "Yes. We purchase luxury homes in Southern Highlands, including gated community properties. Higher-end homes have different market dynamics, but we're experienced in this segment and can make competitive offers."
+    },
+    {
+      "question": "How active is the cash buyer market in Enterprise?",
+      "answer": "Very active. Southwest Las Vegas attracts significant investor interest due to its newer housing stock and growing population. Cash transactions account for a meaningful share of sales in this area."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Rachel T.",
+      "location": "Mountains Edge, Las Vegas",
+      "rating": 5,
+      "text": "Needed to sell my Mountains Edge home quickly after a job loss. Alchemy was professional and fair. They closed in 12 days and I walked away with enough to start fresh. Very grateful.",
+      "date": "2025-10-30"
+    }
+  ],
+  "migration": {
+    "lastModified": "2026-03-07",
+    "priority": 0.7,
+    "changeFrequency": "monthly"
+  }
+}

@@ -313,12 +313,12 @@ export default function BlogPost() {
             <h3 className="text-2xl font-heading mb-6">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/cash-offer-vs-traditional" className="block p-6 bg-gray-50 rounded-lg hover:shadow-lg transition-shadow">
-                <h4 className="font-heading text-lg mb-2">Cash Offer vs Traditional Sale: Which is Right for You?</h4>
-                <p className="text-gray-600 text-sm">Compare the pros and cons of each selling method</p>
+                <h4 className="font-heading text-lg mb-2">Cash Offer vs Traditional Sale: Which Gets You More?</h4>
+                <p className="text-gray-600 text-sm">Real net proceeds numbers for Las Vegas homeowners</p>
               </Link>
-              <Link href="/faq" className="block p-6 bg-gray-50 rounded-lg hover:shadow-lg transition-shadow">
-                <h4 className="font-heading text-lg mb-2">Frequently Asked Questions</h4>
-                <p className="text-gray-600 text-sm">Get answers to common questions about selling fast</p>
+              <Link href="/blog/avoid-foreclosure-las-vegas" className="block p-6 bg-gray-50 rounded-lg hover:shadow-lg transition-shadow">
+                <h4 className="font-heading text-lg mb-2">How to Avoid Foreclosure in Las Vegas</h4>
+                <p className="text-gray-600 text-sm">Your options at every stage of the process</p>
               </Link>
             </div>
           </div>

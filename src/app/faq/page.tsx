@@ -1,99 +1,22 @@
-'use client'
-
-import { useState } from 'react'
+import type { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import FAQAccordion from '@/components/FAQAccordion'
 
-export default function FAQPage() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null)
-
-  const toggleFAQ = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index)
-  }
-
-  // FAQ Schema for SEO
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: faqs.map((faq) => ({
-      '@type': 'Question',
-      name: faq.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: faq.answer,
-      },
-    })),
-  }
-
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-
-      <Header />
-      <main>
-        {/* Hero */}
-        <section className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
-          <div className="container-custom">
-            <h1 className="text-5xl font-heading mb-6">Frequently Asked Questions</h1>
-            <p className="text-xl max-w-3xl">
-              Everything you need to know about selling your house fast for cash in Las Vegas
-            </p>
-          </div>
-        </section>
-
-        {/* FAQs */}
-        <section className="py-16 bg-white">
-          <div className="container-custom max-w-4xl">
-            <div className="space-y-4">
-              {faqs.map((faq, index) => (
-                <div
-                  key={index}
-                  className="border-2 border-gray-200 rounded-lg overflow-hidden hover:border-secondary transition-colors"
-                >
-                  <button
-                    onClick={() => toggleFAQ(index)}
-                    className="w-full px-6 py-5 text-left flex justify-between items-center bg-white hover:bg-gray-50 transition-colors"
-                  >
-                    <h3 className="text-lg font-heading pr-8">{faq.question}</h3>
-                    <span className="text-2xl text-secondary flex-shrink-0">
-                      {openIndex === index ? '−' : '+'}
-                    </span>
-                  </button>
-                  {openIndex === index && (
-                    <div className="px-6 py-5 bg-gray-50 border-t border-gray-200">
-                      <p className="text-gray-700 whitespace-pre-line">{faq.answer}</p>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* CTA */}
-        <section className="py-16 bg-gray-50">
-          <div className="container-custom text-center max-w-3xl mx-auto">
-            <h2 className="text-4xl font-heading mb-6">Still Have Questions?</h2>
-            <p className="text-xl text-gray-600 mb-8">
-              Give us a call or fill out our contact form. We're here to help!
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:702-718-6934" className="btn-primary">
-                Call: 702-718-6934
-              </a>
-              <a href="/contact" className="btn-outline">
-                Contact Us
-              </a>
-            </div>
-          </div>
-        </section>
-      </main>
-      <Footer />
-    </>
-  )
+export const metadata: Metadata = {
+  title: 'Frequently Asked Questions | Sell House Fast Las Vegas',
+  description:
+    'Answers to the most common questions about selling your house fast for cash in Las Vegas. Learn about our process, offers, timelines, and no-fee policy.',
+  alternates: {
+    canonical: 'https://alchemyinvestmentsre.com/faq',
+  },
+  openGraph: {
+    title: 'FAQ — Selling Your Las Vegas House Fast | Alchemy Investments RE',
+    description:
+      'Everything you need to know about selling your house fast for cash in Las Vegas. No fees, no repairs, close in 7-14 days.',
+    url: 'https://alchemyinvestmentsre.com/faq',
+    type: 'website',
+  },
 }
 
 const faqs = [
@@ -115,7 +38,7 @@ const faqs = [
   },
   {
     question: `Is this a scam? How do I know you're legitimate?`,
-    answer: `We are a fully licensed real estate brokerage in Nevada (License: S.0184768). You can verify our license with the Nevada Real Estate Division at any time. We've been in business for over 15 years and have purchased 500+ homes. All transactions are conducted through licensed title companies with full legal protection for both parties.`,
+    answer: `We are a fully licensed real estate brokerage in Nevada (License: S.0184768). You can verify our license with the Nevada Real Estate Division at any time. We've been in business for over 10 years and have purchased 500+ homes. All transactions are conducted through licensed title companies with full legal protection for both parties.`,
   },
   {
     question: `Will you lowball me on the offer?`,
@@ -178,3 +101,72 @@ const faqs = [
     answer: `Closing is simple. We use licensed, reputable title companies. You'll sign the necessary paperwork (usually takes 15-30 minutes), hand over the keys, and receive your payment. You can choose to receive funds via wire transfer, cashier's check, or direct deposit - whatever you prefer.`,
   },
 ]
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+}
+
+export default function FAQPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
+      <Header />
+      <main>
+        {/* Hero */}
+        <section className="bg-gradient-to-r from-[#2b3d4f] to-[#4A90E2] text-white py-20">
+          <div className="container mx-auto px-6">
+            <h1 className="text-5xl font-bold mb-6">Frequently Asked Questions</h1>
+            <p className="text-xl max-w-3xl opacity-90">
+              Everything you need to know about selling your house fast for cash in Las Vegas
+            </p>
+          </div>
+        </section>
+
+        {/* FAQs */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-6 max-w-4xl">
+            <FAQAccordion faqs={faqs} />
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-6 text-center max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-[#2b3d4f] mb-6">Still Have Questions?</h2>
+            <p className="text-xl text-gray-600 mb-8">
+              Give us a call or fill out our contact form. We&apos;re here to help!
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="tel:702-718-6934"
+                className="inline-block bg-[#12C190] hover:bg-[#10a87a] text-white font-semibold px-8 py-4 rounded transition-colors"
+              >
+                Call: (702) 718-6934
+              </a>
+              <a
+                href="/contact"
+                className="inline-block border-2 border-[#4A90E2] text-[#4A90E2] hover:bg-[#4A90E2] hover:text-white font-semibold px-8 py-4 rounded transition-colors"
+              >
+                Contact Us
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  )
+}

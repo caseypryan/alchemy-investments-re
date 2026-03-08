@@ -1,0 +1,233 @@
+{
+  "slug": "las-vegas",
+  "type": "location",
+  "seo": {
+    "title": "We Buy Houses Las Vegas | Sell Your House Fast for Cash | Alchemy Investments RE",
+    "description": "Get a fair cash offer for your Las Vegas home in 24 hours. We buy houses as-is in any condition — no repairs, no fees, no commissions. Licensed Nevada brokerage. Close in as little as 7 days.",
+    "keywords": [
+      "sell house fast Las Vegas",
+      "we buy houses Las Vegas",
+      "cash home buyers Las Vegas",
+      "sell house as-is Las Vegas",
+      "cash offer for house Las Vegas",
+      "cash for houses Las Vegas"
+    ],
+    "canonical": "https://alchemyinvestmentsre.com/locations/las-vegas"
+  },
+  "hero": {
+    "heading": "We Buy Houses in Las Vegas for Cash",
+    "subheading": "Get a fair, no-obligation cash offer in 24 hours. Close in as little as 7 days.",
+    "cta": "Get Your Cash Offer",
+    "ctaLink": "/#hero-form"
+  },
+  "location": {
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "stateAbbr": "NV",
+    "zipCodes": [
+      "89101", "89102", "89103", "89104", "89106", "89107", "89108",
+      "89109", "89110", "89115", "89117", "89119", "89120", "89121",
+      "89128", "89129", "89130", "89131", "89134", "89138", "89143",
+      "89144", "89145", "89146", "89147", "89148", "89149", "89166"
+    ],
+    "neighborhoods": [
+      "Summerlin", "Spring Valley", "Centennial Hills", "Enterprise",
+      "Whitney", "Downtown Las Vegas", "Chinatown", "Arts District",
+      "Mountains Edge", "Skye Canyon", "Southern Highlands"
+    ],
+    "population": 651319,
+    "medianHomePrice": "$415,000",
+    "coordinates": {
+      "latitude": 36.1699,
+      "longitude": -115.1398
+    }
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "heading": "Las Vegas's Most Trusted Cash Home Buyer",
+      "content": "Whether you're in Summerlin, Spring Valley, Enterprise, or Downtown Las Vegas, Alchemy Investments RE is ready to make you a fair cash offer on your home. We're a licensed Nevada real estate brokerage (License: S.0184768) with 15+ years of experience and 500+ homes purchased across the Las Vegas Valley.\n\nWe buy Las Vegas homes in any condition — from move-in-ready properties to homes that need significant repairs. No agent commissions, no closing costs, no repair requirements. Just a straightforward process that gets you cash in hand, fast."
+    },
+    {
+      "type": "benefits",
+      "heading": "Why Las Vegas Homeowners Choose Us",
+      "items": [
+        {
+          "icon": "Clock",
+          "title": "Cash Offer in 24 Hours",
+          "description": "Fill out our form or call us today. We'll evaluate your property and deliver a written cash offer within 24 hours."
+        },
+        {
+          "icon": "Home",
+          "title": "Sell As-Is — No Repairs",
+          "description": "We buy houses in any condition. No cleaning, no staging, no repairs. We've seen it all and we'll make an offer regardless."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Zero Fees or Commissions",
+          "description": "No 6% agent commission. No closing costs. The number we offer is the number you receive at closing."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Close on Your Schedule",
+          "description": "Need to close in 7 days? Or need 60 days to find your next place? We work around your timeline."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Licensed & Local",
+          "description": "We're a licensed Nevada real estate brokerage. No wholesalers, no middlemen — you deal directly with us."
+        },
+        {
+          "icon": "Handshake",
+          "title": "Transparent Process",
+          "description": "We explain every step clearly. No surprises at closing. We've helped 500+ Las Vegas homeowners and have the reviews to prove it."
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "heading": "How to Sell Your Las Vegas House for Cash",
+      "items": [
+        {
+          "step": 1,
+          "title": "Tell Us About Your Home",
+          "description": "Call (702) 718-6934 or fill out our online form. Tell us about your property, its condition, and your timeline."
+        },
+        {
+          "step": 2,
+          "title": "Receive Your Cash Offer",
+          "description": "We evaluate your home and present a fair, written cash offer within 24 hours. No obligation to accept."
+        },
+        {
+          "step": 3,
+          "title": "Pick Your Closing Date",
+          "description": "Accept the offer and choose your closing date. We can close as fast as 7 days — or give you more time if needed."
+        },
+        {
+          "step": 4,
+          "title": "Collect Your Cash",
+          "description": "Sign the final documents at a local title company and receive your payment. Done."
+        }
+      ]
+    },
+    {
+      "type": "neighborhoods",
+      "heading": "We Buy Houses Throughout Las Vegas",
+      "content": "We purchase homes in every Las Vegas neighborhood and zip code, including:",
+      "neighborhoods": [
+        {
+          "name": "Summerlin",
+          "description": "Las Vegas's premier master-planned community stretching from the Spring Mountains foothills. We buy homes in all Summerlin villages."
+        },
+        {
+          "name": "Spring Valley",
+          "description": "One of Nevada's most populous unincorporated communities, located west of the Strip. Strong demand, diverse housing stock."
+        },
+        {
+          "name": "Enterprise",
+          "description": "Fast-growing southwest Las Vegas with newer construction and established neighborhoods alike."
+        },
+        {
+          "name": "Centennial Hills",
+          "description": "Northwest Las Vegas featuring newer master-planned developments and family-friendly communities."
+        },
+        {
+          "name": "Whitney",
+          "description": "East Las Vegas community with affordable housing and proximity to major employers."
+        },
+        {
+          "name": "Mountains Edge",
+          "description": "Modern master-planned community in southwest Las Vegas with parks, trails, and newer homes."
+        },
+        {
+          "name": "Southern Highlands",
+          "description": "Upscale gated community in the far south valley with luxury homes and golf course living."
+        },
+        {
+          "name": "Downtown Las Vegas",
+          "description": "Historic city core undergoing significant revitalization. Strong investor demand for older properties."
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "heading": "Situations We Specialize In",
+      "html": "<p>Las Vegas homeowners come to us for many reasons. We specialize in situations where a fast, hassle-free sale matters most:</p><ul><li><strong>Facing Foreclosure:</strong> Behind on payments? We can close before your auction date and help you avoid a foreclosure on your record.</li><li><strong>Inherited Property:</strong> Inherited a Las Vegas home you don't want to keep? We make the process simple, even if the property needs major work.</li><li><strong>Divorce:</strong> Need to liquidate the family home quickly? We can close fast and split proceeds so both parties can move forward.</li><li><strong>Relocation:</strong> Moving out of Las Vegas for work or family? We'll buy your home so you're not managing a long-distance sale.</li><li><strong>Problem Rentals:</strong> Tired of difficult tenants or costly property management? We buy rental properties with tenants in place.</li><li><strong>Distressed Properties:</strong> Fire damage, water damage, foundation issues, code violations — we buy it as-is.</li><li><strong>Financial Hardship:</strong> Need cash quickly? We move fast and can put money in your hands within a week.</li></ul>"
+    },
+    {
+      "type": "faqs",
+      "heading": "Common Questions About Selling Your Las Vegas Home"
+    },
+    {
+      "type": "cta",
+      "heading": "Get Your Free Cash Offer Today",
+      "content": "No pressure, no obligation. Just a fair offer from a licensed Las Vegas real estate professional.",
+      "cta": "Get My Cash Offer",
+      "ctaLink": "/#hero-form"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How fast can you close on my Las Vegas house?",
+      "answer": "We can close in as little as 7 days when you have all documents ready and the title is clear. Most of our Las Vegas transactions close within 10–14 days. If you need more time, we're flexible — we'll close on your timeline."
+    },
+    {
+      "question": "Do you really buy houses as-is in Las Vegas?",
+      "answer": "Yes, we do. 'As-is' means exactly that — you don't make a single repair, don't clean, and don't remove anything you don't want to take. We've purchased homes with roof damage, foundation issues, water damage, outdated systems, and full of belongings. We handle everything after the purchase."
+    },
+    {
+      "question": "Are you actually licensed in Nevada?",
+      "answer": "Yes. Alchemy Investments RE is a licensed Nevada real estate brokerage (License: S.0184768), not a wholesaler. You're dealing directly with us — no middlemen. You can verify our license on the Nevada Real Estate Division website."
+    },
+    {
+      "question": "How do you determine your cash offer amount?",
+      "answer": "Our offer is based on your home's location, size, condition, and recent comparable sales in your specific Las Vegas neighborhood. We factor in the cost of any repairs or updates needed. Our goal is a fair offer that reflects actual market conditions."
+    },
+    {
+      "question": "What does it cost me to sell to you?",
+      "answer": "Nothing. No agent commissions, no closing costs, no fees of any kind. We often cover the title and escrow costs as well. The cash offer we make is what you receive at closing — no deductions."
+    },
+    {
+      "question": "What if I owe more than my house is worth?",
+      "answer": "This is called being 'underwater' or having negative equity. In these situations, a short sale may be possible where your lender agrees to accept less than what's owed. We have experience with short sales and can discuss options with you."
+    },
+    {
+      "question": "Can you buy my house if it's in probate?",
+      "answer": "Yes, though probate sales require coordination with the court and the estate's personal representative. We have experience navigating Nevada probate sales and can work with your attorney to ensure everything proceeds correctly."
+    },
+    {
+      "question": "What areas of Las Vegas do you buy in?",
+      "answer": "We buy houses throughout all of Las Vegas and Clark County, including Summerlin, Spring Valley, Enterprise, Centennial Hills, Downtown Las Vegas, Whitney, Mountains Edge, Southern Highlands, and all surrounding communities including Henderson, North Las Vegas, Boulder City, and Pahrump."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Michael R.",
+      "location": "Spring Valley, Las Vegas",
+      "rating": 5,
+      "text": "I needed to sell fast before relocating to Seattle. Casey gave me a fair offer within 24 hours and we closed in 9 days. No drama, no surprises. I wish every real estate transaction was this simple.",
+      "date": "2025-11-20"
+    },
+    {
+      "name": "Patricia W.",
+      "location": "Summerlin, Las Vegas",
+      "rating": 5,
+      "text": "After my divorce, I needed to sell our home quickly to settle things. Alchemy was professional, compassionate, and got it done fast. Both my ex and I were happy with how everything was handled.",
+      "date": "2025-10-05"
+    },
+    {
+      "name": "James L.",
+      "location": "Enterprise, Las Vegas",
+      "rating": 5,
+      "text": "My rental property had serious problem tenants and needed major repairs. I expected to get lowballed but Casey's offer was fair. Closed in two weeks with tenants still in place. Highly recommend.",
+      "date": "2025-09-12"
+    }
+  ],
+  "migration": {
+    "oldUrl": "",
+    "redirectFrom": [],
+    "lastModified": "2026-03-07",
+    "priority": 1.0,
+    "changeFrequency": "monthly"
+  }
+}

@@ -1,6 +1,62 @@
 {
   "posts": [
     {
+      "slug": "las-vegas-real-estate-market-2026",
+      "title": "Las Vegas Real Estate Market Update 2026: What Sellers Need to Know",
+      "excerpt": "Is 2026 a good time to sell your Las Vegas home? We break down current market conditions, price trends, buyer demand, and what it means for your sale strategy.",
+      "category": "Las Vegas Market",
+      "publishedAt": "2026-03-07T00:00:00",
+      "featured": true
+    },
+    {
+      "slug": "sell-house-as-is-las-vegas",
+      "title": "Selling Your House As-Is in Las Vegas: What Buyers Really Pay (2026)",
+      "excerpt": "Thinking about selling your Las Vegas home as-is? Here's exactly what to expect from the offer, what you'll net after costs, and which situations make an as-is sale the smartest move.",
+      "category": "Selling a Home",
+      "publishedAt": "2026-03-07T00:00:00",
+      "featured": true
+    },
+    {
+      "slug": "sell-rental-property-las-vegas",
+      "title": "How to Sell a Rental Property in Las Vegas: Landlord's Complete Guide",
+      "excerpt": "Ready to exit your Las Vegas rental property? This guide covers tenant rights, tax implications, whether to sell occupied or vacant, and how to get the best outcome as a landlord-seller.",
+      "category": "Real Estate Investing",
+      "publishedAt": "2026-03-07T00:00:00",
+      "featured": false
+    },
+    {
+      "slug": "sell-house-during-divorce-nevada",
+      "title": "How to Sell Your House During a Divorce in Nevada (2026)",
+      "excerpt": "Divorce is hard enough. This guide explains Nevada's community property laws, your options for the family home, and how to sell quickly so both parties can move forward.",
+      "category": "Selling a Home",
+      "publishedAt": "2026-02-28T00:00:00",
+      "featured": false
+    },
+    {
+      "slug": "sell-inherited-house-las-vegas",
+      "title": "Selling an Inherited House in Las Vegas: A Complete 2026 Guide",
+      "excerpt": "Inherited a property in Las Vegas? Learn how probate works in Nevada, your selling options, tax implications, and how to settle an estate efficiently.",
+      "category": "Selling a Home",
+      "publishedAt": "2026-02-21T00:00:00",
+      "featured": false
+    },
+    {
+      "slug": "avoid-foreclosure-las-vegas",
+      "title": "How to Avoid Foreclosure in Las Vegas: Your 2026 Action Plan",
+      "excerpt": "Facing foreclosure in Las Vegas? You have more options than you think. Here's what to do right now to protect your credit, your equity, and your future.",
+      "category": "Selling a Home",
+      "publishedAt": "2026-02-14T00:00:00",
+      "featured": false
+    },
+    {
+      "slug": "cash-offer-vs-traditional",
+      "title": "Cash Offer vs Traditional Sale in Las Vegas: Which Gets You More?",
+      "excerpt": "Should you accept a cash offer or list with a realtor? We break down the real numbers for Las Vegas homeowners so you can make the best decision for your situation.",
+      "category": "Selling a Home",
+      "publishedAt": "2026-02-07T00:00:00",
+      "featured": true
+    },
+    {
       "slug": "sell-house-fast-las-vegas",
       "title": "How to Sell Your House Fast in Las Vegas: The Complete 2026 Guide",
       "excerpt": "Need to sell your Las Vegas home quickly? This comprehensive guide covers everything you need to know about fast home sales, including cash offers, timelines, and costs.",
@@ -11,10 +67,9 @@
   ],
   "categories": [
     "Selling a Home",
-    "Buying a Home",
-    "Real Estate Investing",
     "Las Vegas Market",
+    "Real Estate Investing",
     "Home Improvement"
   ],
-  "totalPosts": 1
+  "totalPosts": 8
 }

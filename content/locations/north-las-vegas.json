@@ -1,0 +1,205 @@
+{
+  "slug": "north-las-vegas",
+  "type": "location",
+  "seo": {
+    "title": "Sell Your House Fast in North Las Vegas | Cash Home Buyers NLV",
+    "description": "Get a fair cash offer for your North Las Vegas home in 24 hours. We buy houses as-is in any condition. No repairs, no fees, no commissions. Close in as little as 7 days.",
+    "keywords": [
+      "sell house fast North Las Vegas",
+      "cash home buyers North Las Vegas",
+      "we buy houses North Las Vegas",
+      "sell house as-is North Las Vegas NV",
+      "cash offer North Las Vegas home"
+    ],
+    "canonical": "https://alchemyinvestmentsre.com/locations/north-las-vegas"
+  },
+  "hero": {
+    "heading": "We Buy Houses in North Las Vegas for Cash",
+    "subheading": "Fair cash offers in 24 hours. Close in as little as 7 days. No repairs, no fees.",
+    "cta": "Get Your Cash Offer",
+    "ctaLink": "/#hero-form"
+  },
+  "location": {
+    "city": "North Las Vegas",
+    "state": "Nevada",
+    "stateAbbr": "NV",
+    "zipCodes": [
+      "89030", "89031", "89032", "89081", "89084", "89085", "89086", "89087"
+    ],
+    "neighborhoods": [
+      "Aliante", "Craig Ranch", "Deer Springs", "El Dorado", "Eldorado",
+      "Carey Park", "Cheyenne Hills", "Sunrise Manor", "Jerry Gillock Park"
+    ],
+    "population": 289000,
+    "medianHomePrice": "$380,000",
+    "coordinates": {
+      "latitude": 36.1989,
+      "longitude": -115.1175
+    }
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "heading": "North Las Vegas's Trusted Cash Home Buyer",
+      "content": "North Las Vegas is one of the fastest-growing cities in Nevada—and one of the most active markets for cash home transactions in the entire Las Vegas Valley. Whether you own a home near Aliante, Craig Ranch, or the older neighborhoods closer to downtown NLV, Alchemy Investments RE is ready to make you a fair cash offer.\n\nWe buy North Las Vegas homes in any condition. Foundation problems, roof damage, outdated interiors, problem tenants—none of it matters. We're a licensed Nevada real estate brokerage (License: S.0184768), not a wholesaler. You deal directly with us, and there are no fees, commissions, or hidden costs."
+    },
+    {
+      "type": "benefits",
+      "heading": "Why North Las Vegas Homeowners Sell to Us",
+      "items": [
+        {
+          "icon": "Clock",
+          "title": "24-Hour Cash Offer",
+          "description": "Contact us today and receive a written cash offer for your North Las Vegas home within 24 hours."
+        },
+        {
+          "icon": "Home",
+          "title": "Any Condition — Really",
+          "description": "We buy NLV homes regardless of condition. No repairs, no cleaning, no prep work required."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "No Agent Commissions",
+          "description": "Keep more money from your sale. No realtor fees, no closing costs, no surprises at closing."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Your Timeline",
+          "description": "Close in 7 days or take the time you need. We're flexible with your moving schedule."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Licensed Brokerage",
+          "description": "We're a state-licensed Nevada real estate brokerage — verifiable on the Nevada Real Estate Division website."
+        },
+        {
+          "icon": "Users",
+          "title": "North Las Vegas Specialists",
+          "description": "We know every neighborhood in NLV and understand local market values inside and out."
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "heading": "Sell Your North Las Vegas Home in 4 Steps",
+      "items": [
+        {
+          "step": 1,
+          "title": "Contact Us",
+          "description": "Call (702) 718-6934 or submit our online form. Tell us about your North Las Vegas property."
+        },
+        {
+          "step": 2,
+          "title": "Get Your Offer",
+          "description": "We assess your property and deliver a fair written cash offer within 24 hours. No obligation."
+        },
+        {
+          "step": 3,
+          "title": "Set Your Closing Date",
+          "description": "Accept the offer and choose when you want to close. As fast as 7 days or on your schedule."
+        },
+        {
+          "step": 4,
+          "title": "Get Paid",
+          "description": "Sign documents at a local title company and receive your cash. Simple as that."
+        }
+      ]
+    },
+    {
+      "type": "neighborhoods",
+      "heading": "We Buy Houses in All North Las Vegas Neighborhoods",
+      "content": "We purchase properties throughout all of North Las Vegas, including:",
+      "neighborhoods": [
+        {
+          "name": "Aliante",
+          "description": "North Las Vegas's premier master-planned community with parks, a golf course, and modern housing."
+        },
+        {
+          "name": "Craig Ranch",
+          "description": "Established community in central NLV with a diverse mix of single-family homes."
+        },
+        {
+          "name": "Deer Springs",
+          "description": "Newer development in the northeast with contemporary homes and growing amenities."
+        },
+        {
+          "name": "El Dorado / Eldorado",
+          "description": "Established neighborhoods with older homes — a strong market for cash buyers and investors."
+        },
+        {
+          "name": "Carey Park",
+          "description": "Centrally located neighborhood with good access to I-15 and major employment corridors."
+        },
+        {
+          "name": "Sunrise Manor",
+          "description": "Unincorporated community on the eastern fringe of NLV with affordable housing stock."
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "heading": "Why North Las Vegas Has a Strong Cash Buyer Market",
+      "html": "<p>North Las Vegas consistently has one of the highest percentages of cash home transactions in the Las Vegas Valley. Several factors drive this:</p><ul><li><strong>Investor Activity:</strong> NLV's price point attracts real estate investors seeking rental properties and fix-and-flip opportunities.</li><li><strong>Affordability:</strong> Relative to Henderson and Summerlin, NLV offers better value — driving cash buyer demand from out-of-state buyers who don't need financing.</li><li><strong>Older Housing Stock:</strong> Many NLV properties are 20–40 years old and benefit from cash transactions that bypass financing contingencies tied to property condition.</li><li><strong>Growing Population:</strong> North Las Vegas is one of the fastest-growing cities in Nevada, creating sustained demand at all price points.</li></ul><p>This active cash buyer market means you have real options when you need to sell fast.</p>"
+    },
+    {
+      "type": "faqs",
+      "heading": "North Las Vegas Home Selling FAQs"
+    },
+    {
+      "type": "cta",
+      "heading": "Sell Your North Las Vegas Home Fast",
+      "content": "Get your free cash offer in 24 hours. No repairs needed, no fees, no obligation.",
+      "cta": "Get Started",
+      "ctaLink": "/#hero-form"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How quickly can you buy my North Las Vegas house?",
+      "answer": "We can close in as little as 7 days when the title is clear and documents are in order. Most NLV transactions close within 10–14 days. We're also happy to close on a longer timeline if you need more time to move."
+    },
+    {
+      "question": "Will you buy a house that needs major repairs in North Las Vegas?",
+      "answer": "Absolutely. We've purchased NLV homes with serious roof damage, foundation issues, water and fire damage, full of belongings, and with squatters or problem tenants. We account for all repair costs in our offer — you don't need to fix a thing."
+    },
+    {
+      "question": "How does your offer compare to listing with a realtor?",
+      "answer": "Our cash offer will be less than full retail value, but after accounting for agent commissions (5–6%), repair costs, closing cost concessions, and months of carrying costs, the net difference is often smaller than you'd expect — sometimes in our favor."
+    },
+    {
+      "question": "Do you buy houses in all North Las Vegas zip codes?",
+      "answer": "Yes. We buy throughout 89030, 89031, 89032, 89081, 89084, 89085, 89086, and 89087 — covering all of North Las Vegas city limits and the surrounding unincorporated areas."
+    },
+    {
+      "question": "Can you help me if I'm facing foreclosure in North Las Vegas?",
+      "answer": "Yes. If you're behind on payments and facing foreclosure, time is critical. Contact us immediately. We can often close before your auction date, stopping foreclosure and protecting your credit."
+    },
+    {
+      "question": "Are there any fees when selling to you?",
+      "answer": "None. We pay our own costs and often cover title and escrow fees as well. No agent commissions, no hidden fees, no surprises. The offer we make is what you receive."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Angela D.",
+      "location": "Aliante, North Las Vegas",
+      "rating": 5,
+      "text": "I inherited my aunt's home in North Las Vegas and it needed a lot of work. I didn't have the time or money to fix it up. Alchemy made me a fair offer and closed quickly. Smooth process from start to finish.",
+      "date": "2025-10-22"
+    },
+    {
+      "name": "Carlos M.",
+      "location": "Craig Ranch, North Las Vegas",
+      "rating": 5,
+      "text": "Was facing foreclosure and ran out of options. Called Casey and within two weeks the house was sold and the foreclosure stopped. He was honest about everything and delivered exactly what he promised.",
+      "date": "2025-08-14"
+    }
+  ],
+  "migration": {
+    "oldUrl": "",
+    "redirectFrom": [],
+    "lastModified": "2026-03-07",
+    "priority": 0.9,
+    "changeFrequency": "monthly"
+  }
+}

@@ -41,7 +41,7 @@ export default function Footer() {
             <h4 className="font-bold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="#how-it-works" className="text-gray-400 hover:text-[#22c55e] transition-colors">
+                <Link href="/how-it-works" className="text-gray-400 hover:text-[#22c55e] transition-colors">
                   How It Works
                 </Link>
               </li>
@@ -52,12 +52,27 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/blog" className="text-gray-400 hover:text-[#22c55e] transition-colors">
-                  Reviews
+                  Blog
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="text-gray-400 hover:text-[#22c55e] transition-colors">
+                <Link href="/about" className="text-gray-400 hover:text-[#22c55e] transition-colors">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-gray-400 hover:text-[#22c55e] transition-colors">
                   Contact
+                </Link>
+              </li>
+              <li>
+                <Link href="/privacy-policy" className="text-gray-400 hover:text-[#22c55e] transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms" className="text-gray-400 hover:text-[#22c55e] transition-colors">
+                  Terms of Service
                 </Link>
               </li>
             </ul>
@@ -66,12 +81,22 @@ export default function Footer() {
           {/* Areas Served */}
           <div>
             <h4 className="font-bold text-lg mb-4">We Buy Houses In</h4>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li>Las Vegas</li>
-              <li>Henderson</li>
-              <li>North Las Vegas</li>
-              <li>Summerlin</li>
-              <li>Boulder City</li>
+            <ul className="space-y-2 text-sm">
+              {[
+                { name: 'Las Vegas', href: '/locations/las-vegas' },
+                { name: 'Henderson', href: '/locations/henderson' },
+                { name: 'North Las Vegas', href: '/locations/north-las-vegas' },
+                { name: 'Summerlin', href: '/locations/summerlin' },
+                { name: 'Spring Valley', href: '/locations/spring-valley' },
+                { name: 'Boulder City', href: '/locations/boulder-city' },
+                { name: 'Pahrump', href: '/locations/pahrump' },
+              ].map((area) => (
+                <li key={area.name}>
+                  <Link href={area.href} className="text-gray-400 hover:text-[#22c55e] transition-colors">
+                    {area.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -91,7 +116,17 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm text-gray-500">
-          <p>&copy; {currentYear} Alchemy Investments. All rights reserved.</p>
+          <p>
+            &copy; {currentYear} Alchemy Investments RE. All rights reserved. | Nevada RE License
+            S.0184768 |{' '}
+            <Link href="/privacy-policy" className="hover:text-[#22c55e] transition-colors">
+              Privacy Policy
+            </Link>{' '}
+            |{' '}
+            <Link href="/terms" className="hover:text-[#22c55e] transition-colors">
+              Terms
+            </Link>
+          </p>
         </div>
       </div>
     </footer>

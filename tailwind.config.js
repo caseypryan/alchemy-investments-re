@@ -14,9 +14,10 @@ module.exports = {
           light: '#f8f9fb',
         },
         brand: {
-          blue: '#4A90E2',   // links, icons, focus borders
-          green: '#22c55e',  // primary CTAs
-          teal: '#12C190',   // success states, checkmarks
+          blue: '#4A90E2',     // links, icons, focus borders
+          green: '#22c55e',    // primary CTAs
+          teal: '#12C190',     // success states, checkmarks
+          orange: '#f97316',   // urgency CTAs
         },
       },
       fontFamily: {

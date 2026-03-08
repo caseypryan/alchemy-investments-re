@@ -6,22 +6,63 @@ import Image from 'next/image'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [openSection, setOpenSection] = useState<string | null>(null)
-
-  const toggleSection = (section: string) => {
-    setOpenSection(openSection === section ? null : section)
-  }
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+    <header className="bg-white shadow-sm sticky top-0 z-50 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex justify-between items-center h-[70px]">
-          {/* Left: Hamburger + Logo */}
-          <div className="flex items-center gap-4">
-            {/* Hamburger Menu Button */}
+        <div className="flex justify-between items-center h-[72px]">
+          {/* Logo */}
+          <Link href="/" className="hover:opacity-90 transition-opacity flex-shrink-0">
+            <Image
+              src="/logo.png"
+              alt="Alchemy Investments RE - Cash Home Buyers Las Vegas"
+              width={180}
+              height={50}
+              priority
+              className="h-12 w-auto"
+            />
+          </Link>
+
+          {/* Desktop Nav */}
+          <nav className="hidden md:flex items-center gap-7">
+            <Link href="#how-it-works" className="text-gray-600 hover:text-navy transition-colors font-medium text-[14px]">
+              How It Works
+            </Link>
+            <Link href="#situations" className="text-gray-600 hover:text-navy transition-colors font-medium text-[14px]">
+              Situations We Help
+            </Link>
+            <Link href="/faq" className="text-gray-600 hover:text-navy transition-colors font-medium text-[14px]">
+              FAQ
+            </Link>
+            <Link href="/about" className="text-gray-600 hover:text-navy transition-colors font-medium text-[14px]">
+              About
+            </Link>
+            <Link href="/blog" className="text-gray-600 hover:text-navy transition-colors font-medium text-[14px]">
+              Blog
+            </Link>
+          </nav>
+
+          {/* Right CTAs */}
+          <div className="flex items-center gap-3">
+            <a
+              href="tel:702-718-6934"
+              className="hidden md:flex items-center gap-2 text-navy font-bold text-[15px] hover:text-brand-green transition-colors"
+            >
+              <svg className="w-4 h-4 text-brand-green" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+              </svg>
+              (702) 718-6934
+            </a>
+            <a
+              href="#contact"
+              className="bg-brand-green hover:bg-[#16a34a] text-white font-bold px-5 py-2.5 rounded-lg text-[14px] transition-all duration-200 shadow-sm hover:shadow-md whitespace-nowrap"
+            >
+              Get Cash Offer
+            </a>
+            {/* Mobile hamburger */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="text-gray-600 hover:text-gray-900 focus:outline-none"
+              className="md:hidden text-gray-600 hover:text-gray-900 p-1 focus:outline-none"
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? (
@@ -34,171 +75,43 @@ export default function Header() {
                 </svg>
               )}
             </button>
-
-            {/* Logo */}
-            <Link href="/" className="hover:opacity-90 transition-opacity">
-              <Image
-                src="/logo.png"
-                alt="Alchemy Investments"
-                width={180}
-                height={50}
-                priority
-                className="h-14 w-auto"
-              />
-            </Link>
-          </div>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            <Link href="#how-it-works" className="text-[#333] hover:text-[#22c55e] transition-colors font-normal text-[15px]">
-              How It Works
-            </Link>
-            <Link href="/our-agents" className="text-[#333] hover:text-[#22c55e] transition-colors font-normal text-[15px]">
-              Our Agents
-            </Link>
-            <Link href="/faq" className="text-[#333] hover:text-[#22c55e] transition-colors font-normal text-[15px]">
-              FAQ
-            </Link>
-            <Link href="/blog" className="text-[#333] hover:text-[#22c55e] transition-colors font-normal text-[15px]">
-              Reviews
-            </Link>
-          </nav>
-
-          {/* Contact Button */}
-          <div className="flex items-center gap-4">
-            <a
-              href="tel:702-718-6934"
-              className="hidden md:inline-block text-[#22c55e] font-semibold text-[15px] hover:text-[#16a34a] transition-colors"
-            >
-              (702) 718-6934
-            </a>
-            <a
-              href="#contact"
-              className="bg-[#4A90E2] hover:bg-[#3A80D2] text-white font-semibold px-6 py-2.5 rounded text-[15px] transition-colors"
-            >
-              Find Agents
-            </a>
           </div>
         </div>
       </div>
 
-      {/* Mobile Menu Dropdown */}
+      {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 top-[70px] bg-white z-40 overflow-y-auto">
-          <div className="px-6 py-8">
-            {/* HOME SELLING */}
-            <div className="mb-6">
-              <button
-                onClick={() => toggleSection('selling')}
-                className="w-full flex justify-between items-center text-[#4A90E2] uppercase text-sm font-semibold tracking-wider mb-4"
-              >
-                HOME SELLING
-                <svg
-                  className={`w-5 h-5 transition-transform ${openSection === 'selling' ? 'rotate-180' : ''}`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        <div className="md:hidden bg-white border-t border-gray-100 shadow-lg">
+          <div className="px-6 py-6 space-y-4">
+            <Link href="#how-it-works" className="block text-gray-700 font-medium py-2 border-b border-gray-50" onClick={() => setMobileMenuOpen(false)}>
+              How It Works
+            </Link>
+            <Link href="#situations" className="block text-gray-700 font-medium py-2 border-b border-gray-50" onClick={() => setMobileMenuOpen(false)}>
+              Situations We Help
+            </Link>
+            <Link href="/faq" className="block text-gray-700 font-medium py-2 border-b border-gray-50" onClick={() => setMobileMenuOpen(false)}>
+              FAQ
+            </Link>
+            <Link href="/about" className="block text-gray-700 font-medium py-2 border-b border-gray-50" onClick={() => setMobileMenuOpen(false)}>
+              About
+            </Link>
+            <Link href="/blog" className="block text-gray-700 font-medium py-2 border-b border-gray-50" onClick={() => setMobileMenuOpen(false)}>
+              Blog
+            </Link>
+            <div className="pt-2 space-y-3">
+              <a href="tel:702-718-6934" className="flex items-center gap-2 text-navy font-bold text-lg">
+                <svg className="w-5 h-5 text-brand-green" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-              </button>
-              {openSection === 'selling' && (
-                <div className="pl-4 space-y-4">
-                  <Link href="/#how-it-works" className="block text-gray-700 hover:text-[#22c55e]" onClick={() => setMobileMenuOpen(false)}>
-                    Compare ways to sell
-                  </Link>
-                  <Link href="/sell-guide" className="block text-gray-700 hover:text-[#22c55e]" onClick={() => setMobileMenuOpen(false)}>
-                    Get guidance
-                  </Link>
-                  <Link href="/selling-costs" className="block text-gray-700 hover:text-[#22c55e]" onClick={() => setMobileMenuOpen(false)}>
-                    Home selling costs
-                  </Link>
-                </div>
-              )}
-            </div>
-
-            {/* HOME BUYING */}
-            <div className="mb-6">
-              <button
-                onClick={() => toggleSection('buying')}
-                className="w-full flex justify-between items-center text-[#4A90E2] uppercase text-sm font-semibold tracking-wider mb-4"
+                (702) 718-6934
+              </a>
+              <a
+                href="#contact"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block w-full bg-brand-green text-white font-bold py-3 rounded-lg text-center text-base"
               >
-                HOME BUYING
-                <svg
-                  className={`w-5 h-5 transition-transform ${openSection === 'buying' ? 'rotate-180' : ''}`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              {openSection === 'buying' && (
-                <div className="pl-4 space-y-4">
-                  <Link href="/buying-guide" className="block text-gray-700 hover:text-[#22c55e]" onClick={() => setMobileMenuOpen(false)}>
-                    Get guidance
-                  </Link>
-                  <Link href="/invest" className="block text-gray-700 hover:text-[#22c55e]" onClick={() => setMobileMenuOpen(false)}>
-                    Invest in real estate
-                  </Link>
-                </div>
-              )}
-            </div>
-
-            {/* ABOUT */}
-            <div className="mb-6">
-              <button
-                onClick={() => toggleSection('about')}
-                className="w-full flex justify-between items-center text-[#4A90E2] uppercase text-sm font-semibold tracking-wider mb-4"
-              >
-                ABOUT
-                <svg
-                  className={`w-5 h-5 transition-transform ${openSection === 'about' ? 'rotate-180' : ''}`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              {openSection === 'about' && (
-                <div className="pl-4 space-y-4">
-                  <Link href="/about" className="block text-gray-700 hover:text-[#22c55e]" onClick={() => setMobileMenuOpen(false)}>
-                    About
-                  </Link>
-                  <Link href="/our-agents" className="block text-gray-700 hover:text-[#22c55e]" onClick={() => setMobileMenuOpen(false)}>
-                    Our Agents
-                  </Link>
-                </div>
-              )}
-            </div>
-
-            {/* FOR PROFESSIONALS */}
-            <div className="mb-6">
-              <button
-                onClick={() => toggleSection('professionals')}
-                className="w-full flex justify-between items-center text-[#4A90E2] uppercase text-sm font-semibold tracking-wider mb-4"
-              >
-                FOR PROFESSIONALS
-                <svg
-                  className={`w-5 h-5 transition-transform ${openSection === 'professionals' ? 'rotate-180' : ''}`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              {openSection === 'professionals' && (
-                <div className="pl-4 space-y-4">
-                  <Link href="/for-agents" className="block text-gray-700 hover:text-[#22c55e]" onClick={() => setMobileMenuOpen(false)}>
-                    For agents
-                  </Link>
-                  <Link href="/for-lenders" className="block text-gray-700 hover:text-[#22c55e]" onClick={() => setMobileMenuOpen(false)}>
-                    For lenders
-                  </Link>
-                </div>
-              )}
+                Get My Free Cash Offer
+              </a>
             </div>
           </div>
         </div>

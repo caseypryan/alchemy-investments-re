@@ -10,6 +10,7 @@ interface Suggestion {
 interface Props {
   value: string
   onChange: (value: string) => void
+  onSelect?: (value: string) => void
   className?: string
   placeholder?: string
   id?: string
@@ -18,6 +19,7 @@ interface Props {
 export default function AddressAutocompleteInput({
   value,
   onChange,
+  onSelect,
   className,
   placeholder,
   id,
@@ -64,6 +66,7 @@ export default function AddressAutocompleteInput({
 
   const handleSelect = (suggestion: Suggestion) => {
     onChange(suggestion.text)
+    onSelect?.(suggestion.text)
     setSuggestions([])
     setShowDropdown(false)
   }

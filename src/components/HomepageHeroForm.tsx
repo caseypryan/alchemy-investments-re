@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import AddressAutocompleteInput from '@/components/AddressAutocompleteInput'
 
 interface FieldErrors {
@@ -8,6 +8,19 @@ interface FieldErrors {
   fullName?: string
   phone?: string
   email?: string
+}
+
+const sendPartialLead = (data: Record<string, string>) => {
+  fetch('/api/submit-form', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      ...data,
+      form_type: 'hero_form_partial',
+      submitted_at: new Date().toISOString(),
+      page_url: typeof window !== 'undefined' ? window.location.href : '',
+    }),
+  }).catch(() => {})
 }
 
 export default function HomepageHeroForm() {
@@ -21,6 +34,10 @@ export default function HomepageHeroForm() {
   const [submitSuccess, setSubmitSuccess] = useState(false)
   const [errors, setErrors] = useState<FieldErrors>({})
 
+  // Refs to track what's already been sent to avoid duplicate partial webhooks
+  const sentAddressRef = useRef('')
+  const sentStepsRef = useRef<Set<string>>(new Set())
+
   const validate = (): boolean => {
     const newErrors: FieldErrors = {}
     if (!address.trim()) newErrors.address = 'Property address is required'
@@ -31,6 +48,39 @@ export default function HomepageHeroForm() {
     return Object.keys(newErrors).length === 0
   }
 
+  // Step 1: address selected from autocomplete dropdown
+  const handleAddressSelect = (val: string) => {
+    if (!val || val === sentAddressRef.current) return
+    sentAddressRef.current = val
+    sendPartialLead({ step: 'address_autocomplete', property_address: val })
+  }
+
+  // Step 2: "Get Started" clicked — address submitted
+  const handleGetStarted = () => {
+    setFormExpanded(true)
+    if (address.trim() && !sentStepsRef.current.has('get_started')) {
+      sentStepsRef.current.add('get_started')
+      sendPartialLead({ step: 'address_submitted', property_address: address })
+    }
+  }
+
+  // Step 3: contact field blurred — send whatever's filled so far
+  const handleFieldBlur = (field: string, value: string) => {
+    if (!value.trim()) return
+    const stepKey = `${field}_${value}`
+    if (sentStepsRef.current.has(stepKey)) return
+    sentStepsRef.current.add(stepKey)
+    sendPartialLead({
+      step: `contact_${field}`,
+      property_address: address,
+      full_name: fullName,
+      phone_number: phone,
+      email_address: email,
+      // override with the just-blurred value
+      [field === 'fullName' ? 'full_name' : field === 'phone' ? 'phone_number' : 'email_address']: value,
+    })
+  }
+
   const handleHeroFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!validate()) return
@@ -38,6 +88,7 @@ export default function HomepageHeroForm() {
 
     const formData = {
       form_type: 'hero_form',
+      step: 'completed',
       property_address: address,
       full_name: fullName,
       phone_number: phone,
@@ -70,6 +121,8 @@ export default function HomepageHeroForm() {
         setErrors({})
         setFormExpanded(false)
         setSubmitSuccess(false)
+        sentAddressRef.current = ''
+        sentStepsRef.current = new Set()
       }, 6000)
     } catch (error) {
       console.error('Form submission error:', error)
@@ -131,6 +184,7 @@ export default function HomepageHeroForm() {
                   <AddressAutocompleteInput
                     value={address}
                     onChange={setAddress}
+                    onSelect={handleAddressSelect}
                     placeholder="Enter your address"
                     className="w-full px-5 py-4 text-base focus:outline-none border-none bg-transparent"
                   />
@@ -148,7 +202,7 @@ export default function HomepageHeroForm() {
                   </svg>
                 </div>
                 <button
-                  onClick={() => setFormExpanded(true)}
+                  onClick={handleGetStarted}
                   className="bg-brand-green hover:bg-[#16a34a] text-white font-semibold px-8 py-4 text-base transition-colors border-l-0"
                 >
                   Get Started
@@ -188,6 +242,7 @@ export default function HomepageHeroForm() {
                   <AddressAutocompleteInput
                     value={address}
                     onChange={(val) => { setAddress(val); if (errors.address) setErrors(p => ({ ...p, address: undefined })) }}
+                    onSelect={handleAddressSelect}
                     className={inputClass(errors.address)}
                     placeholder="123 Main St, Las Vegas, NV"
                   />
@@ -202,6 +257,7 @@ export default function HomepageHeroForm() {
                       type="text"
                       value={fullName}
                       onChange={(e) => { setFullName(e.target.value); if (errors.fullName) setErrors(p => ({ ...p, fullName: undefined })) }}
+                      onBlur={(e) => handleFieldBlur('fullName', e.target.value)}
                       className={inputClass(errors.fullName)}
                       placeholder="John Doe"
                     />
@@ -215,6 +271,7 @@ export default function HomepageHeroForm() {
                       type="tel"
                       value={phone}
                       onChange={(e) => { setPhone(e.target.value); if (errors.phone) setErrors(p => ({ ...p, phone: undefined })) }}
+                      onBlur={(e) => handleFieldBlur('phone', e.target.value)}
                       className={inputClass(errors.phone)}
                       placeholder="(702) 123-4567"
                     />
@@ -229,6 +286,7 @@ export default function HomepageHeroForm() {
                     type="email"
                     value={email}
                     onChange={(e) => { setEmail(e.target.value); if (errors.email) setErrors(p => ({ ...p, email: undefined })) }}
+                    onBlur={(e) => handleFieldBlur('email', e.target.value)}
                     className={inputClass(errors.email)}
                     placeholder="john@example.com"
                   />

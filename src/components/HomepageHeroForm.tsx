@@ -124,7 +124,7 @@ export default function HomepageHeroForm() {
           </h1>
 
           {/* Search/Form Bar */}
-          <div className="bg-white rounded-lg shadow-xl mb-6 overflow-hidden border-4 border-white">
+          <div className="bg-white rounded-lg shadow-xl mb-6 border-4 border-white">
             {!formExpanded ? (
               <div className="flex">
                 <div className="flex-1 relative bg-white">

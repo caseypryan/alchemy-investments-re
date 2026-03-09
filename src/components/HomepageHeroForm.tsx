@@ -10,12 +10,22 @@ interface FieldErrors {
   email?: string
 }
 
+const getUtmParams = (): Record<string, string> => {
+  if (typeof window === 'undefined') return {}
+  const params = new URLSearchParams(window.location.search)
+  const utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content']
+  const result: Record<string, string> = {}
+  utmKeys.forEach(k => { const v = params.get(k); if (v) result[k] = v })
+  return result
+}
+
 const sendPartialLead = (data: Record<string, string>) => {
   fetch('/api/submit-form', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       ...data,
+      ...getUtmParams(),
       form_type: 'hero_form_partial',
       submitted_at: new Date().toISOString(),
       page_url: typeof window !== 'undefined' ? window.location.href : '',
@@ -42,8 +52,6 @@ export default function HomepageHeroForm() {
     const newErrors: FieldErrors = {}
     if (!address.trim()) newErrors.address = 'Property address is required'
     if (!fullName.trim()) newErrors.fullName = 'Full name is required'
-    if (!phone.trim()) newErrors.phone = 'Phone number is required'
-    if (!email.trim()) newErrors.email = 'Email address is required'
     setErrors(newErrors)
     return Object.keys(newErrors).length === 0
   }
@@ -52,6 +60,10 @@ export default function HomepageHeroForm() {
   const handleAddressSelect = (val: string) => {
     if (!val || val === sentAddressRef.current) return
     sentAddressRef.current = val
+    // Update URL with full_address param
+    const url = new URL(window.location.href)
+    url.searchParams.set('full_address', val)
+    window.history.replaceState({}, '', url.toString())
     sendPartialLead({ step: 'address_autocomplete', property_address: val })
   }
 
@@ -93,6 +105,7 @@ export default function HomepageHeroForm() {
       full_name: fullName,
       phone_number: phone,
       email_address: email,
+      ...getUtmParams(),
       submitted_at: new Date().toISOString(),
       page_url: window.location.href,
     }
@@ -265,7 +278,7 @@ export default function HomepageHeroForm() {
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Phone Number *
+                      Phone Number
                     </label>
                     <input
                       type="tel"
@@ -280,7 +293,7 @@ export default function HomepageHeroForm() {
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Email Address *
+                    Email Address
                   </label>
                   <input
                     type="email"

@@ -17,11 +17,10 @@ export async function POST(request: NextRequest) {
         input,
         languageCode: 'en',
         regionCode: 'US',
-        includedPrimaryTypes: ['street_address', 'premise'],
         locationBias: {
           circle: {
             center: { latitude: 36.1699, longitude: -115.1398 },
-            radius: 80000.0,
+            radius: 50000.0,
           },
         },
       }),

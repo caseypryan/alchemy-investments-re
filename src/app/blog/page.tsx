@@ -10,6 +10,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/blog',
   },
+  openGraph: {
+    title: 'Las Vegas Real Estate Blog & Seller Resources',
+    description: 'Expert guides for Las Vegas homeowners on selling fast, foreclosure, inherited homes, divorce sales, and market trends.',
+    url: 'https://alchemyinvestmentsre.com/blog',
+    type: 'website',
+  },
 }
 
 const reviews = [

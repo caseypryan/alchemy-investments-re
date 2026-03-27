@@ -1,0 +1,159 @@
+{
+  "slug": "boulder-city",
+  "type": "location",
+  "seo": {
+    "title": "We Buy Houses in Boulder City, NV | Sell Fast for Cash",
+    "description": "Get a fair cash offer for your Boulder City home in 24 hours. We buy houses as-is in any condition — no repairs, no fees, no commissions. Close in as little as 7 days.",
+    "keywords": [
+      "sell house fast Boulder City",
+      "cash home buyers Boulder City",
+      "we buy houses Boulder City",
+      "sell house as-is Boulder City NV",
+      "Boulder City Nevada cash buyers"
+    ],
+    "canonical": "https://alchemyinvestmentsre.com/locations/boulder-city"
+  },
+  "hero": {
+    "heading": "Sell Your Boulder City Home Fast for Cash",
+    "subheading": "Get a fair, no-obligation cash offer in 24 hours. Close on your timeline.",
+    "cta": "Get Your Cash Offer",
+    "ctaLink": "/#hero-form"
+  },
+  "location": {
+    "city": "Boulder City",
+    "state": "Nevada",
+    "stateAbbr": "NV",
+    "zipCodes": ["89005"],
+    "neighborhoods": [
+      "Historic Downtown Boulder City",
+      "Boulder City Subdivision",
+      "El Rancho Estates",
+      "Bootleg Canyon Area",
+      "Lake Mead National Recreation Area Boundary"
+    ],
+    "population": 15000,
+    "medianHomePrice": "$360,000",
+    "coordinates": {
+      "latitude": 35.9788,
+      "longitude": -114.8326
+    }
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "heading": "Why Boulder City Homeowners Choose Alchemy Investments RE",
+      "content": "Boulder City is Nevada's only city that prohibits gambling, giving it a unique small-town feel just 25 miles from Las Vegas. Whether you own a historic home near downtown, a property near Bootleg Canyon, or a house close to Lake Mead, we're here to help you sell quickly for cash.\n\nAt Alchemy Investments RE, we buy homes throughout Boulder City in any condition. From charming 1940s cottages to newer construction, we make fair cash offers and can close in as little as 7 days. No repairs, no agent fees, no closing costs — just a straightforward sale."
+    },
+    {
+      "type": "benefits",
+      "heading": "Benefits of Selling Your Boulder City Home to Us",
+      "items": [
+        {
+          "icon": "Clock",
+          "title": "Fast Cash Offers",
+          "description": "Receive a fair, no-obligation cash offer within 24 hours of contacting us."
+        },
+        {
+          "icon": "Home",
+          "title": "Sell As-Is",
+          "description": "No need to make repairs, clean, or stage. We buy your Boulder City home exactly as it is."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "No Fees or Commissions",
+          "description": "Save thousands — no realtor commissions, no closing costs, no hidden fees."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Close on Your Timeline",
+          "description": "Choose your closing date. We can close in 7 days or give you more time if needed."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "No Contingencies",
+          "description": "Our cash offers aren't contingent on financing, appraisals, or inspections."
+        },
+        {
+          "icon": "Users",
+          "title": "Local Southern Nevada Experts",
+          "description": "We know Boulder City's market, neighborhoods, and property values."
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "heading": "How to Sell Your Boulder City House for Cash",
+      "items": [
+        {
+          "step": 1,
+          "title": "Tell Us About Your Property",
+          "description": "Fill out our simple form or give us a call. Tell us about your Boulder City home and your situation."
+        },
+        {
+          "step": 2,
+          "title": "Get Your Cash Offer",
+          "description": "We'll evaluate your property and present a fair, no-obligation cash offer within 24 hours."
+        },
+        {
+          "step": 3,
+          "title": "Choose Your Closing Date",
+          "description": "Accept our offer and pick a closing date that works for you."
+        },
+        {
+          "step": 4,
+          "title": "Get Paid and Move On",
+          "description": "Close at a local title company and receive your cash. Simple and stress-free."
+        }
+      ]
+    },
+    {
+      "type": "faqs",
+      "heading": "Boulder City Home Selling FAQs"
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Sell Your Boulder City Home?",
+      "content": "Get your fair cash offer today. No obligation, no pressure — just a simple solution.",
+      "cta": "Get Started Now",
+      "ctaLink": "/#hero-form"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How quickly can you buy my Boulder City house?",
+      "answer": "We can close in as little as 7 days, though we work on your timeline. Whether you need to close fast or want more time to move, we accommodate your schedule."
+    },
+    {
+      "question": "Do you buy houses in Boulder City in any condition?",
+      "answer": "Yes. We buy Boulder City homes in any condition — from well-maintained properties to those needing significant repairs, including older homes with deferred maintenance, foundation issues, or outdated systems."
+    },
+    {
+      "question": "Will I pay any fees or commissions?",
+      "answer": "No. There are zero fees, commissions, or closing costs when you sell to us. The cash offer we make is the amount you receive at closing."
+    },
+    {
+      "question": "Do I need to make repairs before selling?",
+      "answer": "Not at all. We buy as-is — no cleaning, repairs, or staging required."
+    },
+    {
+      "question": "Is there any obligation when I request a cash offer?",
+      "answer": "None. Our cash offer is completely free with no pressure to accept."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "David Ruiz",
+      "location": "Boulder City, NV",
+      "rating": 5,
+      "text": "Inherited my parents' Boulder City home and needed a fast, simple sale. Alchemy Investments gave us a fair offer and closed in under two weeks. The process couldn't have been easier.",
+      "date": "2024-03-12"
+    }
+  ],
+  "migration": {
+    "oldUrl": "",
+    "redirectFrom": [],
+    "lastModified": "2026-03-26",
+    "priority": 0.8,
+    "changeFrequency": "monthly"
+  }
+}

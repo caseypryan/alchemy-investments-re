@@ -1,0 +1,161 @@
+{
+  "slug": "enterprise",
+  "type": "location",
+  "seo": {
+    "title": "We Buy Houses in Enterprise, NV | Sell Fast for Cash",
+    "description": "Get a fair cash offer for your Enterprise (SW Las Vegas) home in 24 hours. We buy houses as-is — no repairs, no fees, no commissions. Close in as little as 7 days.",
+    "keywords": [
+      "sell house fast Enterprise NV",
+      "cash home buyers Enterprise Las Vegas",
+      "we buy houses Enterprise Nevada",
+      "sell house as-is Enterprise NV",
+      "Southwest Las Vegas cash buyers"
+    ],
+    "canonical": "https://alchemyinvestmentsre.com/locations/enterprise"
+  },
+  "hero": {
+    "heading": "Sell Your Enterprise Home Fast for Cash",
+    "subheading": "Get a fair, no-obligation cash offer in 24 hours. We buy houses in any condition.",
+    "cta": "Get Your Cash Offer",
+    "ctaLink": "/#hero-form"
+  },
+  "location": {
+    "city": "Enterprise",
+    "state": "Nevada",
+    "stateAbbr": "NV",
+    "zipCodes": ["89139", "89141", "89148", "89178", "89179"],
+    "neighborhoods": [
+      "Mountains Edge",
+      "Southern Highlands",
+      "Inspirada (Enterprise portion)",
+      "Rhodes Ranch",
+      "Tuscany",
+      "The Ridges",
+      "Summerlin South"
+    ],
+    "population": 200000,
+    "medianHomePrice": "$450,000",
+    "coordinates": {
+      "latitude": 36.0339,
+      "longitude": -115.2225
+    }
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "heading": "Why Enterprise Homeowners Choose Alchemy Investments RE",
+      "content": "Enterprise is an unincorporated community in Clark County and one of the fastest-growing areas in the Las Vegas Valley. Located in the southwest portion of the metro area, Enterprise is home to popular master-planned communities including Mountains Edge, Southern Highlands, and Rhodes Ranch.\n\nAt Alchemy Investments RE, we buy homes throughout Enterprise in any condition. From newer construction in Southern Highlands to established homes in Mountains Edge, we make fair cash offers and can close in as little as 7 days — no repairs, no commissions, no closing costs."
+    },
+    {
+      "type": "benefits",
+      "heading": "Benefits of Selling Your Enterprise Home to Us",
+      "items": [
+        {
+          "icon": "Clock",
+          "title": "Fast Cash Offers",
+          "description": "Receive a fair, no-obligation cash offer within 24 hours of contacting us."
+        },
+        {
+          "icon": "Home",
+          "title": "Sell As-Is",
+          "description": "We buy Enterprise homes in any condition — no repairs, cleaning, or staging needed."
+        },
+        {
+          "icon": "DollarSign",
+          "title": "No Fees or Commissions",
+          "description": "Zero agent commissions, closing costs, or hidden fees."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Close on Your Timeline",
+          "description": "Close in as little as 7 days or choose a later date that works for you."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "No Contingencies",
+          "description": "Cash offers with no financing, appraisal, or inspection contingencies."
+        },
+        {
+          "icon": "Users",
+          "title": "Local Las Vegas Valley Experts",
+          "description": "We know Enterprise's communities, HOA structures, and current market values."
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "heading": "How to Sell Your Enterprise House for Cash",
+      "items": [
+        {
+          "step": 1,
+          "title": "Tell Us About Your Property",
+          "description": "Fill out our quick form or call (702) 547-6664. Share basic details about your Enterprise home."
+        },
+        {
+          "step": 2,
+          "title": "Get Your Cash Offer",
+          "description": "We evaluate your property and provide a written, no-obligation cash offer within 24 hours."
+        },
+        {
+          "step": 3,
+          "title": "Choose Your Closing Date",
+          "description": "Accept our offer and select a closing date that fits your schedule."
+        },
+        {
+          "step": 4,
+          "title": "Get Paid and Move On",
+          "description": "Close at a local title company and receive your cash payment."
+        }
+      ]
+    },
+    {
+      "type": "faqs",
+      "heading": "Enterprise Home Selling FAQs"
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to Sell Your Enterprise Home?",
+      "content": "Get your free cash offer today — no obligation, no pressure.",
+      "cta": "Get Started Now",
+      "ctaLink": "/#hero-form"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How quickly can you buy my Enterprise home?",
+      "answer": "We can close in as little as 7 days after you accept our offer. We're also flexible if you need more time to prepare for your move."
+    },
+    {
+      "question": "Do you buy homes in HOA communities like Southern Highlands and Mountains Edge?",
+      "answer": "Yes. We're experienced with HOA communities throughout Enterprise including Southern Highlands, Mountains Edge, and Rhodes Ranch. We handle all HOA coordination as part of the transaction."
+    },
+    {
+      "question": "What if my Enterprise home needs major repairs?",
+      "answer": "No problem. We buy homes in any condition — from minor cosmetic issues to major structural problems. We factor repair costs into our offer so you don't have to fix anything."
+    },
+    {
+      "question": "Will I pay any fees or commissions?",
+      "answer": "None. No agent commissions, no closing costs, no fees. The cash offer we make is exactly what you receive at closing."
+    },
+    {
+      "question": "Is there any obligation when I request a cash offer?",
+      "answer": "No obligation at all. Our cash offer is free and there's zero pressure to accept."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Jessica Williams",
+      "location": "Mountains Edge, Enterprise NV",
+      "rating": 5,
+      "text": "Needed to sell our Mountains Edge home quickly when we relocated out of state. Alchemy Investments gave us a fair cash offer and closed in 9 days. Made a stressful situation very manageable.",
+      "date": "2024-05-08"
+    }
+  ],
+  "migration": {
+    "oldUrl": "",
+    "redirectFrom": [],
+    "lastModified": "2026-03-26",
+    "priority": 0.8,
+    "changeFrequency": "monthly"
+  }
+}

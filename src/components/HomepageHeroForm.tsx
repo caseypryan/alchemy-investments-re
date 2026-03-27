@@ -139,7 +139,7 @@ export default function HomepageHeroForm() {
       }, 6000)
     } catch (error) {
       console.error('Form submission error:', error)
-      alert('There was an error submitting your form. Please call us at (702) 718-6934.')
+      alert('There was an error submitting your form. Please call us at (702) 547-6664.')
     } finally {
       setIsSubmitting(false)
     }

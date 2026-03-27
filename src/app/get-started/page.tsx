@@ -5,9 +5,15 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Get Started - Sell Your Las Vegas House Fast | Free Cash Offer',
-  description: 'Start selling your Las Vegas house today. Get a free cash offer in 24 hours. Simple 3-step process. No repairs, no fees. Call (702) 718-6934 or request your offer online.',
+  description: 'Start selling your Las Vegas house today. Get a free cash offer in 24 hours. Simple 3-step process. No repairs, no fees. Call (702) 547-6664 or request your offer online.',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/get-started',
+  },
+  openGraph: {
+    title: 'Get Started — Sell Your Las Vegas House Fast for Cash',
+    description: 'Start selling your Las Vegas house today. Get a free cash offer in 24 hours. No repairs, no fees, no commissions.',
+    url: 'https://alchemyinvestmentsre.com/get-started',
+    type: 'website',
   },
 }
 
@@ -49,7 +55,7 @@ export default function GetStartedPage() {
               <Link href="/#hero-form" className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-bold px-12 py-5 rounded-lg text-xl transition-colors mb-6">
                 Get Your Free Cash Offer
               </Link>
-              <p className="text-gray-600">Or call us at <a href="tel:702-718-6934" className="text-[#4A90E2] font-bold hover:underline">(702) 718-6934</a></p>
+              <p className="text-gray-600">Or call us at <a href="tel:702-547-6664" className="text-[#4A90E2] font-bold hover:underline">(702) 547-6664</a></p>
             </div>
           </div>
         </section>

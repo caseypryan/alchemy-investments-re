@@ -32,8 +32,8 @@ export default function ThankYouPage() {
             <p className="text-gray-500 mb-10">
               Our team is available 7 days a week. If you need to speak with someone right away,
               call us at{' '}
-              <a href="tel:702-718-6934" className="text-[#4A90E2] font-semibold hover:underline">
-                (702) 718-6934
+              <a href="tel:702-547-6664" className="text-[#4A90E2] font-semibold hover:underline">
+                (702) 547-6664
               </a>
               .
             </p>

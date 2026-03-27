@@ -24,8 +24,8 @@ export default function Footer() {
               <p>8978 Spanish Ridge</p>
               <p>Las Vegas, NV 89148</p>
               <p className="mt-3">
-                <a href="tel:702-718-6934" className="text-[#22c55e] hover:text-white font-semibold">
-                  (702) 718-6934
+                <a href="tel:702-547-6664" className="text-[#22c55e] hover:text-white font-semibold">
+                  (702) 547-6664
                 </a>
               </p>
               <p>

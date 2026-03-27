@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { getBlogIndex } from '@/lib/content'
 
 export const metadata: Metadata = {
-  title: 'Blog & Resources | Alchemy Investments RE',
+  title: 'Las Vegas Real Estate Blog & Seller Resources',
   description: 'Expert guides for Las Vegas homeowners. Learn about selling fast, foreclosure, inherited homes, divorce sales, and the latest Las Vegas real estate market trends.',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/blog',
@@ -227,7 +227,7 @@ export default async function BlogPage() {
               Get Started &rarr;
             </Link>
             <p className="text-lg mt-6">
-              Or call us: <a href="tel:702-718-6934" className="font-bold hover:underline">(702) 718-6934</a>
+              Or call us: <a href="tel:702-547-6664" className="font-bold hover:underline">(702) 547-6664</a>
             </p>
           </div>
         </section>

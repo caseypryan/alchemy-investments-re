@@ -46,7 +46,7 @@ export default function HomepageCTAForm() {
       }, 6000)
     } catch (error) {
       console.error('Form submission error:', error)
-      alert('There was an error submitting your form. Please call us at (702) 718-6934.')
+      alert('There was an error submitting your form. Please call us at (702) 547-6664.')
     } finally {
       setIsSubmitting(false)
     }
@@ -115,13 +115,13 @@ export default function HomepageCTAForm() {
         <div className="flex items-center justify-center gap-2 mb-6">
           <span className="text-gray-600">or call us at</span>
           <a
-            href="tel:702-718-6934"
+            href="tel:702-547-6664"
             className="text-brand-blue font-bold text-xl flex items-center gap-2 hover:underline"
           >
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
             </svg>
-            (702) 718-6934
+            (702) 547-6664
           </a>
         </div>
 

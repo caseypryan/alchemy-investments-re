@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'About Us | Alchemy Investments RE | Licensed Las Vegas Cash Home Buyers',
+  title: 'About Us | Licensed Las Vegas Cash Home Buyers',
   description: 'Learn about Alchemy Investments RE. Licensed real estate investment brokerage serving Las Vegas since 2010. Over 500 homes purchased with fair, transparent cash offers.',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/about',

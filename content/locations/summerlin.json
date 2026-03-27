@@ -91,7 +91,7 @@
         {
           "step": 1,
           "title": "Tell Us About Your Property",
-          "description": "Fill out our simple form or call (702) 718-6934. Tell us about your Summerlin home."
+          "description": "Fill out our simple form or call (702) 547-6664. Tell us about your Summerlin home."
         },
         {
           "step": 2,
@@ -158,8 +158,8 @@
     "description": "Get a fair cash offer in 24 hours. No repairs, no fees, no obligations.",
     "primaryButton": "Get Your Free Offer",
     "primaryLink": "/#hero-form",
-    "secondaryButton": "Call (702) 718-6934",
-    "secondaryLink": "tel:702-718-6934"
+    "secondaryButton": "Call (702) 547-6664",
+    "secondaryLink": "tel:702-547-6664"
   },
   "migration": {
     "originalUrl": null,

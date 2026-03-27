@@ -67,10 +67,10 @@ export default function Header() {
           {/* Contact Button */}
           <div className="flex items-center gap-4">
             <a
-              href="tel:702-718-6934"
+              href="tel:702-547-6664"
               className="hidden md:inline-block text-[#22c55e] font-semibold text-[15px] hover:text-[#16a34a] transition-colors"
             >
-              (702) 718-6934
+              (702) 547-6664
             </a>
             <a
               href="#contact"

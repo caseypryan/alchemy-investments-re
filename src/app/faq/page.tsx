@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical: 'https://alchemyinvestmentsre.com/faq',
   },
   openGraph: {
-    title: 'FAQ — Selling Your Las Vegas House Fast | Alchemy Investments RE',
+    title: 'FAQ — Selling Your Las Vegas House Fast for Cash',
     description:
       'Everything you need to know about selling your house fast for cash in Las Vegas. No fees, no repairs, close in 7-14 days.',
     url: 'https://alchemyinvestmentsre.com/faq',
@@ -151,10 +151,10 @@ export default function FAQPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:702-718-6934"
+                href="tel:702-547-6664"
                 className="inline-block bg-brand-green hover:bg-[#16a34a] text-white font-semibold px-8 py-4 rounded transition-colors"
               >
-                Call: (702) 718-6934
+                Call: (702) 547-6664
               </a>
               <a
                 href="/contact"

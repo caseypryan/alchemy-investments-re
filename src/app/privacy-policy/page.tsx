@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Alchemy Investments RE',
+  title: 'Privacy Policy',
   description: 'Privacy policy for Alchemy Investments RE. Learn how we collect, use, and protect your personal information.',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/privacy-policy',
@@ -95,8 +95,8 @@ export default function PrivacyPolicyPage() {
               <p>
                 You have the right to request access to, correction of, or deletion of your
                 personal information. To exercise these rights, contact us at{' '}
-                <a href="tel:702-718-6934" className="text-[#4A90E2] hover:underline">
-                  (702) 718-6934
+                <a href="tel:702-547-6664" className="text-[#4A90E2] hover:underline">
+                  (702) 547-6664
                 </a>
                 .
               </p>
@@ -107,8 +107,8 @@ export default function PrivacyPolicyPage() {
               <p>
                 If you have questions about this Privacy Policy, please contact Alchemy Investments
                 RE at{' '}
-                <a href="tel:702-718-6934" className="text-[#4A90E2] hover:underline">
-                  (702) 718-6934
+                <a href="tel:702-547-6664" className="text-[#4A90E2] hover:underline">
+                  (702) 547-6664
                 </a>{' '}
                 or visit our{' '}
                 <a href="/contact" className="text-[#4A90E2] hover:underline">

@@ -7,7 +7,7 @@ export const localBusinessSchema = {
   image: 'https://alchemyinvestmentsre.com/logo.png',
   '@id': 'https://alchemyinvestmentsre.com',
   url: 'https://alchemyinvestmentsre.com',
-  telephone: '+1-702-718-6934',
+  telephone: '+1-702-547-6664',
   email: 'offers@alchemyinvestmentsre.com',
   priceRange: '$$',
   address: {
@@ -64,7 +64,7 @@ export const organizationSchema = {
   email: 'offers@alchemyinvestmentsre.com',
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+1-702-718-6934',
+    telephone: '+1-702-547-6664',
     contactType: 'customer service',
     email: 'offers@alchemyinvestmentsre.com',
     areaServed: 'US',

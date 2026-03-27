@@ -109,7 +109,7 @@
         {
           "step": 1,
           "title": "Contact Us",
-          "description": "Fill out our simple form or call us at 702-718-6934. Tell us about your property and situation.",
+          "description": "Fill out our simple form or call us at 702-547-6664. Tell us about your property and situation.",
           "icon": "Phone"
         },
         {
@@ -264,11 +264,11 @@
     "description": "Get a fair cash offer in 24 hours with no obligation. Or connect with one of our top agents. Either way, you're in expert hands.",
     "primaryButton": "Get Your Free Offer",
     "primaryLink": "#hero-form",
-    "secondaryButton": "Call Us: 702-718-6934",
-    "secondaryLink": "tel:702-718-6934"
+    "secondaryButton": "Call Us: 702-547-6664",
+    "secondaryLink": "tel:702-547-6664"
   },
   "contact": {
-    "phone": "702-718-6934",
+    "phone": "702-547-6664",
     "email": "Casey@AlchemyInvestmentsRE.com",
     "address": "8978 Spanish Ridge, Las Vegas, NV 89148",
     "hours": "9 AM–6 PM, Monday–Friday",

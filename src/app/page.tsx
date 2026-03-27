@@ -8,7 +8,7 @@ import HomepageCTAForm from '@/components/HomepageCTAForm'
 export const metadata: Metadata = {
   title: 'Sell My House Fast Las Vegas | Cash Offers in 24 Hours | Top 1% Agents',
   description:
-    'Sell your Las Vegas house fast for cash OR with top 1% agents. Get fair offers in 24 hours. No repairs needed. Close in 7-14 days. Licensed brokerage with 10+ years experience. Call (702) 718-6934.',
+    'Sell your Las Vegas house fast for cash OR with top 1% agents. Get fair offers in 24 hours. No repairs needed. Close in 7-14 days. Licensed brokerage with 10+ years experience. Call (702) 547-6664.',
   keywords:
     'sell my house fast las vegas, cash home buyers las vegas, we buy houses las vegas, sell house as-is las vegas, las vegas real estate investors, quick cash offers las vegas, sell house fast nevada, henderson cash buyers, summerlin home buyers',
   openGraph: {
@@ -46,7 +46,7 @@ const localBusinessSchema = {
   description:
     'Licensed Las Vegas real estate brokerage offering cash home purchases and top 1% agent services. We buy houses in any condition throughout the Las Vegas Valley.',
   url: 'https://alchemyinvestmentsre.com',
-  telephone: '(702) 718-6934',
+  telephone: '(702) 547-6664',
   email: 'offers@alchemyinvestmentsre.com',
   license: 'S.0184768',
   address: {
@@ -84,7 +84,7 @@ const organizationSchema = {
   name: 'Alchemy Investments RE',
   url: 'https://alchemyinvestmentsre.com',
   logo: 'https://alchemyinvestmentsre.com/logo.png',
-  telephone: '(702) 718-6934',
+  telephone: '(702) 547-6664',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Las Vegas',
@@ -93,7 +93,7 @@ const organizationSchema = {
   },
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '(702) 718-6934',
+    telephone: '(702) 547-6664',
     contactType: 'customer service',
     availableLanguage: 'English',
     areaServed: 'US',
@@ -290,8 +290,8 @@ export default function Home() {
                     Our Concierge Team will reach out within 5 minutes to answer your questions,
                     offer advice, and learn exactly what you&apos;re looking for. You can also call
                     us directly at{' '}
-                    <a href="tel:702-718-6934" className="text-[#4A90E2] font-semibold hover:underline">
-                      (702) 718-6934
+                    <a href="tel:702-547-6664" className="text-[#4A90E2] font-semibold hover:underline">
+                      (702) 547-6664
                     </a>{' '}
                     7 days a week.
                   </p>

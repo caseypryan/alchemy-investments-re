@@ -23,13 +23,15 @@ export default function robots(): MetadataRoute.Robots {
           '/agent/',
         ],
       },
-      // Allow AI search crawlers for citation visibility
-      { userAgent: 'GPTBot', allow: '/' },
+      // Allow AI citation crawlers (real-time browsing/search — drives brand visibility)
       { userAgent: 'ChatGPT-User', allow: '/' },
       { userAgent: 'PerplexityBot', allow: '/' },
-      { userAgent: 'ClaudeBot', allow: '/' },
-      // Block Gemini training (does NOT affect Google Search or AI Overviews)
+      // Block AI training crawlers (no citation benefit, just model training)
+      { userAgent: 'GPTBot', disallow: '/' },
+      { userAgent: 'ClaudeBot', disallow: '/' },
       { userAgent: 'Google-Extended', disallow: '/' },
+      { userAgent: 'Bytespider', disallow: '/' },
+      { userAgent: 'CCBot', disallow: '/' },
     ],
     sitemap: 'https://alchemyinvestmentsre.com/sitemap.xml',
   }

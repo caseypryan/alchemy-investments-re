@@ -461,8 +461,8 @@ export default function BlogPost() {
                 <Link href="/#valuation" className="btn-primary text-center">
                   Get Your Cash Offer
                 </Link>
-                <a href="tel:702-718-6934" className="btn-outline text-center">
-                  Call: 702-718-6934
+                <a href="tel:702-547-6664" className="btn-outline text-center">
+                  Call: 702-547-6664
                 </a>
               </div>
             </div>

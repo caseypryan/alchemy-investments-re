@@ -48,7 +48,7 @@ export default function PropertiesPage() {
       }, 3000)
     } catch (error) {
       console.error('Form submission error:', error)
-      alert('There was an error. Please call us at (702) 718-6934.')
+      alert('There was an error. Please call us at (702) 547-6664.')
     } finally {
       setIsSubmitting(false)
     }
@@ -99,10 +99,10 @@ export default function PropertiesPage() {
               </p>
               <div className="flex gap-4 justify-center flex-wrap">
                 <a
-                  href="tel:702-718-6934"
+                  href="tel:702-547-6664"
                   className="bg-[#22c55e] hover:bg-[#16a34a] text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
-                  Call (702) 718-6934
+                  Call (702) 547-6664
                 </a>
                 <a
                   href="#inquiry-form"

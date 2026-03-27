@@ -29,7 +29,7 @@ const howItWorksSchema = {
   provider: {
     '@type': 'RealEstateAgent',
     name: 'Alchemy Investments RE',
-    telephone: '(702) 718-6934',
+    telephone: '(702) 547-6664',
     url: 'https://alchemyinvestmentsre.com',
   },
   areaServed: [
@@ -57,7 +57,7 @@ const steps = [
     number: 1,
     title: 'Tell Us About Your Property',
     description:
-      'Fill out our short form with your property address, or call us directly at (702) 718-6934. Our team will reach out within 5 minutes to ask a few questions about your home and your goals.',
+      'Fill out our short form with your property address, or call us directly at (702) 547-6664. Our team will reach out within 5 minutes to ask a few questions about your home and your goals.',
     details: [
       'Takes less than 60 seconds',
       'No obligation whatsoever',
@@ -227,10 +227,10 @@ export default function HowItWorksPage() {
                 Get My Cash Offer
               </Link>
               <a
-                href="tel:702-718-6934"
+                href="tel:702-547-6664"
                 className="border-2 border-white text-white hover:bg-white hover:text-[#2b3d4f] font-semibold px-10 py-4 rounded-lg text-lg transition-colors"
               >
-                Call (702) 718-6934
+                Call (702) 547-6664
               </a>
             </div>
           </div>

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: 'Sell My House Fast Las Vegas | Cash Offers in 24 Hours | Alchemy Investments RE',
     template: '%s | Alchemy Investments RE',
   },
-  description: 'Sell your Las Vegas house fast for cash OR with top 1% agents. Get fair offers in 24 hours. No repairs needed. Close in 7-14 days. Licensed brokerage (NV S.0184768). Call (702) 718-6934.',
+  description: 'Sell your Las Vegas house fast for cash OR with top 1% agents. Get fair offers in 24 hours. No repairs needed. Close in 7-14 days. Licensed brokerage (NV S.0184768). Call (702) 547-6664.',
   openGraph: {
     type: 'website',
     locale: 'en_US',

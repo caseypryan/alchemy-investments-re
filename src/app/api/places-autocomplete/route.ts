@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
         regionCode: 'US',
         locationBias: {
           circle: {
-            center: { latitude: 36.1699, longitude: -115.1398 },
+            center: { latitude: 36.08954, longitude: -115.28779 },
             radius: 50000.0,
           },
         },

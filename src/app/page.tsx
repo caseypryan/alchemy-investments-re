@@ -47,7 +47,7 @@ const localBusinessSchema = {
     'Licensed Las Vegas real estate brokerage offering cash home purchases and top 1% agent services. We buy houses in any condition throughout the Las Vegas Valley.',
   url: 'https://alchemyinvestmentsre.com',
   telephone: '(702) 718-6934',
-  email: 'info@alchemyinvestmentsre.com',
+  email: 'offers@alchemyinvestmentsre.com',
   license: 'S.0184768',
   address: {
     '@type': 'PostalAddress',
@@ -72,7 +72,10 @@ const localBusinessSchema = {
     closes: '23:59',
   },
   priceRange: '$$',
-  sameAs: ['https://alchemyinvestmentsre.com'],
+  sameAs: [
+    'https://www.google.com/maps/place/Alchemy+Investments+RE/@36.0895442,-115.2877868,17z/data=!3m1!4b1!4m6!3m5!1s0x80c8b9fffe2cda59:0x7210cdf4a1cd30d8',
+    'https://maps.app.goo.gl/LXhYrCer66FACynU9',
+  ],
 }
 
 const organizationSchema = {

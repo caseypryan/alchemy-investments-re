@@ -34,6 +34,9 @@ credentials.json
 token.json
 .google-credentials
 
+# MCP server config (contains API keys and OAuth tokens)
+.mcp.json
+
 # vercel
 .vercel
 

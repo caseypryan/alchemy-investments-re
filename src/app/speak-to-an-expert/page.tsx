@@ -45,8 +45,8 @@ export default function SpeakToExpertPage() {
               <div className="text-center p-8 bg-gray-50 rounded-lg">
                 <div className="text-5xl mb-4">✉️</div>
                 <h3 className="text-2xl font-bold mb-4">Email Us</h3>
-                <a href="mailto:Casey@AlchemyInvestmentsRE.com" className="text-lg text-[#4A90E2] hover:underline">
-                  Casey@AlchemyInvestmentsRE.com
+                <a href="mailto:offers@alchemyinvestmentsre.com" className="text-lg text-[#4A90E2] hover:underline">
+                  offers@alchemyinvestmentsre.com
                 </a>
                 <p className="text-gray-600 mt-2">24-hour response time</p>
               </div>

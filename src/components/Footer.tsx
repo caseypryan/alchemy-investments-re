@@ -29,8 +29,8 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <a href="mailto:Casey@AlchemyInvestmentsRE.com" className="text-gray-400 hover:text-[#22c55e]">
-                  Casey@AlchemyInvestmentsRE.com
+                <a href="mailto:offers@alchemyinvestmentsre.com" className="text-gray-400 hover:text-[#22c55e]">
+                  offers@alchemyinvestmentsre.com
                 </a>
               </p>
             </div>

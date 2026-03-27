@@ -16,12 +16,12 @@
   },
 
   "fonts": {
-    "heading": "Inter",
-    "body": "Inter"
+    "heading": "Quicksand",
+    "body": "Nunito"
   },
 
   "logo": {
-    "src": "/logo.svg",
+    "src": "/logo.png",
     "alt": "Alchemy Investments RE",
     "width": 200,
     "height": 50

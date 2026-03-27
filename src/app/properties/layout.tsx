@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/properties',
   },
+  robots: {
+    index: false,
+    follow: true,
+  },
 }
 
 export default function PropertiesLayout({

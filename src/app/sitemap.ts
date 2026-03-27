@@ -43,17 +43,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/privacy-policy`,
+      url: `${baseUrl}/get-started`,
       lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 0.3,
+      changeFrequency: 'monthly',
+      priority: 0.8,
     },
     {
-      url: `${baseUrl}/terms`,
+      url: `${baseUrl}/speak-to-an-expert`,
       lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 0.3,
+      changeFrequency: 'monthly',
+      priority: 0.7,
     },
+    // privacy-policy and terms are noindex — excluded from sitemap intentionally
     {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),

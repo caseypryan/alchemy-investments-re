@@ -36,17 +36,17 @@ export default function ContactPage() {
                 <a href="tel:702-718-6934" className="text-2xl text-secondary font-bold hover:text-primary">
                   702-718-6934
                 </a>
-                <p className="text-gray-600 mt-2">Mon-Fri: 9am - 6pm</p>
+                <p className="text-gray-600 mt-2">Available 7 Days a Week</p>
               </div>
 
               <div className="text-center p-8 bg-gray-50 rounded-lg">
                 <div className="text-5xl mb-4">✉️</div>
                 <h3 className="text-2xl font-heading mb-4">Email Us</h3>
                 <a
-                  href="mailto:Casey@AlchemyInvestmentsRE.com"
+                  href="mailto:offers@alchemyinvestmentsre.com"
                   className="text-lg text-secondary hover:text-primary break-all"
                 >
-                  Casey@AlchemyInvestmentsRE.com
+                  offers@alchemyinvestmentsre.com
                 </a>
                 <p className="text-gray-600 mt-2">We respond within 24 hours</p>
               </div>
@@ -74,10 +74,17 @@ export default function ContactPage() {
           <div className="container-custom">
             <h2 className="text-4xl font-heading text-center mb-12">Visit Our Office</h2>
             <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="aspect-video bg-gray-200 flex items-center justify-center">
-                <p className="text-gray-600">
-                  Map placeholder - Integrate Google Maps here
-                </p>
+              <div className="aspect-video">
+                <iframe
+                  src="https://maps.google.com/maps?q=36.0895442,-115.2877868&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Alchemy Investments RE — 8978 Spanish Ridge, Las Vegas, NV 89148"
+                />
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-heading mb-4">Alchemy Investments RE</h3>
@@ -93,14 +100,14 @@ export default function ContactPage() {
                   <p>
                     <strong>Email:</strong>{' '}
                     <a
-                      href="mailto:Casey@AlchemyInvestmentsRE.com"
+                      href="mailto:offers@alchemyinvestmentsre.com"
                       className="text-secondary hover:text-primary"
                     >
-                      Casey@AlchemyInvestmentsRE.com
+                      offers@alchemyinvestmentsre.com
                     </a>
                   </p>
                   <p>
-                    <strong>Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM
+                    <strong>Hours:</strong> Available 7 Days a Week
                   </p>
                   <p>
                     <strong>License:</strong> S.0184768

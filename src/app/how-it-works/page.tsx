@@ -22,30 +22,34 @@ export const metadata: Metadata = {
 
 const howItWorksSchema = {
   '@context': 'https://schema.org',
-  '@type': 'HowTo',
-  name: 'How to Sell Your Las Vegas House Fast for Cash',
+  '@type': 'Service',
+  name: 'Cash Home Buying Service – Las Vegas',
   description:
-    'A simple 3-step process to sell your Las Vegas home fast for cash with no fees, no repairs, and no hassle.',
-  step: [
-    {
-      '@type': 'HowToStep',
-      position: 1,
-      name: 'Tell Us About Your Property',
-      text: 'Fill out our short form or call (702) 718-6934. Our team will reach out within 5 minutes to ask a few questions about your home and your situation.',
-    },
-    {
-      '@type': 'HowToStep',
-      position: 2,
-      name: 'Receive Your Cash Offer',
-      text: 'We schedule a quick 15–30 minute walkthrough of your property. Within 24 hours of the visit, you receive a written, no-obligation cash offer.',
-    },
-    {
-      '@type': 'HowToStep',
-      position: 3,
-      name: 'Close on Your Timeline',
-      text: 'Accept the offer, pick your closing date, and close in as little as 7 days. We handle all paperwork. You get paid via wire transfer, cashier\'s check, or direct deposit.',
-    },
+    'Alchemy Investments RE buys Las Vegas houses for cash in any condition. Simple 3-step process: submit property info, receive a written cash offer within 24 hours, and close in as little as 7 days with no fees, repairs, or commissions.',
+  provider: {
+    '@type': 'RealEstateAgent',
+    name: 'Alchemy Investments RE',
+    telephone: '(702) 718-6934',
+    url: 'https://alchemyinvestmentsre.com',
+  },
+  areaServed: [
+    { '@type': 'City', name: 'Las Vegas' },
+    { '@type': 'City', name: 'Henderson' },
+    { '@type': 'City', name: 'North Las Vegas' },
+    { '@type': 'City', name: 'Summerlin' },
+    { '@type': 'City', name: 'Enterprise' },
+    { '@type': 'City', name: 'Paradise' },
+    { '@type': 'City', name: 'Spring Valley' },
+    { '@type': 'City', name: 'Boulder City' },
+    { '@type': 'City', name: 'Pahrump' },
+    { '@type': 'City', name: 'Green Valley' },
   ],
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'USD',
+    description: 'Free, no-obligation cash offer with zero fees or commissions',
+  },
 }
 
 const steps = [

@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-26",
+  "domain": "alchemyinvestmentsre.com",
+  "source": "Ahrefs MCP",
+  "domain_rating": {
+    "domain_rating": 1.0,
+    "ahrefs_rank": 53555901
+  },
+  "domain_rating_history": [
+    { "date": "2025-07-01", "domain_rating": 0.6 },
+    { "date": "2025-08-01", "domain_rating": 0.3 },
+    { "date": "2025-09-01", "domain_rating": 0.3 },
+    { "date": "2025-10-01", "domain_rating": 0.3 },
+    { "date": "2025-11-01", "domain_rating": 0.3 },
+    { "date": "2025-12-01", "domain_rating": 0.3 },
+    { "date": "2026-01-01", "domain_rating": 0.3 },
+    { "date": "2026-02-01", "domain_rating": 0.9 },
+    { "date": "2026-03-01", "domain_rating": 1.0 }
+  ],
+  "site_metrics": {
+    "org_keywords": 1,
+    "paid_keywords": 0,
+    "org_keywords_1_3": 0,
+    "org_traffic": 3,
+    "org_cost_usd_cents": 834,
+    "org_cost_usd": 8.34,
+    "paid_traffic": 0,
+    "paid_cost": null,
+    "paid_pages": 0
+  },
+  "backlink_stats": {
+    "live_backlinks": 47,
+    "all_time_backlinks": 127,
+    "live_referring_domains": 30,
+    "all_time_referring_domains": 95
+  },
+  "organic_keywords": [
+    {
+      "keyword": "alchemy investments",
+      "best_position": 4,
+      "sum_traffic": 3,
+      "volume": 30,
+      "cpc_usd_cents": 329,
+      "cpc_usd": 3.29,
+      "best_position_url": "https://alchemyinvestmentsre.com/",
+      "keyword_difficulty": 2
+    }
+  ],
+  "top_pages": [
+    {
+      "url": "https://alchemyinvestmentsre.com/",
+      "sum_traffic": 3,
+      "keywords": 1,
+      "referring_domains": null
+    }
+  ],
+  "referring_domains_top10": [
+    { "domain": "za.com", "domain_rating": 90, "traffic_domain": 3807202, "dofollow_links": 0, "links_to_target": 4, "first_seen": "2024-07-06", "note": "SPAM — uplinke.com subdomain network" },
+    { "domain": "seoflox.io", "domain_rating": 83, "traffic_domain": 0, "dofollow_links": 0, "links_to_target": 1, "first_seen": "2025-01-29", "note": "SPAM — link selling service" },
+    { "domain": "itxoft.com", "domain_rating": 83, "traffic_domain": 0, "dofollow_links": 0, "links_to_target": 1, "first_seen": "2025-02-24", "note": "SPAM — link selling service" },
+    { "domain": "buybacklinks.agency", "domain_rating": 78, "traffic_domain": 0, "dofollow_links": 0, "links_to_target": 2, "first_seen": "2026-03-17", "note": "SPAM — link selling service" },
+    { "domain": "rankyour.website", "domain_rating": 74, "traffic_domain": 0, "dofollow_links": 0, "links_to_target": 2, "first_seen": "2025-12-15", "note": "SPAM — link selling service" },
+    { "domain": "rank-your.website", "domain_rating": 73, "traffic_domain": 0, "dofollow_links": 0, "links_to_target": 1, "first_seen": "2026-03-06", "note": "SPAM — link selling service" },
+    { "domain": "seoexpress.org", "domain_rating": 72, "traffic_domain": 4, "dofollow_links": 0, "links_to_target": 1, "first_seen": "2026-03-17", "note": "Possible spam" },
+    { "domain": "prolinkbox.com", "domain_rating": 70, "traffic_domain": 0, "dofollow_links": 0, "links_to_target": 1, "first_seen": "2024-10-13", "note": "SPAM — link selling service" },
+    { "domain": "seoagency.sale", "domain_rating": 70, "traffic_domain": 0, "dofollow_links": 0, "links_to_target": 2, "first_seen": "2025-12-11", "note": "SPAM — link selling service" },
+    { "domain": "bye.fyi", "domain_rating": 54, "traffic_domain": 0, "dofollow_links": 0, "links_to_target": 2, "first_seen": "2026-01-06", "note": "Unknown" }
+  ],
+  "backlink_quality_summary": {
+    "total_dofollow": 0,
+    "total_nofollow": 47,
+    "spam_links_pct": "~95%+",
+    "legitimate_links": 0,
+    "assessment": "CRITICAL: 100% of top backlinks are from link-selling spam services, all nofollow. Zero earned/editorial backlinks. No real authority links from local news, directories, or industry sites."
+  },
+  "organic_competitors": {
+    "note": "Only 1 organic keyword ranking (branded). Ahrefs cannot identify real SEO competitors due to insufficient keyword overlap.",
+    "competitors": [
+      { "competitor_domain": "alchemyinvest.co", "keywords_common": 1, "traffic": 13, "domain_rating": 18 },
+      { "competitor_domain": "linkedin.com", "keywords_common": 1, "traffic": 39246362, "domain_rating": 99 },
+      { "competitor_domain": "ratemyagent.com", "keywords_common": 1, "traffic": 20664, "domain_rating": 74 }
+    ]
+  },
+  "site_audit_issues": {
+    "project_id": 6090343,
+    "notable_issues": [
+      {
+        "name": "3XX page receives organic traffic",
+        "importance": "Error",
+        "crawled": 1,
+        "note": "One redirect URL is receiving organic traffic. Likely a legacy orphan page URL redirected today — should resolve after Google recrawls."
+      }
+    ],
+    "zero_count_issues": "All other tracked issues (duplicate pages, CSS issues, 4XX pages, etc.) show 0 affected pages — site is technically clean."
+  },
+  "dataforseo_status": "401 Unauthorized — API credentials not configured in MCP server",
+  "firecrawl_status": "401 Unauthorized — API credentials not configured in MCP server"
+}

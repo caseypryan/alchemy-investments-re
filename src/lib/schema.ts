@@ -8,7 +8,7 @@ export const localBusinessSchema = {
   '@id': 'https://alchemyinvestmentsre.com',
   url: 'https://alchemyinvestmentsre.com',
   telephone: '+1-702-718-6934',
-  email: 'Casey@AlchemyInvestmentsRE.com',
+  email: 'offers@alchemyinvestmentsre.com',
   priceRange: '$$',
   address: {
     '@type': 'PostalAddress',
@@ -20,39 +20,32 @@ export const localBusinessSchema = {
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 36.1699,
-    longitude: -115.1398,
+    latitude: 36.08954,
+    longitude: -115.28779,
   },
-  openingHoursSpecification: {
-    '@type': 'OpeningHoursSpecification',
-    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-    opens: '09:00',
-    closes: '18:00',
-  },
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      opens: '00:00',
+      closes: '23:59',
+    },
+  ],
   sameAs: [
-    // Add social media URLs here when available
+    'https://www.google.com/maps/place/Alchemy+Investments+RE/@36.0895442,-115.2877868,17z/data=!3m1!4b1!4m6!3m5!1s0x80c8b9fffe2cda59:0x7210cdf4a1cd30d8',
+    'https://maps.app.goo.gl/LXhYrCer66FACynU9',
   ],
   areaServed: [
-    {
-      '@type': 'City',
-      name: 'Las Vegas',
-    },
-    {
-      '@type': 'City',
-      name: 'Henderson',
-    },
-    {
-      '@type': 'City',
-      name: 'North Las Vegas',
-    },
-    {
-      '@type': 'City',
-      name: 'Boulder City',
-    },
-    {
-      '@type': 'City',
-      name: 'Pahrump',
-    },
+    { '@type': 'City', name: 'Las Vegas' },
+    { '@type': 'City', name: 'Henderson' },
+    { '@type': 'City', name: 'North Las Vegas' },
+    { '@type': 'City', name: 'Summerlin' },
+    { '@type': 'City', name: 'Enterprise' },
+    { '@type': 'City', name: 'Paradise' },
+    { '@type': 'City', name: 'Pahrump' },
+    { '@type': 'City', name: 'Boulder City' },
+    { '@type': 'City', name: 'Green Valley' },
+    { '@type': 'City', name: 'Spring Valley' },
   ],
   additionalProperty: {
     '@type': 'PropertyValue',
@@ -64,14 +57,16 @@ export const localBusinessSchema = {
 export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
+  '@id': 'https://alchemyinvestmentsre.com/#organization',
   name: 'Alchemy Investments RE',
   url: 'https://alchemyinvestmentsre.com',
   logo: 'https://alchemyinvestmentsre.com/logo.png',
+  email: 'offers@alchemyinvestmentsre.com',
   contactPoint: {
     '@type': 'ContactPoint',
     telephone: '+1-702-718-6934',
     contactType: 'customer service',
-    email: 'Casey@AlchemyInvestmentsRE.com',
+    email: 'offers@alchemyinvestmentsre.com',
     areaServed: 'US',
     availableLanguage: 'en',
   },
@@ -79,11 +74,14 @@ export const organizationSchema = {
 
 export const aggregateRatingSchema = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
+  '@type': ['RealEstateAgent', 'LocalBusiness'],
+  '@id': 'https://alchemyinvestmentsre.com/#localbusiness',
   name: 'Alchemy Investments RE',
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.9',
     reviewCount: '127',
+    bestRating: '5',
+    worstRating: '1',
   },
 }

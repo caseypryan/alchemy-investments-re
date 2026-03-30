@@ -113,6 +113,7 @@ export default function Footer() {
                 { name: 'North Las Vegas', href: '/locations/north-las-vegas' },
                 { name: 'Summerlin', href: '/locations/summerlin' },
                 { name: 'Spring Valley', href: '/locations/spring-valley' },
+                { name: 'Paradise', href: '/locations/paradise' },
                 { name: 'Boulder City', href: '/locations/boulder-city' },
                 { name: 'Pahrump', href: '/locations/pahrump' },
                 { name: 'Aliante', href: '/neighborhoods/aliante' },

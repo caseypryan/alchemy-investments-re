@@ -5,18 +5,18 @@ import Footer from '@/components/Footer'
 import CheckIcon from '@/components/icons/CheckIcon'
 
 export const metadata: Metadata = {
-  title: 'How It Works | Sell Your Las Vegas House Fast in 3 Steps',
+  title: 'How It Works | Sell Your Las Vegas Home Fast',
   description:
-    'See exactly how our simple 3-step process works. Get a cash offer in 24 hours, choose your closing date, and close in as little as 7 days. No repairs, no fees, no hassle.',
+    'Our simple 3-step process: tell us about your property, get a cash offer in 24 hours, close on your timeline. No repairs, no fees.',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/how-it-works',
   },
   openGraph: {
     title: 'How It Works — Sell Your Las Vegas House in 3 Simple Steps',
-    description:
-      'Our process is simple: tell us about your property, get a cash offer in 24 hours, and close on your timeline. No repairs, no commissions.',
+    description: 'Tell us about your property, get a cash offer in 24 hours, and close on your timeline. No repairs, no commissions.',
     url: 'https://alchemyinvestmentsre.com/how-it-works',
     type: 'website',
+    images: [{ url: 'https://alchemyinvestmentsre.com/og-image.jpg', width: 1200, height: 630, alt: 'How It Works - Alchemy Investments RE' }],
   },
 }
 

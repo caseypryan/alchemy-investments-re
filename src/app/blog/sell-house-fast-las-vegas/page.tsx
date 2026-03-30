@@ -4,11 +4,18 @@ import Footer from '@/components/Footer'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Sell My House Fast Las Vegas: 2026 Guide to Cash Offers & Timelines',
-  description: 'Need to sell your house fast in Las Vegas? Get a cash offer in 24 hours, close in 7–14 days. No repairs, no fees, no commissions. Las Vegas cash home buyers since 2010.',
+  title: 'Sell My House Fast Las Vegas: 2026 Cash Offer Guide',
+  description: 'Need to sell your Las Vegas home fast? Get a cash offer in 24 hours, close in 7–14 days. No repairs, no fees. Licensed Nevada brokerage. Expert tips inside.',
   keywords: 'sell my house fast las vegas, sell house fast las vegas, cash home buyers las vegas, we buy houses las vegas, sell house as-is las vegas, cash offer las vegas',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/blog/sell-house-fast-las-vegas',
+  },
+  openGraph: {
+    title: 'Sell My House Fast Las Vegas: 2026 Cash Offer Guide',
+    description: 'Complete guide to selling your Las Vegas home fast for cash. Cash offers in 24 hours, close in 7–14 days. No repairs, no fees.',
+    url: 'https://alchemyinvestmentsre.com/blog/sell-house-fast-las-vegas',
+    type: 'article',
+    images: [{ url: 'https://alchemyinvestmentsre.com/og-image.jpg', width: 1200, height: 630, alt: 'Sell My House Fast Las Vegas Guide' }],
   },
 }
 

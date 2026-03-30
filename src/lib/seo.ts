@@ -233,7 +233,8 @@ export function generateSchemaScript(schemas: any[]): string {
 
   const schemaGraph = {
     '@context': 'https://schema.org',
-    '@graph': validSchemas,
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    '@graph': validSchemas.map(({ '@context': _ctx, ...rest }) => rest),
   }
 
   return JSON.stringify(schemaGraph)

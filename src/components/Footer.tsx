@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#1a1a1a] text-white">
       <div className="container mx-auto px-6 py-12">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-5 gap-8">
           {/* Company Info */}
           <div>
             <div className="mb-4">
@@ -78,6 +78,31 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Services */}
+          <div>
+            <h4 className="font-bold text-lg mb-4">Our Services</h4>
+            <ul className="space-y-2 text-sm">
+              {[
+                { name: 'Sell As-Is', href: '/services/sell-house-as-is' },
+                { name: 'Sell Fixer-Upper', href: '/services/sell-fixer-upper-as-is' },
+                { name: 'Stop Foreclosure', href: '/services/stop-foreclosure' },
+                { name: 'Divorce Sale', href: '/services/sell-house-divorce' },
+                { name: 'Probate Sale', href: '/services/sell-house-probate' },
+                { name: 'Relocation Sale', href: '/services/sell-house-relocation' },
+                { name: 'Inherited House', href: '/services/sell-inherited-house' },
+                { name: 'Financial Hardship', href: '/services/sell-house-financial-hardship' },
+                { name: 'Rental Property', href: '/services/sell-rental-property-tenants' },
+                { name: 'Behind on Taxes', href: '/services/sell-house-behind-property-taxes' },
+              ].map((service) => (
+                <li key={service.name}>
+                  <Link href={service.href} className="text-gray-400 hover:text-[#22c55e] transition-colors">
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           {/* Areas Served */}
           <div>
             <h4 className="font-bold text-lg mb-4">We Buy Houses In</h4>
@@ -90,6 +115,18 @@ export default function Footer() {
                 { name: 'Spring Valley', href: '/locations/spring-valley' },
                 { name: 'Boulder City', href: '/locations/boulder-city' },
                 { name: 'Pahrump', href: '/locations/pahrump' },
+                { name: 'Aliante', href: '/neighborhoods/aliante' },
+                { name: 'Anthem (Henderson)', href: '/neighborhoods/anthem-henderson' },
+                { name: 'Centennial Hills', href: '/neighborhoods/centennial-hills' },
+                { name: 'Enterprise', href: '/neighborhoods/enterprise' },
+                { name: 'Green Valley', href: '/neighborhoods/green-valley' },
+                { name: 'Green Valley Ranch', href: '/neighborhoods/green-valley-ranch' },
+                { name: 'Lake Las Vegas', href: '/neighborhoods/lake-las-vegas' },
+                { name: 'Mountains Edge', href: '/neighborhoods/mountains-edge' },
+                { name: 'Red Rock Country Club', href: '/neighborhoods/red-rock-country-club' },
+                { name: 'Southern Highlands', href: '/neighborhoods/southern-highlands' },
+                { name: 'Summerlin Centre', href: '/neighborhoods/summerlin-centre' },
+                { name: 'The Ridges', href: '/neighborhoods/the-ridges' },
               ].map((area) => (
                 <li key={area.name}>
                   <Link href={area.href} className="text-gray-400 hover:text-[#22c55e] transition-colors">

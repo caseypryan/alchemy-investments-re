@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 import FAQAccordion from '@/components/FAQAccordion'
 
 export const metadata: Metadata = {
-  title: 'Frequently Asked Questions | Sell House Fast Las Vegas',
+  title: 'FAQ | Sell Your Las Vegas Home Fast',
   description:
     'Answers to the most common questions about selling your house fast for cash in Las Vegas. Learn about our process, offers, timelines, and no-fee policy.',
   alternates: {
@@ -12,10 +12,10 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'FAQ — Selling Your Las Vegas House Fast for Cash',
-    description:
-      'Everything you need to know about selling your house fast for cash in Las Vegas. No fees, no repairs, close in 7-14 days.',
+    description: 'Everything you need to know about selling your house fast for cash in Las Vegas. No fees, no repairs, close in 7-14 days.',
     url: 'https://alchemyinvestmentsre.com/faq',
     type: 'website',
+    images: [{ url: 'https://alchemyinvestmentsre.com/og-image.jpg', width: 1200, height: 630, alt: 'FAQ - Sell Your Las Vegas House Fast' }],
   },
 }
 

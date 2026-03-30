@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     description: 'Meet our experienced Las Vegas real estate agents. Licensed professionals ready to help you sell your home.',
     url: 'https://alchemyinvestmentsre.com/our-agents',
     type: 'website',
+    images: [{ url: 'https://alchemyinvestmentsre.com/og-image.jpg', width: 1200, height: 630, alt: 'Alchemy Investments RE Agents' }],
   },
 }
 

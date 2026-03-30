@@ -2,7 +2,7 @@
   "slug": "spring-valley",
   "type": "location",
   "seo": {
-    "title": "Sell Your House Fast in Spring Valley, NV | Cash Offers in 24 Hours",
+    "title": "Spring Valley NV Cash Buyers | Sell Fast",
     "description": "Get a fair cash offer for your Spring Valley home in 24 hours. We buy houses as-is. No repairs, no fees. Close in 7-14 days. Serving Spring Valley Las Vegas.",
     "keywords": [
       "sell house fast Spring Valley",
@@ -22,7 +22,13 @@
     "city": "Spring Valley",
     "state": "Nevada",
     "stateAbbr": "NV",
-    "zipCodes": ["89102", "89103", "89117", "89146", "89147"],
+    "zipCodes": [
+      "89102",
+      "89103",
+      "89117",
+      "89146",
+      "89147"
+    ],
     "neighborhoods": [
       "The Lakes",
       "Peccole Ranch",
@@ -33,7 +39,7 @@
     "population": 215597,
     "medianHomePrice": "$425,000",
     "coordinates": {
-      "latitude": 36.1080,
+      "latitude": 36.108,
       "longitude": -115.2458
     }
   },

@@ -6,7 +6,7 @@ import { getBlogIndex } from '@/lib/content'
 
 export const metadata: Metadata = {
   title: 'Las Vegas Real Estate Blog & Seller Resources',
-  description: 'Expert guides for Las Vegas homeowners. Learn about selling fast, foreclosure, inherited homes, divorce sales, and the latest Las Vegas real estate market trends.',
+  description: 'Expert guides for Las Vegas homeowners. Topics include selling fast, foreclosure, inherited homes, divorce sales, and Las Vegas real estate market trends.',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/blog',
   },
@@ -15,6 +15,14 @@ export const metadata: Metadata = {
     description: 'Expert guides for Las Vegas homeowners on selling fast, foreclosure, inherited homes, divorce sales, and market trends.',
     url: 'https://alchemyinvestmentsre.com/blog',
     type: 'website',
+    images: [
+      {
+        url: 'https://alchemyinvestmentsre.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Las Vegas Real Estate Blog - Alchemy Investments RE',
+      },
+    ],
   },
 }
 

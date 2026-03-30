@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 import CheckIcon from '@/components/icons/CheckIcon'
 
 export const metadata: Metadata = {
-  title: 'How It Works | Sell Your Las Vegas Home Fast',
+  title: 'How It Works | Las Vegas Cash Sale',
   description:
     'Our simple 3-step process: tell us about your property, get a cash offer in 24 hours, close on your timeline. No repairs, no fees.',
   alternates: {

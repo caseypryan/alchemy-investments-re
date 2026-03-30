@@ -4,13 +4,13 @@ import Footer from '@/components/Footer'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'About Us | Las Vegas Cash Home Buyers',
+  title: 'About Us | Las Vegas Cash Buyers',
   description: 'Licensed Las Vegas real estate brokerage since 2010. Over 500 homes purchased. Fair, transparent cash offers. NV Real Estate License S.0184768.',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/about',
   },
   openGraph: {
-    title: 'About Us | Las Vegas Cash Home Buyers',
+    title: 'About Us | Las Vegas Cash Buyers',
     description: 'Licensed Las Vegas real estate brokerage since 2010. Over 500 homes purchased. Fair, transparent cash offers.',
     url: 'https://alchemyinvestmentsre.com/about',
     type: 'website',

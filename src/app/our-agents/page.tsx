@@ -4,13 +4,13 @@ import Footer from '@/components/Footer'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'Meet Our Las Vegas Real Estate Agents',
+  title: 'Meet Our Las Vegas Real Estate Team',
   description: 'Meet our experienced Las Vegas real estate agents. Licensed professionals ready to help you sell your home.',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/our-agents',
   },
   openGraph: {
-    title: 'Meet Our Las Vegas Real Estate Agents',
+    title: 'Meet Our Las Vegas Real Estate Team',
     description: 'Meet our experienced Las Vegas real estate agents. Licensed professionals ready to help you sell your home.',
     url: 'https://alchemyinvestmentsre.com/our-agents',
     type: 'website',

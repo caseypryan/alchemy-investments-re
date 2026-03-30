@@ -5,13 +5,13 @@ import Link from 'next/link'
 import { getBlogIndex } from '@/lib/content'
 
 export const metadata: Metadata = {
-  title: 'Las Vegas Real Estate Blog & Seller Resources',
+  title: 'Las Vegas Real Estate Blog',
   description: 'Expert guides for Las Vegas homeowners. Topics include selling fast, foreclosure, inherited homes, divorce sales, and Las Vegas real estate market trends.',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/blog',
   },
   openGraph: {
-    title: 'Las Vegas Real Estate Blog & Seller Resources',
+    title: 'Las Vegas Real Estate Blog',
     description: 'Expert guides for Las Vegas homeowners on selling fast, foreclosure, inherited homes, divorce sales, and market trends.',
     url: 'https://alchemyinvestmentsre.com/blog',
     type: 'website',

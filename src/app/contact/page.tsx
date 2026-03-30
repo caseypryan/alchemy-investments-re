@@ -4,13 +4,13 @@ import Footer from '@/components/Footer'
 import ContactForm from './ContactForm'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Free Cash Offer Las Vegas',
+  title: 'Contact Us | Free Cash Offer',
   description: 'Contact Alchemy Investments RE for a free cash offer on your Las Vegas home. Call 702-547-6664 or fill out our form. Licensed real estate investment brokerage.',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/contact',
   },
   openGraph: {
-    title: 'Contact Us | Free Cash Offer Las Vegas',
+    title: 'Contact Us | Free Cash Offer',
     description: 'Contact Alchemy Investments RE for a free cash offer on your Las Vegas home. Call 702-547-6664 or fill out our form.',
     url: 'https://alchemyinvestmentsre.com/contact',
     type: 'website',

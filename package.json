@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npx tsx scripts/setup-db.ts",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -14,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-analytics/data": "^5.2.1",
+    "@neondatabase/serverless": "^1.1.0",
     "@types/node": "^25.1.0",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",

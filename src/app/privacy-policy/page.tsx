@@ -58,9 +58,18 @@ export default function PrivacyPolicyPage() {
             <section>
               <h2 className="text-2xl font-bold text-[#2b3d4f] mb-3">4. SMS Communications</h2>
               <p>
-                By submitting your phone number, you consent to receive SMS messages from Alchemy
-                Investments RE regarding your property inquiry. Message and data rates may apply.
-                You may opt out at any time by replying STOP to any SMS message.
+                By submitting your phone number on our website, you consent to receive SMS messages
+                from Alchemy Investments RE LLC regarding your property inquiry. Message and data
+                rates may apply. Messaging frequency may vary. You may opt out at any time by
+                replying STOP to any SMS message. For assistance, reply HELP or contact us at{' '}
+                <a href="tel:702-547-6664" className="text-[#4A90E2] hover:underline">
+                  (702) 547-6664
+                </a>
+                .
+              </p>
+              <p className="mt-3">
+                SMS consent and phone numbers collected for SMS purposes are not shared with third
+                parties or affiliates for marketing purposes.
               </p>
             </section>
 

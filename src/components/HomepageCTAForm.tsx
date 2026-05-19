@@ -1,12 +1,15 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { getTrackingData, initFirstTouchTracking } from '@/lib/tracking'
 
 export default function HomepageCTAForm() {
   const [ctaPhone, setCtaPhone] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitSuccess, setSubmitSuccess] = useState(false)
   const [phoneError, setPhoneError] = useState('')
+
+  useEffect(() => { initFirstTouchTracking() }, [])
 
   const handleCTAFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -20,8 +23,8 @@ export default function HomepageCTAForm() {
     const formData = {
       form_type: 'cta_form',
       phone_number: ctaPhone,
+      ...getTrackingData(),
       submitted_at: new Date().toISOString(),
-      page_url: window.location.href,
     }
 
     try {

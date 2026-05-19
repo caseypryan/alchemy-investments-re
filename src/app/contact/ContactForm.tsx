@@ -1,7 +1,8 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import AddressAutocompleteInput from '@/components/AddressAutocompleteInput'
+import { getTrackingData, initFirstTouchTracking } from '@/lib/tracking'
 
 const WEBHOOK_URL = '/api/submit-form'
 
@@ -26,6 +27,8 @@ export default function ContactForm() {
   const [errors, setErrors] = useState<FieldErrors>({})
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitSuccess, setSubmitSuccess] = useState(false)
+
+  useEffect(() => { initFirstTouchTracking() }, [])
 
   const validate = (): boolean => {
     const newErrors: FieldErrors = {}
@@ -55,8 +58,8 @@ export default function ContactForm() {
       situation,
       ideal_timeline: timeline,
       additional_details: details,
+      ...getTrackingData(),
       submitted_at: new Date().toISOString(),
-      page_url: window.location.href,
     }
 
     try {

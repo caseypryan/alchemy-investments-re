@@ -1,7 +1,8 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import AddressAutocompleteInput from '@/components/AddressAutocompleteInput'
+import { getTrackingData, initFirstTouchTracking } from '@/lib/tracking'
 
 interface FieldErrors {
   address?: string
@@ -10,25 +11,15 @@ interface FieldErrors {
   email?: string
 }
 
-const getUtmParams = (): Record<string, string> => {
-  if (typeof window === 'undefined') return {}
-  const params = new URLSearchParams(window.location.search)
-  const utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content']
-  const result: Record<string, string> = {}
-  utmKeys.forEach(k => { const v = params.get(k); if (v) result[k] = v })
-  return result
-}
-
 const sendPartialLead = (data: Record<string, string>) => {
   fetch('/api/submit-form', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       ...data,
-      ...getUtmParams(),
+      ...getTrackingData(),
       form_type: 'hero_form_partial',
       submitted_at: new Date().toISOString(),
-      page_url: typeof window !== 'undefined' ? window.location.href : '',
     }),
   }).catch(() => {})
 }
@@ -47,6 +38,8 @@ export default function HomepageHeroForm() {
   // Refs to track what's already been sent to avoid duplicate partial webhooks
   const sentAddressRef = useRef('')
   const sentStepsRef = useRef<Set<string>>(new Set())
+
+  useEffect(() => { initFirstTouchTracking() }, [])
 
   const validate = (): boolean => {
     const newErrors: FieldErrors = {}
@@ -105,9 +98,8 @@ export default function HomepageHeroForm() {
       full_name: fullName,
       phone_number: phone,
       email_address: email,
-      ...getUtmParams(),
+      ...getTrackingData(),
       submitted_at: new Date().toISOString(),
-      page_url: window.location.href,
     }
 
     try {

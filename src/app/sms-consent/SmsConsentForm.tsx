@@ -1,7 +1,8 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import AddressAutocompleteInput from '@/components/AddressAutocompleteInput'
+import { getTrackingData, initFirstTouchTracking } from '@/lib/tracking'
 
 interface FieldErrors {
   name?: string
@@ -18,6 +19,8 @@ export default function SmsConsentForm() {
   const [errors, setErrors] = useState<FieldErrors>({})
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitted, setSubmitted] = useState(false)
+
+  useEffect(() => { initFirstTouchTracking() }, [])
 
   const validate = (): boolean => {
     const e: FieldErrors = {}
@@ -45,8 +48,8 @@ export default function SmsConsentForm() {
           phone_number: phone,
           property_address: address,
           sms_consent: true,
+          ...getTrackingData(),
           submitted_at: new Date().toISOString(),
-          page_url: window.location.href,
         }),
       })
 

@@ -300,9 +300,10 @@ export default function ContactForm() {
         </button>
 
         <p className="text-sm text-gray-500 text-center">
-          By submitting this form, I agree to receive SMS messages from Alchemy Investments RE LLC
-          regarding my property inquiry. Messaging frequency may vary. Message and data rates may
-          apply. Reply STOP to opt out. Reply HELP for help. View our{' '}
+          By clicking &quot;Contact Us Now&quot; I agree to receive SMS messages from Alchemy
+          Investments RE LLC regarding my property inquiry. Consent is not a condition of purchase.
+          Messaging frequency may vary. Message and data rates may apply. Reply STOP to opt out.
+          Reply HELP for help. View our{' '}
           <a href="/privacy-policy" className="underline hover:text-gray-700">
             Privacy Policy
           </a>{' '}

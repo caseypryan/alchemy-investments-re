@@ -131,8 +131,9 @@ export default function HomepageCTAForm() {
         {/* Disclaimer */}
         <p className="text-sm text-gray-500 leading-relaxed max-w-3xl mx-auto">
           By clicking &quot;Contact Us Now&quot; I agree to receive SMS messages from Alchemy
-          Investments RE LLC regarding my property inquiry. Messaging frequency may vary. Message
-          and data rates may apply. Reply STOP to opt out. Reply HELP for help. View our{' '}
+          Investments RE LLC regarding my property inquiry. Consent is not a condition of purchase.
+          Messaging frequency may vary. Message and data rates may apply. Reply STOP to opt out.
+          Reply HELP for help. View our{' '}
           <a href="/privacy-policy" className="underline hover:text-gray-700">
             Privacy Policy
           </a>{' '}

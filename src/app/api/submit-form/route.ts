@@ -9,7 +9,6 @@ export async function POST(request: NextRequest) {
   // Save to Neon — isolated so a DB error never blocks the response
   try {
     const sql = getDb()
-    console.log('[submit-form] DB connecting, DATABASE_URL set:', !!process.env.DATABASE_URL)
     await sql`
       INSERT INTO leads (
         form_type, step, property_address, full_name, first_name, last_name,
@@ -31,9 +30,8 @@ export async function POST(request: NextRequest) {
         ${body.submitted_at ? new Date(body.submitted_at) : new Date()}
       )
     `
-    console.log('[submit-form] DB insert success')
   } catch (dbError) {
-    console.error('[submit-form] DB insert error:', String(dbError))
+    console.error('DB insert error:', dbError)
   }
 
   // Forward to Podio webhook

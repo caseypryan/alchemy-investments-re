@@ -55,11 +55,11 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-[#2b3d4f] mb-3">4. SMS Communications</h2>
               <p>
-                By submitting your contact information on our website, you consent to receive SMS
-                messages from Alchemy Investments RE LLC. SMS messages may include responses to
-                your property inquiry, appointment coordination, and updates related to your home
-                sale. Message and data rates may apply. Messaging frequency may vary. To opt out at
-                any time, reply STOP. For assistance, reply HELP or visit{' '}
+                By submitting your contact information, you consent to receive SMS messages from
+                Alchemy Investments RE LLC. SMS messages may include responses to your property
+                inquiry, appointment coordination, and updates related to your home sale. Messaging
+                frequency may vary. Message and data rates may apply. To opt out at any time, reply
+                STOP. For assistance, reply HELP or visit{' '}
                 <a
                   href="https://alchemyinvestmentsre.com/contact"
                   className="text-[#4A90E2] hover:underline"

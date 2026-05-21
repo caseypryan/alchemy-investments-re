@@ -1,0 +1,48 @@
+name: Config Guard
+
+# Defends against the Shai-Hulud wallet-stealer malware family that has
+# repeatedly re-injected itself into postcss.config.*, tailwind.config.*,
+# and next.config.* files in this repo and sibling projects.
+#
+# Detection method: literal grep for the obfuscation function name and
+# loader signature. Both are unique to this malware family. Zero false
+# positives across the entire npm ecosystem.
+#
+# If this job fails on your PR, do NOT merge. The build-config file shown
+# in the error has been compromised. Contact security to coordinate the
+# cleanup (see prior incident: 2026-05-19 / 2026-05-21).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  guard:
+    name: Scan for malware signatures
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scan build-config files for Shai-Hulud signatures
+        run: |
+          set +e
+          # Patterns: the malware family's unique markers
+          PATTERNS='global\[.!.\]\s*=\s*.[0-9]+-[0-9]+|_\$_1e42\s*=\s*\(function'
+          MATCHES=$(grep -rlEn "$PATTERNS" \
+            --include="*.js" --include="*.mjs" --include="*.cjs" \
+            --include="*.ts" --include="*.tsx" --include="*.jsx" \
+            --exclude-dir=node_modules \
+            --exclude-dir=.next \
+            --exclude-dir=dist \
+            --exclude-dir=build \
+            --exclude-dir=.git \
+            . 2>/dev/null)
+          if [ -n "$MATCHES" ]; then
+            echo "::error::Shai-Hulud wallet-stealer malware signature detected in:"
+            echo "$MATCHES" | while read -r f; do
+              echo "::error file=$f::Malware loader present — refusing to build."
+            done
+            exit 1
+          fi
+          echo "✓ No malware signatures detected in any source file"

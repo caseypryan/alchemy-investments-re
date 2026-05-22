@@ -64,10 +64,20 @@ async function setup() {
     )
   `
 
-  await sql`CREATE INDEX IF NOT EXISTS idx_leads_email       ON leads(email_address)`
-  await sql`CREATE INDEX IF NOT EXISTS idx_leads_phone       ON leads(phone_number)`
-  await sql`CREATE INDEX IF NOT EXISTS idx_leads_form_type   ON leads(form_type)`
-  await sql`CREATE INDEX IF NOT EXISTS idx_leads_created_at  ON leads(created_at)`
+  // New columns — idempotent
+  await sql`ALTER TABLE leads ADD COLUMN IF NOT EXISTS session_token  TEXT`
+  await sql`ALTER TABLE leads ADD COLUMN IF NOT EXISTS submission_type TEXT`
+  await sql`ALTER TABLE leads ADD COLUMN IF NOT EXISTS status          TEXT DEFAULT 'pending'`
+  await sql`ALTER TABLE leads ADD COLUMN IF NOT EXISTS payload         JSONB DEFAULT '{}'`
+  await sql`ALTER TABLE leads ADD COLUMN IF NOT EXISTS n8n_attempts    INT  DEFAULT 0`
+  await sql`ALTER TABLE leads ADD COLUMN IF NOT EXISTS updated_at      TIMESTAMPTZ DEFAULT NOW()`
+
+  await sql`CREATE INDEX IF NOT EXISTS idx_leads_email          ON leads(email_address)`
+  await sql`CREATE INDEX IF NOT EXISTS idx_leads_phone          ON leads(phone_number)`
+  await sql`CREATE INDEX IF NOT EXISTS idx_leads_form_type      ON leads(form_type)`
+  await sql`CREATE INDEX IF NOT EXISTS idx_leads_created_at     ON leads(created_at)`
+  await sql`CREATE INDEX IF NOT EXISTS idx_leads_session_token  ON leads(session_token)`
+  await sql`CREATE INDEX IF NOT EXISTS idx_leads_status         ON leads(status)`
 
   console.log('Database setup complete.')
 }

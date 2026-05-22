@@ -150,6 +150,27 @@ export async function POST(request: NextRequest) {
     ''
   const userAgent = request.headers.get('user-agent') || ''
 
+  // Build n8n payload upfront so we can store it regardless of delivery
+  const n8nPayload = buildN8nPayload(body, ip, userAgent)
+
+  // Send to n8n and track delivery status
+  let n8nStatus = 'pending'
+  let n8nAttempts = 0
+  if (N8N_URL) {
+    n8nAttempts = 1
+    try {
+      const res = await fetch(N8N_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(n8nPayload),
+      })
+      n8nStatus = res.ok ? 'delivered' : 'failed'
+    } catch (n8nError) {
+      console.error('n8n webhook error:', n8nError)
+      n8nStatus = 'failed'
+    }
+  }
+
   // Save to Neon
   try {
     const sql = getDb()
@@ -159,7 +180,8 @@ export async function POST(request: NextRequest) {
         phone_number, email_address, property_condition, situation,
         ideal_timeline, additional_details,
         utm_source, utm_medium, utm_campaign, utm_term, utm_content,
-        page_url, submitted_at
+        page_url, submitted_at,
+        session_token, submission_type, status, payload, n8n_attempts, updated_at
       ) VALUES (
         ${body.form_type ?? null}, ${body.step ?? null},
         ${body.property_address ?? null}, ${body.full_name ?? null},
@@ -171,24 +193,17 @@ export async function POST(request: NextRequest) {
         ${body.utm_campaign ?? null}, ${body.utm_term ?? null},
         ${body.utm_content ?? null},
         ${body.page_url ?? null},
-        ${body.submitted_at ? new Date(body.submitted_at) : new Date()}
+        ${body.submitted_at ? new Date(body.submitted_at) : new Date()},
+        ${body.session_token ?? null},
+        ${body.form_type ?? null},
+        ${n8nStatus},
+        ${JSON.stringify(n8nPayload)},
+        ${n8nAttempts},
+        NOW()
       )
     `
   } catch (dbError) {
     console.error('DB insert error:', dbError)
-  }
-
-  // Send to n8n with structured payload
-  if (N8N_URL) {
-    try {
-      await fetch(N8N_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(buildN8nPayload(body, ip, userAgent)),
-      })
-    } catch (n8nError) {
-      console.error('n8n webhook error:', n8nError)
-    }
   }
 
   // Forward raw body to Podio (legacy)

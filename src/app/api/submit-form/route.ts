@@ -5,7 +5,9 @@ const PODIO_URL = 'https://workflow-automation.podio.com/catch/z1d60g243a5ygwz'
 // Read at request time — module-level process.env refs can be inlined as '' by the Next.js bundler
 // if the var isn't present at build time, making the webhook silently skip. Per-request read avoids this.
 function getN8nUrl(): string {
-  return process.env.LEADS_WEBHOOK_URL || ''
+  const url = process.env.LEADS_WEBHOOK_URL || ''
+  console.log('[n8n] LEADS_WEBHOOK_URL =', url ? 'SET (' + url.slice(0, 30) + '...)' : 'EMPTY')
+  return url
 }
 
 // ── Address parsing ──────────────────────────────────────────────────────────

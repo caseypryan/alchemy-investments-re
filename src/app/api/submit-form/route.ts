@@ -2,7 +2,11 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getDb } from '@/lib/db'
 
 const PODIO_URL = 'https://workflow-automation.podio.com/catch/z1d60g243a5ygwz'
-const N8N_URL = process.env.LEADS_WEBHOOK_URL || ''
+// Read at request time — module-level process.env refs can be inlined as '' by the Next.js bundler
+// if the var isn't present at build time, making the webhook silently skip. Per-request read avoids this.
+function getN8nUrl(): string {
+  return process.env.LEADS_WEBHOOK_URL || ''
+}
 
 // ── Address parsing ──────────────────────────────────────────────────────────
 // Handles Google Places format: "123 Main St, Las Vegas, NV 89101, USA"
@@ -154,6 +158,7 @@ export async function POST(request: NextRequest) {
   const n8nPayload = buildN8nPayload(body, ip, userAgent)
 
   // Send to n8n and track delivery status
+  const N8N_URL = getN8nUrl()
   let n8nStatus = 'pending'
   let n8nAttempts = 0
   if (N8N_URL) {

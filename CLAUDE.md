@@ -2,6 +2,17 @@
 
 Real estate marketing website for cash home buyers in the Las Vegas metropolitan area.
 
+## Git Branch Policy
+
+### Cloud sessions — rename the auto-generated branch before pushing (REQUIRED)
+Claude Code **cloud/web sessions** (claude.ai/code, "Bypass permissions" UI) auto-create a branch named `claude_<user>_<machine>/<adjective>-<name>-<hex>` (e.g. `claude_casey_mac/interesting-jemison-161eeb`). That name is **platform-generated and not configurable** — no `settings.json`/env override exists, and the local `branch-name-guard.sh` hook is **user-level (`~/.claude/`), so it does NOT run in cloud sessions** (only repo-committed `.claude/settings.json` hooks do; cloud detects via `$CLAUDE_CODE_REMOTE="true"`). So enforcement is by convention: **before your first push, rename the branch** to `<type>/<kebab-scope>` (`feat|fix|chore|docs|refactor|test|perf|ci|build`):
+```bash
+git branch -m <type>/<kebab-scope>
+git push -u origin <type>/<kebab-scope>
+git push origin :<old-platform-name>   # delete the random remote branch
+```
+Then open the PR from the renamed branch. Local sessions are unaffected — they keep using `new-wt` + the guard hook.
+
 ## Tech Stack
 
 - **Framework**: Next.js 16 (App Router)

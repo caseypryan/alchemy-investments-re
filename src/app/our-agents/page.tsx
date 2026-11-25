@@ -24,7 +24,7 @@ const leadershipAgents = [
     name: 'Casey Ryan',
     title: 'Agent',
     license: 'NV License: S.0184768',
-    phone: '(702) 547-6664',
+    phone: '(702) 718-6934',
     email: 'casey@alchemyinvestmentsre.com',
     bio: 'With over 15 years of experience in the Las Vegas real estate market, Casey specializes in helping homeowners get top dollar for their properties through innovative marketing and expert negotiation.',
     image: '/agents/casey-ryan.jpg',
@@ -40,7 +40,7 @@ const leadershipAgents = [
     name: 'Samantha Bonneville',
     title: 'Principal Broker',
     license: 'NV License: S.0184768',
-    phone: '(702) 547-6664',
+    phone: '(702) 718-6934',
     email: 'samantha@alchemyinvestmentsre.com',
     bio: 'As Principal Broker, Samantha brings extensive expertise in Las Vegas real estate, ensuring every transaction meets the highest professional standards while delivering exceptional results for clients.',
     image: '/agents/samantha-bonneville.jpg',
@@ -199,7 +199,7 @@ export default function OurAgents() {
 
                     {/* Contact Button */}
                     <a
-                      href="tel:702-547-6664"
+                      href="tel:702-718-6934"
                       className="block w-full bg-[#22c55e] hover:bg-[#16a34a] text-white font-semibold py-2 px-4 rounded text-center transition-colors text-sm"
                     >
                       Contact Us
@@ -225,7 +225,7 @@ export default function OurAgents() {
             </a>
 
             <p className="text-lg mt-6">
-              Or call us: <a href="tel:702-547-6664" className="font-bold hover:underline">(702) 547-6664</a>
+              Or call us: <a href="tel:702-718-6934" className="font-bold hover:underline">(702) 718-6934</a>
             </p>
           </div>
         </section>

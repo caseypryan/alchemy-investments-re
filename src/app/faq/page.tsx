@@ -151,10 +151,10 @@ export default function FAQPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:702-547-6664"
+                href="tel:702-718-6934"
                 className="inline-block bg-brand-green hover:bg-[#16a34a] text-white font-semibold px-8 py-4 rounded transition-colors"
               >
-                Call: (702) 547-6664
+                Call: (702) 718-6934
               </a>
               <a
                 href="/contact"

@@ -4,14 +4,14 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Speak to a Las Vegas Real Estate Expert | Free Consultation',
-  description: 'Get expert advice on selling your Las Vegas home. Free consultation with licensed real estate professionals. Call (702) 547-6664 or request a callback.',
+  description: 'Get expert advice on selling your Las Vegas home. Free consultation with licensed real estate professionals. Call (702) 718-6934 or request a callback.',
   keywords: 'speak to real estate expert las vegas, real estate consultation las vegas, sell house expert advice, las vegas real estate advisor',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/speak-to-an-expert',
   },
   openGraph: {
     title: 'Speak to a Las Vegas Real Estate Expert | Free Consultation',
-    description: 'Get expert advice on selling your Las Vegas home. Free consultation with licensed real estate professionals. Call (702) 547-6664.',
+    description: 'Get expert advice on selling your Las Vegas home. Free consultation with licensed real estate professionals. Call (702) 718-6934.',
     url: 'https://alchemyinvestmentsre.com/speak-to-an-expert',
     type: 'website',
   },
@@ -29,8 +29,8 @@ export default function SpeakToExpertPage() {
               <p className="text-xl mb-8">
                 Get personalized advice from licensed Las Vegas real estate professionals with 10+ years of experience.
               </p>
-              <a href="tel:702-547-6664" className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-bold px-10 py-5 rounded-lg text-xl transition-colors">
-                Call Now: (702) 547-6664
+              <a href="tel:702-718-6934" className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-bold px-10 py-5 rounded-lg text-xl transition-colors">
+                Call Now: (702) 718-6934
               </a>
             </div>
           </div>
@@ -42,8 +42,8 @@ export default function SpeakToExpertPage() {
               <div className="text-center p-8 bg-gray-50 rounded-lg">
                 <div className="text-5xl mb-4">📞</div>
                 <h3 className="text-2xl font-bold mb-4">Call Us</h3>
-                <a href="tel:702-547-6664" className="text-2xl text-[#4A90E2] font-bold hover:underline">
-                  (702) 547-6664
+                <a href="tel:702-718-6934" className="text-2xl text-[#4A90E2] font-bold hover:underline">
+                  (702) 718-6934
                 </a>
                 <p className="text-gray-600 mt-2">Mon-Fri: 9am - 6pm</p>
               </div>

@@ -109,8 +109,8 @@ export default function TermsPage() {
               <h2 className="text-2xl font-bold text-[#2b3d4f] mb-3">9. Contact</h2>
               <p>
                 Questions about these terms? Contact us at{' '}
-                <a href="tel:702-547-6664" className="text-[#4A90E2] hover:underline">
-                  (702) 547-6664
+                <a href="tel:702-718-6934" className="text-[#4A90E2] hover:underline">
+                  (702) 718-6934
                 </a>{' '}
                 or visit our{' '}
                 <a href="/contact" className="text-[#4A90E2] hover:underline">

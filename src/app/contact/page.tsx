@@ -5,13 +5,13 @@ import ContactForm from './ContactForm'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Free Cash Offer',
-  description: 'Contact Alchemy Investments RE for a free cash offer on your Las Vegas home. Call 702-547-6664 or fill out our form. Licensed real estate investment brokerage.',
+  description: 'Contact Alchemy Investments RE for a free cash offer on your Las Vegas home. Call 702-718-6934 or fill out our form. Licensed real estate investment brokerage.',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/contact',
   },
   openGraph: {
     title: 'Contact Us | Free Cash Offer',
-    description: 'Contact Alchemy Investments RE for a free cash offer on your Las Vegas home. Call 702-547-6664 or fill out our form.',
+    description: 'Contact Alchemy Investments RE for a free cash offer on your Las Vegas home. Call 702-718-6934 or fill out our form.',
     url: 'https://alchemyinvestmentsre.com/contact',
     type: 'website',
     images: [{ url: 'https://alchemyinvestmentsre.com/og-image.jpg', width: 1200, height: 630, alt: 'Contact Alchemy Investments RE' }],
@@ -40,8 +40,8 @@ export default function ContactPage() {
               <div className="text-center p-8 bg-gray-50 rounded-lg">
                 <div className="text-5xl mb-4">📞</div>
                 <h3 className="text-2xl font-heading mb-4">Call Us</h3>
-                <a href="tel:702-547-6664" className="text-2xl text-secondary font-bold hover:text-primary">
-                  702-547-6664
+                <a href="tel:702-718-6934" className="text-2xl text-secondary font-bold hover:text-primary">
+                  702-718-6934
                 </a>
                 <p className="text-gray-600 mt-2">Available 7 Days a Week</p>
               </div>
@@ -100,8 +100,8 @@ export default function ContactPage() {
                   <p>Las Vegas, NV 89148</p>
                   <p className="pt-4">
                     <strong>Phone:</strong>{' '}
-                    <a href="tel:702-547-6664" className="text-secondary hover:text-primary">
-                      702-547-6664
+                    <a href="tel:702-718-6934" className="text-secondary hover:text-primary">
+                      702-718-6934
                     </a>
                   </p>
                   <p>

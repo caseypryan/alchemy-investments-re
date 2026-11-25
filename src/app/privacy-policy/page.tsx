@@ -62,8 +62,8 @@ export default function PrivacyPolicyPage() {
                 Investments RE LLC regarding your property inquiry. Message and data rates may
                 apply. Messaging frequency may vary. You may opt out at any time by replying STOP
                 to any SMS message. For assistance, reply HELP or contact us at{' '}
-                <a href="tel:702-547-6664" className="text-[#4A90E2] hover:underline">
-                  (702) 547-6664
+                <a href="tel:702-718-6934" className="text-[#4A90E2] hover:underline">
+                  (702) 718-6934
                 </a>
                 . SMS consent and phone numbers collected for SMS purposes are not shared with
                 third parties or affiliates for marketing purposes.
@@ -101,8 +101,8 @@ export default function PrivacyPolicyPage() {
               <p>
                 You have the right to request access to, correction of, or deletion of your
                 personal information. To exercise these rights, contact us at{' '}
-                <a href="tel:702-547-6664" className="text-[#4A90E2] hover:underline">
-                  (702) 547-6664
+                <a href="tel:702-718-6934" className="text-[#4A90E2] hover:underline">
+                  (702) 718-6934
                 </a>
                 .
               </p>
@@ -113,8 +113,8 @@ export default function PrivacyPolicyPage() {
               <p>
                 If you have questions about this Privacy Policy, please contact Alchemy Investments
                 RE at{' '}
-                <a href="tel:702-547-6664" className="text-[#4A90E2] hover:underline">
-                  (702) 547-6664
+                <a href="tel:702-718-6934" className="text-[#4A90E2] hover:underline">
+                  (702) 718-6934
                 </a>{' '}
                 or visit our{' '}
                 <a href="/contact" className="text-[#4A90E2] hover:underline">

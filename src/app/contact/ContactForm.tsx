@@ -80,7 +80,7 @@ export default function ContactForm() {
       setSubmitSuccess(true)
     } catch (error) {
       console.error('Form submission error:', error)
-      alert('There was an error submitting your form. Please call us at (702) 547-6664.')
+      alert('There was an error submitting your form. Please call us at (702) 718-6934.')
     } finally {
       setIsSubmitting(false)
     }
@@ -115,8 +115,8 @@ export default function ContactForm() {
         </p>
         <p className="text-gray-500 mt-4">
           Need to reach us sooner? Call{' '}
-          <a href="tel:702-547-6664" className="text-secondary font-bold hover:text-primary">
-            (702) 547-6664
+          <a href="tel:702-718-6934" className="text-secondary font-bold hover:text-primary">
+            (702) 718-6934
           </a>
         </p>
       </div>

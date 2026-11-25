@@ -58,7 +58,7 @@ Then open the PR from the renamed branch. Local sessions are unaffected — they
 
 - **Name**: Alchemy Investments RE
 - **Domain**: alchemyinvestmentsre.com
-- **Phone**: (702) 547-6664
+- **Phone**: (702) 718-6934
 - **Email**: info@alchemyinvestmentsre.com
 - **Service Areas**: Las Vegas, Henderson, North Las Vegas, Summerlin, Enterprise, Paradise, Pahrump, Boulder City, Green Valley, Spring Valley
 - **License**: Nevada Real Estate License S.0184768

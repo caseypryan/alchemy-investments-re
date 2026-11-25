@@ -63,7 +63,7 @@ export default function SmsConsentForm() {
 
       setSubmitted(true)
     } catch {
-      alert('There was an error submitting your form. Please call us at (702) 547-6664.')
+      alert('There was an error submitting your form. Please call us at (702) 718-6934.')
     } finally {
       setIsSubmitting(false)
     }

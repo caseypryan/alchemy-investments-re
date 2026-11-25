@@ -241,7 +241,7 @@ export default async function BlogPage() {
               Get Started &rarr;
             </Link>
             <p className="text-lg mt-6">
-              Or call us: <a href="tel:702-547-6664" className="font-bold hover:underline">(702) 547-6664</a>
+              Or call us: <a href="tel:702-718-6934" className="font-bold hover:underline">(702) 718-6934</a>
             </p>
           </div>
         </section>

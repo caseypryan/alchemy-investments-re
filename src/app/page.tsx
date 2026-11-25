@@ -46,7 +46,7 @@ const localBusinessSchema = {
   description:
     'Licensed Las Vegas real estate brokerage offering cash home purchases and top 1% agent services. We buy houses in any condition throughout the Las Vegas Valley.',
   url: 'https://alchemyinvestmentsre.com',
-  telephone: '(702) 547-6664',
+  telephone: '(702) 718-6934',
   email: 'offers@alchemyinvestmentsre.com',
   address: {
     '@type': 'PostalAddress',
@@ -85,7 +85,7 @@ const organizationSchema = {
   name: 'Alchemy Investments RE',
   url: 'https://alchemyinvestmentsre.com',
   logo: 'https://alchemyinvestmentsre.com/logo.png',
-  telephone: '(702) 547-6664',
+  telephone: '(702) 718-6934',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Las Vegas',
@@ -94,7 +94,7 @@ const organizationSchema = {
   },
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '(702) 547-6664',
+    telephone: '(702) 718-6934',
     contactType: 'customer service',
     availableLanguage: 'English',
     areaServed: 'US',
@@ -291,8 +291,8 @@ export default function Home() {
                     Our Concierge Team will reach out within 5 minutes to answer your questions,
                     offer advice, and learn exactly what you&apos;re looking for. You can also call
                     us directly at{' '}
-                    <a href="tel:702-547-6664" className="text-[#4A90E2] font-semibold hover:underline">
-                      (702) 547-6664
+                    <a href="tel:702-718-6934" className="text-[#4A90E2] font-semibold hover:underline">
+                      (702) 718-6934
                     </a>{' '}
                     7 days a week.
                   </p>

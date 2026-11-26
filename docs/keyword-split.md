@@ -29,9 +29,9 @@ An earlier version of this file (same day) said Alchemy must avoid WBAVH's searc
 
 ## Overlap check (run 2026-11-25)
 
-Method: every text file under `content/` and `src/` in this repo was compared with the WBAVH code folder (`~/webuyanyvegashouse`) and both 702 Cash Offer folders (`~/702 Cash Offer`, `~/702-Cash-Offer`), counting runs of 8 words in a row that appear in both.
+Method: every text file under `content/` and `src/` in this repo was compared with the WBAVH code folder (`~/webuyanyvegashouse`, 725 files) and the 702 Cash Offer code folder (`~/702 Cash Offer`, 118 files), counting runs of 8 words in a row that appear in both. Correction, same day: the first run read only 30 of the 702 Cash Offer files (it missed that site's page folders) and the second folder, `~/702-Cash-Offer`, holds no page text. The check was re-run on the full folder and the script now stops with an error if a folder gives it nothing to compare.
 
-Result: no copied articles. The highest overlap on a real page was about 4% of its 8-word runs (`content/blog/posts/sell-house-fast-las-vegas.json`, against a 702 Cash Offer post); most pages were 1–3%. The matches were stock phrases such as "close in as little as 7 days" and "cash offer within 24 hours", not paragraphs.
+Result: no copied articles. The highest overlap on a real page was about 4% of its 8-word runs (`content/blog/posts/sell-house-fast-las-vegas.json`, against a 702 Cash Offer post); most pages were 1–3%. The matches were stock phrases such as "close in as little as 7 days" and "cash offer within 24 hours", not paragraphs. The full re-run found two small utility pages with more shared wording against 702 Cash Offer: the text-message consent page (`src/app/sms-consent/page.tsx`, 20% of a very short page, contact-form wording) and the thank-you page (9%). Neither is an article and the thank-you page is hidden from Google.
 
 Limits: this catches word-for-word copying. It does not catch an article reworded sentence by sentence with the same outline, and it compared the code folders, not the live 702 Cash Offer website.
 

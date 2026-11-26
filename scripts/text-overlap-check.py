@@ -43,13 +43,22 @@ def looks_like_prose(s):
     return not any(c in s for c in code)
 
 
+if len(sys.argv) < 3:
+    sys.exit('usage: text-overlap-check.py <alchemy_root> <other_root> [<other_root> ...]')
+
 alchemy_root, others = sys.argv[1], sys.argv[2:]
 index = defaultdict(set)
 for other in others:
-    for f in files(other, ['content', 'src']):
+    # A missing or mistyped folder must not pass as "no copied text".
+    scanned = 0
+    for f in files(other, ['content', 'src', 'app', 'components', 'lib']):
+        scanned += 1
         for s in shingles(f):
             if looks_like_prose(s):
                 index[s].add(f)
+    if scanned == 0:
+        sys.exit(f'error: no text files found under {other} (expected content/, src/ or app/ inside it)')
+    print(f'compared against {other}: {scanned} files')
 
 rows = []
 for f in files(alchemy_root, ['content', 'src/app', 'src/components']):

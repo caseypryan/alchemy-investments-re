@@ -8,7 +8,7 @@ Last updated 2026-11-25 (evening). Topic tag: `alchemy-site-audit`. Keyword and 
 
 | Part | PR | Merged? | Live? | Checked live? | Next step |
 |---|---|---|---|---|---|
-| Phone and email click tracking | #6 | yes, 2026-11-25 | yes | yes: tapping the header number on the live site sent `phone_clicked` to Google Analytics | In GA4 Admin, mark `phone_clicked` and `form_submission` as key events (needs Casey's GA sign-in) |
+| Phone and email click tracking | #6 | yes, 2026-11-25 | yes | yes: tapping the header number on the live site sent `phone_clicked` to Google Analytics | Done 2026-11-25: `phone_clicked` and `form_submission` are marked as key events in GA4 (no dollar value, counted once per event). Check the Key events report in a day or two for the first counts |
 | Keyword doc + this status file | #7, #8, and the PR that adds this line | yes | n/a | n/a | Keep current |
 | Agent-focused homepage rewrite | #9 | yes, then undone by #11 | undone | yes: old title is back | None |
 | Remove years-in-business wording and unused review-count data | #10 | yes, 2026-11-25 | yes | yes: 5 live pages checked | None |

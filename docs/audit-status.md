@@ -22,7 +22,7 @@ Last updated 2026-11-25 (evening). Topic tag: `alchemy-site-audit`. Keyword and 
 | Agent photo spots | on hold | | | | Casey: leave alone for now |
 | Customer testimonials on 32 pages | question open | | | | Ask Casey whether they are real customers |
 | Speed: shrink the 8.4 MB homepage background photo | #16 | yes, 2026-11-25 | yes | yes: live homepage serves about 62 KB to a phone-width screen and 252 KB at 1,920 px wide (was 8.4 MB for everyone) | Run Google PageSpeed when its daily quota resets, to get a before/after score |
-| Speed: load tracking scripts after first tap or scroll | not started | | | | After the photo |
+| Speed: load Analytics and Tag Manager after the first scroll or tap (or 12 seconds) | #21 | yes, 2026-11-25 | yes | yes: on the live site no Google requests before a tap; after a phone tap, `page_view` and `phone_clicked` were sent | Visitors who leave within 12 seconds without scrolling or tapping are no longer counted. Run Google PageSpeed when its quota resets for a score |
 | Tag Manager connector on this Mac | fixed 2026-11-25 | n/a | n/a | starts cleanly in a test | Reconnect it in the session (`/mcp`) or start a new session |
 ## What the audit found (all checked 2026-11-25)
 

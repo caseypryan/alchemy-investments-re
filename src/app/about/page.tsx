@@ -5,13 +5,13 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'About Us | Las Vegas Cash Buyers',
-  description: 'Licensed Las Vegas real estate brokerage since 2010. Over 500 homes purchased. Fair, transparent cash offers. NV Real Estate License S.0184768.',
+  description: 'Licensed Las Vegas real estate brokerage. Over 2,000 homes purchased. Fair, transparent cash offers. NV Real Estate License S.0184768.',
   alternates: {
     canonical: 'https://alchemyinvestmentsre.com/about',
   },
   openGraph: {
     title: 'About Us | Las Vegas Cash Buyers',
-    description: 'Licensed Las Vegas real estate brokerage since 2010. Over 500 homes purchased. Fair, transparent cash offers.',
+    description: 'Licensed Las Vegas real estate brokerage. Over 2,000 homes purchased. Fair, transparent cash offers.',
     url: 'https://alchemyinvestmentsre.com/about',
     type: 'website',
     images: [{ url: 'https://alchemyinvestmentsre.com/og-image.jpg', width: 1200, height: 630, alt: 'About Alchemy Investments RE' }],
@@ -28,7 +28,7 @@ export default function AboutPage() {
           <div className="container-custom">
             <h1 className="text-5xl font-heading mb-6">About Alchemy Investments RE</h1>
             <p className="text-xl max-w-3xl">
-              Your trusted partner for fast, fair cash home sales in Las Vegas since 2010
+              Your trusted partner for fast, fair cash home sales in Las Vegas
             </p>
           </div>
         </section>
@@ -39,11 +39,11 @@ export default function AboutPage() {
             <h2 className="text-4xl font-heading mb-8">Our Story</h2>
             <div className="space-y-6 text-lg text-gray-700">
               <p>
-                Founded in 2010, Alchemy Investments RE was born from a simple mission: to provide homeowners
+                Alchemy Investments RE was born from a simple mission: to provide homeowners
                 in Las Vegas with a fast, fair, and transparent alternative to traditional home sales.
               </p>
               <p>
-                We've helped over 500 homeowners sell their houses quickly for cash,
+                We've helped over 2,000 homeowners sell their houses quickly for cash,
                 regardless of condition or circumstances. Whether facing foreclosure, going through a divorce,
                 dealing with an inherited property, or simply needing to relocate quickly, we've been there to help.
               </p>
@@ -96,22 +96,14 @@ export default function AboutPage() {
         <section className="py-16 bg-primary text-white">
           <div className="container-custom">
             <h2 className="text-4xl font-heading text-center mb-12">Our Track Record</h2>
-            <div className="grid md:grid-cols-4 gap-8 text-center">
+            <div className="grid md:grid-cols-2 gap-8 text-center max-w-2xl mx-auto">
               <div>
-                <div className="text-5xl font-bold mb-2">15+</div>
-                <div className="text-lg">Years in Business</div>
-              </div>
-              <div>
-                <div className="text-5xl font-bold mb-2">500+</div>
+                <div className="text-5xl font-bold mb-2">2,000+</div>
                 <div className="text-lg">Homes Purchased</div>
               </div>
               <div>
-                <div className="text-5xl font-bold mb-2">$50M+</div>
-                <div className="text-lg">Paid to Homeowners</div>
-              </div>
-              <div>
-                <div className="text-5xl font-bold mb-2">4.9★</div>
-                <div className="text-lg">Average Rating</div>
+                <div className="text-5xl font-bold mb-2">NV Lic.</div>
+                <div className="text-lg">S.0184768</div>
               </div>
             </div>
           </div>

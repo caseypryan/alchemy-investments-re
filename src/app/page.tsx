@@ -130,7 +130,7 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <div className="flex justify-center items-center gap-8 md:gap-16 flex-wrap">
               <div className="text-center">
-                <div className="text-2xl font-bold text-[#2b3d4f]">500+</div>
+                <div className="text-2xl font-bold text-[#2b3d4f]">2,000+</div>
                 <div className="text-sm text-gray-500">Homes Purchased</div>
               </div>
               <div className="h-10 w-px bg-gray-200 hidden md:block" />

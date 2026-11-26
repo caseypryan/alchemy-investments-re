@@ -6,8 +6,8 @@ Last updated 2026-11-25. Topic tag: `alchemy-site-audit`. Keyword rules: [keywor
 
 | Part | PR | Merged? | Live? | Checked live? | Next step |
 |---|---|---|---|---|---|
-| Phone and email click tracking | #6 | pending | no | no | Merge, promote the build if Vercel doesn't, tap the phone number and look for `phone_clicked` in GA4 realtime |
-| Keyword split doc + this status file | (this PR) | pending | n/a | n/a | Merge |
+| Phone and email click tracking | #6 | yes, 2026-11-25 | yes | yes: tapping the header number on the live site sent `phone_clicked` to Google Analytics | In GA4 Admin, mark `phone_clicked` and `form_submission` as key events (needs Casey's GA sign-in) |
+| Keyword split doc + this status file | #7 | yes, 2026-11-25 | n/a | n/a | Keep this table current |
 | Fix broken images (share image, agent photos) | not started | | | | Needs real agent photos from Casey, or remove the photo slots |
 | Trust signals: real review count, clickable Google reviews | not started | | | | Needs Casey's real numbers |
 | Re-aim homepage title and headings at the brokerage angle | not started | | | | Waiting on Casey's OK |

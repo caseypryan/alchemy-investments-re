@@ -1,21 +1,28 @@
 # Alchemy site audit: status
 
-Last updated 2026-11-25. Topic tag: `alchemy-site-audit`. Keyword rules: [keyword-split.md](keyword-split.md).
+Last updated 2026-11-25 (evening). Topic tag: `alchemy-site-audit`. Keyword and shared-text rules: [keyword-split.md](keyword-split.md).
+
+**Goal changed on 2026-11-25:** Alchemy may target the same searches as WBAVH (aim: #2 and #3 spots). The hard rule is no copied text between the sites. The "re-aim at the brokerage angle" plan is cancelled.
 
 ## Status table
 
 | Part | PR | Merged? | Live? | Checked live? | Next step |
 |---|---|---|---|---|---|
 | Phone and email click tracking | #6 | yes, 2026-11-25 | yes | yes: tapping the header number on the live site sent `phone_clicked` to Google Analytics | In GA4 Admin, mark `phone_clicked` and `form_submission` as key events (needs Casey's GA sign-in) |
-| Keyword split doc + this status file | #7 | yes, 2026-11-25 | n/a | n/a | Keep this table current |
-| Fix broken images (share image, agent photos) | not started | | | | Needs real agent photos from Casey, or remove the photo slots |
-| Trust signals: real review count, clickable Google reviews | not started | | | | Needs Casey's real numbers |
-| Re-aim homepage title and headings at the brokerage angle | not started | | | | Waiting on Casey's OK |
-| Re-aim or remove the 32 cash-buyer pages (locations, neighborhoods, services) | not started | | | | Waiting on Casey's choice |
-| New agent / listing guides | not started | | | | After the re-aim |
+| Keyword doc + this status file | #7, #8, and the PR that adds this line | yes | n/a | n/a | Keep current |
+| Agent-focused homepage rewrite | #9 | yes, then undone by #11 | undone | yes: old title is back | None |
+| Remove years-in-business wording and unused review-count data | #10 | yes, 2026-11-25 | yes | yes: 5 live pages checked | None |
+| Undo homepage rewrite; keep "$0 fees" and years off the homepage | #11 | yes, 2026-11-25 | yes | yes: title, no fee or years wording | None |
+| Re-aim the 32 location, neighborhood and service pages | none | cancelled, pages unchanged | | | None |
+| Copied-text check against WBAVH and 702 Cash Offer | n/a | n/a | n/a | n/a | Done 2026-11-25: no copied articles (see keyword-split.md). Re-run `scripts/text-overlap-check.py` before publishing new text |
+| "500+ homes" figure | not started | | | | Look up the WBAVH homes-bought figure from a real source and use it, rounded |
+| "No fees" wording on non-cash pages | not started | | | | Homepage is done; check other general pages. Cash-offer pages may keep it |
+| Share image `/og-image.jpg` missing (404) | not started | | | | Make and add the image |
+| Agent photo spots | on hold | | | | Casey: leave alone for now |
+| Customer testimonials on 32 pages | question open | | | | Ask Casey whether they are real customers |
 | Speed: shrink the 8.4 MB homepage background photo | not started | | | | Next speed PR |
-| Speed: load tracking scripts after first tap or scroll | not started | | | | After tracking is confirmed |
-
+| Speed: load tracking scripts after first tap or scroll | not started | | | | After the photo |
+| Tag Manager connector on this Mac | fixed 2026-11-25 | n/a | n/a | starts cleanly in a test | Reconnect it in the session (`/mcp`) or start a new session |
 ## What the audit found (all checked 2026-11-25)
 
 **Tracking**
@@ -26,7 +33,7 @@ Last updated 2026-11-25. Topic tag: `alchemy-site-audit`. Keyword rules: [keywor
 
 **Search**
 - Google ranks the site for 3 searches, all brand names (DataForSEO, 2026-11-25).
-- The homepage, 10 location pages, 12 neighborhood pages, 10 service pages and 6 blog posts aim at the same searches WBAVH owns. See [keyword-split.md](keyword-split.md).
+- The homepage, 10 location pages, 12 neighborhood pages, 10 service pages and 6 blog posts aim at the same searches WBAVH holds. As of 2026-11-25 Casey wants that (see [keyword-split.md](keyword-split.md)); the rule is no copied text.
 - The basics are in place: every page checked has a title, description, canonical address and hidden search data (schema); `sitemap.xml`, `robots.txt` and `llms.txt` return 200.
 - The sitemap gives almost every page the same "last changed" date (2026-03-09).
 
@@ -34,7 +41,7 @@ Last updated 2026-11-25. Topic tag: `alchemy-site-audit`. Keyword rules: [keywor
 - The share image `/og-image.jpg` returns 404, so links shared on Facebook, iMessage and so on show no picture.
 - Agent photos return 404 (`/agents/casey-ryan.jpg`); the `/public/agents` folder does not exist.
 - The top menu item "Reviews" opens the blog.
-- `src/lib/schema.ts` holds a hard-coded "4.9 stars, 127 reviews" rating. It is not used on any page today. It must not be switched on unless the numbers are real.
+- `src/lib/schema.ts` held a hard-coded "4.9 stars, 127 reviews" rating that no page used. Removed in PR #10; Casey wants no review count anywhere.
 - Claims that need Casey to confirm with real numbers: "500+ homes purchased", "Top 1% agents", "10+ years", "$0 fees or commissions", "offer in 24 hours", agent stats (500+ / 300+ homes sold). WBAVH removed "offer in 24 hours" and "no fees" wording from its titles (WBAVH PR #543).
 - `public/hero-drone.jpg` is 8.4 MB and is the homepage's background photo (`src/components/HomepageHeroForm.tsx`). It is in use, so do not delete it; it needs to be shrunk and served in phone and desktop sizes. This is likely the biggest speed problem on the site.
 

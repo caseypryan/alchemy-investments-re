@@ -1,55 +1,58 @@
-# Keyword split: Alchemy Investments RE vs We Buy Any Vegas House
+# Keywords and shared-text rules: Alchemy Investments RE and We Buy Any Vegas House
 
-As of 2026-11-25. Owner: Casey. Rule: **We Buy Any Vegas House (WBAVH) is the priority site. Alchemy must never go after the same main Google searches, and must never reuse WBAVH's text.**
+As of 2026-11-25. Owner: Casey.
 
-## Where the numbers come from
+## The goal (changed 2026-11-25)
 
-- Rankings: DataForSEO "ranked keywords" report, United States, pulled 2026-11-25.
-  - webuyanyvegashouse.com: 148 searches where it ranks in Google's top 30.
-  - alchemyinvestmentsre.com: 3 searches in total, all brand names ("alchemy investments" at position 2; two unrelated "limestone investments" searches at 43 and 54).
-- Monthly search counts: DataForSEO "keyword overview", United States, pulled 2026-11-25. These are national Google counts for the exact phrase.
-- WBAVH's own target list: `~/webuyanyvegashouse/content/data/keywords.json` (updated 2026-11-06), `seo/keyword-plan.md` and `seo/plans/2026-10-22-striking-distance-top5-plan.md` in that repo.
+Casey's decision, 2026-11-25: Alchemy **may target the same Google searches** as We Buy Any Vegas House (WBAVH). The aim is for Casey's sites to hold more than one of the top spots (WBAVH first, Alchemy in the #2 or #3 spot) for cash-buyer searches such as "sell my house fast las vegas" and "we buy houses las vegas".
 
-## WBAVH owns these (Alchemy must NOT target them)
+The one hard rule: **no copied or closely reworded text between the sites.** Google can treat near-identical pages on related sites as duplicates and push them down, and that could hurt WBAVH, the priority site. This happened before with 702 Cash Offer.
 
-"Target" means using the phrase as a page's title, main heading, web address or the main subject of the page.
+An earlier version of this file (same day) said Alchemy must avoid WBAVH's searches. That rule is withdrawn. The agent-focused homepage built under it (PR #9) was undone in PR #11, and the 32 location, neighborhood and service pages were never changed.
 
-| Group | Example searches (WBAVH position, searches per month) |
-|---|---|
-| "We buy houses" | we buy houses las vegas (2, 210), we buy houses cash las vegas (8, 210), we buy any vegas house (2, 1,000), we buy houses + Henderson / North Las Vegas / Summerlin / Pahrump / Boulder City / Spring Valley |
-| "Sell my house fast" | every "sell my house fast (in) las vegas" wording (260), sell my las vegas house (6, 110), sell my house fast henderson (16, 40), sell my house fast boulder city nv (11, 50) |
-| Cash buyers | cash home buyers las vegas (110), las vegas cash home buyers (4, 110), cash for vegas homes (4, 30), home buyers las vegas (4, 40) |
-| Seller situations as a cash sale | foreclosure, probate, inherited house, divorce, rental with tenants, late on mortgage, property-tax foreclosure, HOA lien, mobile home, fire damage, house full of trash, house that needs repairs (each with "las vegas") |
-| Cash-sale questions | closing costs for cash buyers (13–16, 170), do I pay tax if I sell for cash, repairs after home inspection |
-| Competitor reviews | 72 Sold reviews (7, 390), we buy ugly houses / HomeVestors reviews (17–26, 590–880), Opendoor vs cash buyers |
+## Rules for every Alchemy page, post and article
 
-## Alchemy owns these (the licensed-brokerage angle, NV S.0184768)
+1. Write new copy. Never paste from webuyanyvegashouse.com, 702cashoffer.com or their code folders, and never rewrite one of their articles sentence by sentence or reuse its outline.
+2. The same subject is fine (foreclosure, probate, selling as-is, a city page). The wording, structure, examples and questions must be Alchemy's own.
+3. Lean on what only Alchemy can say: it is a licensed Nevada brokerage (S.0184768), so a seller can list with an agent or take a cash offer. That difference also makes the pages less alike.
+4. Before publishing new or rewritten text, run the overlap check below against both sister sites and fix anything above stock-phrase level.
+5. WBAVH stays the priority. If the two sites ever start trading places for a search WBAVH holds at #1, stop and ask Casey before pushing Alchemy further on that search.
 
-WBAVH does not rank for or target any of these.
+## Claims rules (Casey, 2026-11-25)
 
-| Group | Example searches (searches per month) | Alchemy page |
+- "Top 1% agents" may be used.
+- No "$0 fees" / "no fees" / "no commissions" wording on the homepage. Pages that are only about the cash offer may say Alchemy does not charge fees on a cash sale.
+- No years-in-business wording anywhere on the site ("10+ years", "since 2018" and so on), in page text or in the hidden data Google reads (schema).
+- No Google review count or star rating anywhere, including schema.
+- Homes bought: may use the WBAVH homes-bought figure, rounded, taken from a real source (QuickBooks, Podio or WBAVH's own site), with the source noted. Not looked up yet as of 2026-11-25; the site still says "500+".
+- Agent photo spots: leave as they are for now.
+
+## Overlap check (run 2026-11-25)
+
+Method: every text file under `content/` and `src/` in this repo was compared with the WBAVH code folder (`~/webuyanyvegashouse`) and both 702 Cash Offer folders (`~/702 Cash Offer`, `~/702-Cash-Offer`), counting runs of 8 words in a row that appear in both.
+
+Result: no copied articles. The highest overlap on a real page was about 4% of its 8-word runs (`content/blog/posts/sell-house-fast-las-vegas.json`, against a 702 Cash Offer post); most pages were 1–3%. The matches were stock phrases such as "close in as little as 7 days" and "cash offer within 24 hours", not paragraphs.
+
+Limits: this catches word-for-word copying. It does not catch an article reworded sentence by sentence with the same outline, and it compared the code folders, not the live 702 Cash Offer website.
+
+Pages with the most shared phrasing, to rewrite first if any are refreshed:
+
+| Alchemy file | Share of 8-word runs also on a sister site | Closest sister page |
 |---|---|---|
-| Brand | alchemy investments (50), alchemy investments re | Homepage |
-| Finding an agent | real estate agent las vegas (2,400), realtor las vegas (2,400), real estate brokerage las vegas (2,400), top real estate agents las vegas (480), best realtor las vegas (480) | Homepage + `/our-agents` |
-| Agents by area | realtor henderson nv (480), summerlin realtor (90), realtor north las vegas (50) | `/locations/*` pages, rewritten around listing with a local agent |
-| Listing costs and choices | how to choose a listing agent (1,600), real estate commission nevada (140), for sale by owner las vegas (170), nevada real estate transfer tax (40) | Blog / guide pages |
-| Home value and market | home value las vegas (590), las vegas housing market (1,300) | Blog / guide pages |
-| Cash offer vs listing | "should I list or take a cash offer" style questions (small counts, but they are Alchemy's whole pitch) | `/how-it-works`, one comparison guide |
+| `content/blog/posts/sell-house-fast-las-vegas.json` | 4.0% | 702 Cash Offer: how-to-sell-your-house-fast-for-cash-in-las-vegas |
+| `content/locations/las-vegas.json` | 3.7% | WBAVH: static page defaults |
+| `content/blog/posts/avoid-foreclosure-las-vegas.json` | 3.1% | 702 Cash Offer: how-to-avoid-foreclosure-las-vegas |
+| `src/app/blog/sell-house-fast-las-vegas/page.tsx` | 2.9% | 702 Cash Offer: sell-my-house-fast-las-vegas |
+| `content/locations/boulder-city.json` | 2.8% | WBAVH: we-buy-houses-boulder-city |
 
-## Pages on Alchemy that break the rule today
+## Where the two sites stand (DataForSEO, United States, pulled 2026-11-25)
 
-These were written before the split and aim straight at WBAVH's searches. DataForSEO shows no Google rankings for them today (see above), so little search traffic is at risk. That report does not count visits from links, direct visits or searches too small to be tracked, so check each page's visits in Google Analytics and Search Console before changing or removing it, and keep the same web addresses (or redirect them) when re-aiming.
+- webuyanyvegashouse.com ranks in Google's top 30 for 148 searches, including "we buy houses las vegas" (position 2), "we buy any vegas house" (2), "las vegas cash home buyers" (4), "sell my las vegas house" (6).
+- alchemyinvestmentsre.com ranks for 3 searches, all brand names ("alchemy investments" at position 2).
+- Monthly Google searches, national counts for the exact phrase: sell my house fast las vegas 260, we buy houses las vegas 210, cash home buyers las vegas 110, sell my house las vegas 110.
 
-- Homepage title: "Sell My House Fast Las Vegas | Cash Offers in 24 Hours | Top 1% Agents".
-- 10 pages under `/locations/` with titles like "Enterprise NV Cash Home Buyers" and "We Buy Houses".
-- 12 pages under `/neighborhoods/` with the same cash-buyer aim.
-- 10 pages under `/services/` (probate, foreclosure, divorce, inherited, as-is and so on), each the same subject as a WBAVH situation page.
-- Blog posts: sell-house-fast-las-vegas, sell-house-as-is-las-vegas, avoid-foreclosure-las-vegas, sell-inherited-house-las-vegas, sell-house-during-divorce-nevada, sell-rental-property-las-vegas.
+So Alchemy is starting from zero on these searches. Getting it into the top spots will take stronger pages and links from other sites, not only wording.
 
-## Rules for new or changed Alchemy pages
+## Searches only Alchemy can go after (optional extra)
 
-1. Before adding or re-aiming a page, check the main phrase against the WBAVH table above and against a fresh DataForSEO ranked-keywords pull for webuyanyvegashouse.com. If WBAVH ranks in the top 30 for it or lists it in `keywords.json`, pick a different phrase.
-2. Alchemy's titles and headings talk about agents, listing, the brokerage and choosing between a listing and a cash offer. They do not lead with "we buy houses", "sell my house fast" or "cash home buyers".
-3. Alchemy may mention that a cash offer is available, as one of two options, in body text.
-4. Never copy WBAVH text. Write new copy.
-5. Re-check this split every quarter, or whenever WBAVH adds a new group of pages.
+WBAVH is not a brokerage and does not target these, so they are free ground: real estate agent las vegas (2,400 a month), realtor las vegas (2,400), top real estate agents las vegas (480), best realtor las vegas (480), realtor henderson nv (480), how to choose a listing agent (1,600), home value las vegas (590), las vegas housing market (1,300).

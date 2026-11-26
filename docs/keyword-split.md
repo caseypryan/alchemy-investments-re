@@ -38,7 +38,7 @@ WBAVH does not rank for or target any of these.
 
 ## Pages on Alchemy that break the rule today
 
-These were written before the split and aim straight at WBAVH's searches. They rank for nothing today (see above), so changing them costs Alchemy no traffic.
+These were written before the split and aim straight at WBAVH's searches. DataForSEO shows no Google rankings for them today (see above), so little search traffic is at risk. That report does not count visits from links, direct visits or searches too small to be tracked, so check each page's visits in Google Analytics and Search Console before changing or removing it, and keep the same web addresses (or redirect them) when re-aiming.
 
 - Homepage title: "Sell My House Fast Las Vegas | Cash Offers in 24 Hours | Top 1% Agents".
 - 10 pages under `/locations/` with titles like "Enterprise NV Cash Home Buyers" and "We Buy Houses".

@@ -71,17 +71,3 @@ export const organizationSchema = {
     availableLanguage: 'en',
   },
 }
-
-export const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': ['RealEstateAgent', 'LocalBusiness'],
-  '@id': 'https://alchemyinvestmentsre.com/#localbusiness',
-  name: 'Alchemy Investments RE',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '127',
-    bestRating: '5',
-    worstRating: '1',
-  },
-}

@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     question: `Is this a scam? How do I know you're legitimate?`,
-    answer: `We are a fully licensed real estate brokerage in Nevada (License: S.0184768). You can verify our license with the Nevada Real Estate Division at any time. We've been in business for over 10 years and have purchased 500+ homes. All transactions are conducted through licensed title companies with full legal protection for both parties.`,
+    answer: `We are a fully licensed real estate brokerage in Nevada (License: S.0184768). You can verify our license with the Nevada Real Estate Division at any time. We've purchased 500+ homes. All transactions are conducted through licensed title companies with full legal protection for both parties.`,
   },
   {
     question: `Will you lowball me on the offer?`,

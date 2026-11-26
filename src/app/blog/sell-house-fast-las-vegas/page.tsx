@@ -460,8 +460,7 @@ export default function BlogPost() {
             <div className="bg-gray-50 p-8 rounded-lg my-12">
               <h3 className="text-2xl font-heading mb-4">Get Your Free Cash Offer Today</h3>
               <p className="mb-6">
-                Alchemy Investments RE is a licensed Nevada real estate brokerage (License: S.0184768)
-                with 15+ years of experience buying houses in Las Vegas. We've purchased 500+ homes
+                Alchemy Investments RE is a licensed Nevada real estate brokerage (License: S.0184768) that buys houses in Las Vegas. We've purchased 500+ homes
                 and pride ourselves on fair, transparent offers.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -496,8 +495,8 @@ export default function BlogPost() {
             <h3 className="text-xl font-heading mb-2">About the Author</h3>
             <p className="text-gray-700">
               This guide was prepared by Alchemy Investments RE, a licensed Nevada real estate
-              brokerage specializing in fast cash home purchases. With 15+ years of experience
-              and 500+ homes purchased, we understand the Las Vegas market and homeowner needs.
+              brokerage specializing in fast cash home purchases. With 500+ homes purchased,
+              we understand the Las Vegas market and homeowner needs.
             </p>
           </div>
 

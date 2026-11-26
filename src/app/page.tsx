@@ -139,11 +139,6 @@ export default function Home() {
               </div>
               <div className="h-10 w-px bg-gray-200 hidden md:block" />
               <div className="text-center">
-                <div className="text-2xl font-bold text-[#2b3d4f]">10+ Years</div>
-                <div className="text-sm text-gray-500">Serving Las Vegas</div>
-              </div>
-              <div className="h-10 w-px bg-gray-200 hidden md:block" />
-              <div className="text-center">
                 <div className="text-2xl font-bold text-[#2b3d4f]">2 Ways to Sell</div>
                 <div className="text-sm text-gray-500">List With an Agent or Cash Offer</div>
               </div>

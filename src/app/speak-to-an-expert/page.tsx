@@ -27,7 +27,7 @@ export default function SpeakToExpertPage() {
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-5xl font-extrabold mb-6">Speak to a Real Estate Expert</h1>
               <p className="text-xl mb-8">
-                Get personalized advice from licensed Las Vegas real estate professionals with 10+ years of experience.
+                Get personalized advice from licensed Las Vegas real estate professionals.
               </p>
               <a href="tel:702-718-6934" className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white font-bold px-10 py-5 rounded-lg text-xl transition-colors">
                 Call Now: (702) 718-6934

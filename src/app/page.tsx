@@ -5,16 +5,19 @@ import Footer from '@/components/Footer'
 import HomepageHeroForm from '@/components/HomepageHeroForm'
 import HomepageCTAForm from '@/components/HomepageCTAForm'
 
+// Search targets for this page follow docs/keyword-split.md: the brokerage /
+// agent angle only. Do not aim this page at "sell my house fast", "we buy
+// houses" or "cash home buyers" — those belong to We Buy Any Vegas House.
 export const metadata: Metadata = {
-  title: 'Sell My House Fast Las Vegas | Cash Offers in 24 Hours | Top 1% Agents',
+  title: 'Las Vegas Real Estate Agents | Alchemy Investments RE',
   description:
-    'Sell your Las Vegas house fast for cash or with top 1% agents. Fair offers in 24 hours. No repairs, no fees. Close in 7-14 days. NV Licensed brokerage.',
+    'Sell your Las Vegas home with a licensed local real estate agent. Alchemy Investments RE is a Nevada brokerage (S.0184768). List your home or compare a cash offer.',
   keywords:
-    'sell my house fast las vegas, cash home buyers las vegas, we buy houses las vegas, sell house as-is las vegas, las vegas real estate investors, quick cash offers las vegas, sell house fast nevada, henderson cash buyers, summerlin home buyers',
+    'las vegas real estate agents, real estate agent las vegas, listing agent las vegas, real estate brokerage las vegas, realtor henderson nv, summerlin real estate agent, list my home las vegas',
   openGraph: {
-    title: 'Sell My House Fast Las Vegas | Cash Offers or Top Agents',
+    title: 'Las Vegas Real Estate Agents | Alchemy Investments RE',
     description:
-      'Two ways to sell: Get a cash offer in 24 hours OR work with top 1% Las Vegas agents. No repairs, no fees. Close in 7-14 days.',
+      'List your Las Vegas home with a licensed local agent, or compare that with a cash offer. Nevada brokerage, license S.0184768.',
     type: 'website',
     locale: 'en_US',
     siteName: 'Alchemy Investments RE',
@@ -24,14 +27,15 @@ export const metadata: Metadata = {
         url: 'https://alchemyinvestmentsre.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Sell My House Fast Las Vegas - Alchemy Investments RE',
+        alt: 'Alchemy Investments RE - Las Vegas real estate agents',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sell Your Las Vegas House Fast - Cash or Top Agents',
-    description: 'Get a fair cash offer in 24 hours. No repairs needed. Close in 7-14 days.',
+    title: 'Las Vegas Real Estate Agents | Alchemy Investments RE',
+    description:
+      'List your Las Vegas home with a licensed local agent, or compare that with a cash offer.',
     images: ['https://alchemyinvestmentsre.com/og-image.jpg'],
   },
   alternates: {
@@ -44,7 +48,7 @@ const localBusinessSchema = {
   '@type': 'RealEstateAgent',
   name: 'Alchemy Investments RE',
   description:
-    'Licensed Las Vegas real estate brokerage offering cash home purchases and top 1% agent services. We buy houses in any condition throughout the Las Vegas Valley.',
+    'Licensed Las Vegas real estate brokerage (Nevada license S.0184768). Our agents list and sell homes across the Las Vegas Valley, and sellers can also ask about a cash offer.',
   url: 'https://alchemyinvestmentsre.com',
   telephone: '(702) 718-6934',
   email: 'offers@alchemyinvestmentsre.com',
@@ -107,45 +111,6 @@ const organizationSchema = {
   },
 }
 
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'How fast can you buy my house in Las Vegas?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'We can close in as little as 7 days. Our team provides a cash offer within 24 hours of evaluating your property.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Do I need to make repairs before selling my house?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'No. We buy houses in any condition, as-is. No repairs, cleaning, or staging required.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Are there any fees or commissions when selling to Alchemy Investments RE?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'No fees or commissions whatsoever. The cash offer we make is the amount you receive at closing. We even cover closing costs.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'What areas of Las Vegas do you buy houses in?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'We buy houses throughout the Las Vegas Valley including Henderson, North Las Vegas, Summerlin, Spring Valley, Paradise, Boulder City, and Pahrump.',
-      },
-    },
-  ],
-}
-
 export default function Home() {
   return (
     <>
@@ -156,10 +121,6 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       <Header />
@@ -183,13 +144,13 @@ export default function Home() {
               </div>
               <div className="h-10 w-px bg-gray-200 hidden md:block" />
               <div className="text-center">
-                <div className="text-2xl font-bold text-[#2b3d4f]">7–14 Days</div>
-                <div className="text-sm text-gray-500">Average Close Time</div>
+                <div className="text-2xl font-bold text-[#2b3d4f]">2 Ways to Sell</div>
+                <div className="text-sm text-gray-500">List With an Agent or Cash Offer</div>
               </div>
               <div className="h-10 w-px bg-gray-200 hidden md:block" />
               <div className="text-center">
-                <div className="text-2xl font-bold text-[#2b3d4f]">$0</div>
-                <div className="text-sm text-gray-500">Fees or Commissions</div>
+                <div className="text-2xl font-bold text-[#2b3d4f]">7 Days</div>
+                <div className="text-sm text-gray-500">A Week by Phone</div>
               </div>
               <div className="h-10 w-px bg-gray-200 hidden md:block" />
               <div className="text-center">
@@ -217,12 +178,12 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-[22px] font-bold text-[#2b3d4f] mb-4">
-                  Option 1: Get an Instant Cash Offer
+                  Option 1: List With a Local Agent
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Sell your house as-is in any condition. No repairs, no showings, no
-                  contingencies. Get a fair cash offer in 24 hours and close in 7-14 days on your
-                  timeline.
+                  A licensed agent who knows your part of the valley prices your home from recent
+                  sales, puts it on the MLS, handles showings and negotiates the offers. This is
+                  the route for sellers who want the open market to set the price.
                 </p>
               </div>
 
@@ -240,12 +201,12 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-[22px] font-bold text-[#2b3d4f] mb-4">
-                  Option 2: Work with Top 1% Agents
+                  Option 2: Ask About a Cash Offer
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Maximize your home&apos;s value with expert pricing and marketing. Our top Las
-                  Vegas agents offer competitive rates and proven results, saving you thousands
-                  while getting you top dollar.
+                  If the house needs work, or you would rather skip showings and repairs, ask us
+                  for a cash offer too. Your agent can lay both options out next to each other so
+                  you can see what each one would leave you with.
                 </p>
               </div>
 
@@ -261,9 +222,9 @@ export default function Home() {
                   Licensed &amp; Experienced Brokerage
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Nevada licensed brokerage (S.0184768) with 10+ years serving the Las Vegas
-                  Valley. From Henderson to Summerlin, we buy houses in any condition and connect
-                  sellers with top agents.
+                  Alchemy Investments RE is a Nevada licensed real estate brokerage (S.0184768)
+                  based in Las Vegas. From Henderson to Summerlin, our agents work under a
+                  licensed broker and Nevada&apos;s real estate rules.
                 </p>
               </div>
             </div>
@@ -311,12 +272,12 @@ export default function Home() {
                     <span className="font-bold text-2xl">2</span>
                   </div>
                   <h3 className="text-[32px] font-bold text-[#2b3d4f] mb-6 leading-tight">
-                    We evaluate your property &amp; make a fair offer
+                    An agent walks your home &amp; shows you the numbers
                   </h3>
                   <p className="text-lg text-gray-600 leading-relaxed">
-                    We schedule a quick walkthrough of your home within 24–48 hours. Within 24
-                    hours of the visit, you receive a written cash offer with no pressure and no
-                    obligation to accept.
+                    We set up a walkthrough at a time that suits you. Your agent then shares a
+                    suggested list price based on recent nearby sales, and a cash offer if you
+                    asked for one. No pressure and no obligation to go ahead.
                   </p>
                 </div>
                 <div className="bg-[#f8f9fb] rounded-lg p-8 h-64 flex items-center justify-center md:order-1">
@@ -336,9 +297,9 @@ export default function Home() {
                     Choose your option &amp; close on your timeline
                   </h3>
                   <p className="text-lg text-gray-600 leading-relaxed">
-                    Accept the cash offer and close in as little as 7 days, or choose to list with
-                    one of our top 1% agents for maximum value. Either way, you stay in control of
-                    the timeline.
+                    List with your agent and let buyers compete, or take the cash offer if speed
+                    and simplicity matter more to you. Either way, you stay in control of the
+                    timeline.
                   </p>
                 </div>
                 <div className="bg-[#f8f9fb] rounded-lg p-8 h-64 flex items-center justify-center">
@@ -355,11 +316,10 @@ export default function Home() {
         <section className="bg-[#f8f9fb] py-16">
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-[32px] font-bold text-[#2b3d4f] mb-4">
-              We Buy Houses Throughout Las Vegas Valley
+              Local Agents Across the Las Vegas Valley
             </h2>
             <p className="text-gray-600 mb-10 max-w-2xl mx-auto">
-              We purchase homes in every neighborhood across the greater Las Vegas area — any
-              condition, any situation.
+              Pick your area to see how our agents help homeowners there list and sell.
             </p>
             <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
               {[

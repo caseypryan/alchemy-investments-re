@@ -17,6 +17,7 @@ function addScript(src: string) {
 declare global {
   interface Window {
     dataLayer?: unknown[]
+    __entryUrl?: string
   }
 }
 
@@ -59,6 +60,16 @@ export function DeferredTracking({ gaMeasurementId, gtmId }: DeferredTrackingPro
         addScript(`https://www.googletagmanager.com/gtm.js?id=${encodeURIComponent(gtmId)}`)
       }
       if (gaMeasurementId) {
+        // If the visitor's first tap already moved them to another page, the
+        // queued page view is for the page they arrived on. Add one for the
+        // page they are on now, so neither visit is lost.
+        const entryUrl = window.__entryUrl
+        if (entryUrl && entryUrl !== window.location.href) {
+          window.gtag?.('event', 'page_view', {
+            page_location: window.location.href,
+            page_referrer: entryUrl,
+          })
+        }
         addScript(
           `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(gaMeasurementId)}`
         )
@@ -80,14 +91,23 @@ export function DeferredTracking({ gaMeasurementId, gtmId }: DeferredTrackingPro
  * Tiny inline script that creates the Google Analytics queue immediately.
  * It downloads nothing; it only lets the rest of the site call `gtag(...)`
  * before the real script has loaded.
+ *
+ * The first page view is queued here with the address and referrer the
+ * visitor arrived with, so the entry page and any ad-campaign details in its
+ * address are recorded correctly even if the scripts load a page later.
  */
 export function TrackingQueue({ gaMeasurementId }: { gaMeasurementId?: string }) {
   if (!gaMeasurementId) return null
-  const id = JSON.stringify(gaMeasurementId)
+  // Escape "<" so the id can never close the script tag early.
+  const id = JSON.stringify(gaMeasurementId).replace(/</g, '\\u003c')
   return (
     <script
       dangerouslySetInnerHTML={{
-        __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config',${id});`,
+        __html:
+          `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}` +
+          `window.__entryUrl=location.href;gtag('js',new Date());` +
+          `gtag('config',${id},{send_page_view:false});` +
+          `gtag('event','page_view',{page_location:location.href,page_referrer:document.referrer});`,
       }}
     />
   )

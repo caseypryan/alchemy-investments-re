@@ -4,6 +4,12 @@ import { useEffect } from 'react'
 
 type Gtag = (command: 'event', name: string, params: Record<string, string>) => void
 
+declare global {
+  interface Window {
+    gtag?: Gtag
+  }
+}
+
 function nearestSection(el: Element): string {
   if (el.closest('header')) return 'header'
   if (el.closest('footer')) return 'footer'
@@ -28,7 +34,7 @@ export function ClickTracking() {
       const link = target.closest('a[href^="tel:"], a[href^="mailto:"]')
       if (!link) return
 
-      const gtag = (window as unknown as { gtag?: Gtag }).gtag
+      const gtag = window.gtag
       if (typeof gtag !== 'function') return
 
       const href = link.getAttribute('href') || ''

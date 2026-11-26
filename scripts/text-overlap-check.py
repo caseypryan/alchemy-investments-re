@@ -31,10 +31,13 @@ def files(root, subdirs):
 
 
 def shingles(path):
+    # A file that cannot be read stops the check: skipping it would count as
+    # "compared" when nothing was.
     try:
-        w = words(open(path, errors='ignore').read())
-    except OSError:
-        return []
+        with open(path, errors='ignore') as fh:
+            w = words(fh.read())
+    except OSError as err:
+        sys.exit(f'error: could not read {path}: {err}')
     return [' '.join(w[i:i + N]) for i in range(len(w) - N + 1)]
 
 

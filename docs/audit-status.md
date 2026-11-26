@@ -13,6 +13,7 @@ Last updated 2026-11-25. Topic tag: `alchemy-site-audit`. Keyword rules: [keywor
 | Re-aim homepage title and headings at the brokerage angle | not started | | | | Waiting on Casey's OK |
 | Re-aim or remove the 32 cash-buyer pages (locations, neighborhoods, services) | not started | | | | Waiting on Casey's choice |
 | New agent / listing guides | not started | | | | After the re-aim |
+| Speed: shrink the 8.4 MB homepage background photo | not started | | | | Next speed PR |
 | Speed: load tracking scripts after first tap or scroll | not started | | | | After tracking is confirmed |
 
 ## What the audit found (all checked 2026-11-25)
@@ -35,7 +36,7 @@ Last updated 2026-11-25. Topic tag: `alchemy-site-audit`. Keyword rules: [keywor
 - The top menu item "Reviews" opens the blog.
 - `src/lib/schema.ts` holds a hard-coded "4.9 stars, 127 reviews" rating. It is not used on any page today. It must not be switched on unless the numbers are real.
 - Claims that need Casey to confirm with real numbers: "500+ homes purchased", "Top 1% agents", "10+ years", "$0 fees or commissions", "offer in 24 hours", agent stats (500+ / 300+ homes sold). WBAVH removed "offer in 24 hours" and "no fees" wording from its titles (WBAVH PR #543).
-- `public/hero-drone.jpg` is 8.4 MB and not used anywhere.
+- `public/hero-drone.jpg` is 8.4 MB and is the homepage's background photo (`src/components/HomepageHeroForm.tsx`). It is in use, so do not delete it; it needs to be shrunk and served in phone and desktop sizes. This is likely the biggest speed problem on the site.
 
 **Not measured**
 - Google's PageSpeed test was out of daily quota on 2026-11-25, so there is no speed score yet.

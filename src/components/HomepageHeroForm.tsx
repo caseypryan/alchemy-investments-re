@@ -176,9 +176,9 @@ export default function HomepageHeroForm() {
 
           {/* Main Headline */}
           <h1 className="text-[44px] font-extrabold text-[#1a1a1a] leading-[1.2] mb-8">
-            Las Vegas Real Estate Agents
+            Sell Your Las Vegas House Fast
             <br />
-            Who Help You Sell Your Home
+            - Cash Offers or Top 1% Agents
           </h1>
 
           {/* Search/Form Bar */}
@@ -320,9 +320,9 @@ export default function HomepageHeroForm() {
 
           {/* Subtext */}
           <p className="text-[15px] text-[#555] leading-[1.6] max-w-[520px] mb-6">
-            List your home with a licensed local agent who prices it, markets it and negotiates
-            for you. Prefer to skip showings? Ask us about a cash offer as well, and compare the
-            two side by side. No obligation either way.
+            Sell your house as-is with no repairs needed. Get a fair cash offer in 24 hours and
+            close in 7-14 days, or work with top 1% Las Vegas agents. No
+            obligations.
           </p>
 
           {/* Trust Badges */}
@@ -335,8 +335,8 @@ export default function HomepageHeroForm() {
             </div>
             <div className="h-10 w-px bg-gray-300" />
             <div className="text-[#333]">
-              <div className="font-bold text-base">2 Ways to Sell</div>
-              <div className="text-xs text-gray-600">List or Cash Offer</div>
+              <div className="font-bold text-base">7-14 Days</div>
+              <div className="text-xs text-gray-600">To Close</div>
             </div>
           </div>
         </div>

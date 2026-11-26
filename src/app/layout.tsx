@@ -21,10 +21,10 @@ const quicksand = Quicksand({
 export const metadata: Metadata = {
   metadataBase: new URL('https://alchemyinvestmentsre.com'),
   title: {
-    default: 'Las Vegas Real Estate Agents | Alchemy Investments RE',
+    default: 'Sell My House Fast Las Vegas | Cash Offers in 24 Hours | Alchemy Investments RE',
     template: '%s | Alchemy Investments RE',
   },
-  description: 'Sell your Las Vegas home with a licensed local real estate agent. Alchemy Investments RE is a Nevada brokerage (S.0184768). Call (702) 718-6934.',
+  description: 'Sell your Las Vegas house fast for cash OR with top 1% agents. Get fair offers in 24 hours. No repairs needed. Close in 7-14 days. Licensed brokerage (NV S.0184768). Call (702) 718-6934.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Alchemy Investments RE - Las Vegas real estate agents',
+        alt: 'Alchemy Investments RE - Sell Your Las Vegas House Fast',
       },
     ],
   },

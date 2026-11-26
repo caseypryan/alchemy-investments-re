@@ -24,7 +24,7 @@ An earlier version of this file (same day) said Alchemy must avoid WBAVH's searc
 - No "$0 fees" / "no fees" / "no commissions" wording on the homepage. Pages that are only about the cash offer may say Alchemy does not charge fees on a cash sale.
 - No years-in-business wording anywhere on the site ("10+ years", "since 2018" and so on), in page text or in the hidden data Google reads (schema).
 - No Google review count or star rating anywhere, including schema.
-- Homes bought: may use the WBAVH homes-bought figure, rounded, taken from a real source (QuickBooks, Podio or WBAVH's own site), with the source noted. Not looked up yet as of 2026-11-25; the site still says "500+".
+- Homes bought: may use the WBAVH homes-bought figure, rounded, taken from a real source (QuickBooks, Podio or WBAVH's own site), with the source noted. Done 2026-11-25 (PR #13): the site says "2,000+", from WBAVH's `src/lib/company-facts.ts`.
 - Agent photo spots: leave as they are for now.
 
 ## Overlap check (run 2026-11-25)

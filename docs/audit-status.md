@@ -23,13 +23,14 @@ Last updated 2026-11-25 (evening). Topic tag: `alchemy-site-audit`. Keyword and 
 | Customer testimonials on 32 pages | question open | | | | Ask Casey whether they are real customers |
 | Speed: shrink the 8.4 MB homepage background photo | #16 | yes, 2026-11-25 | yes | yes: live homepage serves about 62 KB to a phone-width screen and 252 KB at 1,920 px wide (was 8.4 MB for everyone) | Run Google PageSpeed when its daily quota resets, to get a before/after score |
 | Speed: load Analytics and Tag Manager after the first scroll or tap (or 12 seconds) | #21 | yes, 2026-11-25 | yes | yes: on the live site no Google requests before a tap; after a phone tap, `page_view` and `phone_clicked` were sent | Visitors who leave within 12 seconds without scrolling or tapping are no longer counted. Run Google PageSpeed when its quota resets for a score |
-| Tag Manager connector on this Mac | fixed 2026-11-25 | n/a | n/a | starts cleanly in a test | Reconnect it in the session (`/mcp`) or start a new session |
+| Tag Manager connector on this Mac | fixed 2026-11-25 | n/a | n/a | yes, 2026-11-26: works in a new session | Its Google login (`search-console@inherit-cash-now.iam.gserviceaccount.com`) only sees the 702 Cash Offer and Inherit Cash Now accounts, not Alchemy or WBAVH. Add it as a user in Tag Manager only if Casey asks |
+| Tag Manager container GTM-WH595W73 checked | no code change | n/a | n/a | yes, 2026-11-26: read in Tag Manager and on the live site | Casey 2026-11-26: keep both tags. Holds 2 tags on every page (Microsoft Clarity project `u14pbv4lhn`, Ahrefs Analytics), live version 2, nothing unpublished. One visit sends 1 page view (no double counting). The Analytics script downloads twice (183 KB each, once by the site and once by Tag Manager); optional speed fix, not done |
 ## What the audit found (all checked 2026-11-25)
 
 **Tracking**
 - Google Analytics (property 479587121, tag G-5Q1HZBGB8V) received data from February 2025 to January 2026 (about 160–175 visits a month at the end), then nothing until today. The live site was stuck on an old build; since the build was promoted on 2026-11-25 page views arrive again (seen in GA4 realtime and in the browser).
 - Forms already send a `form_submission` event. Phone taps were not tracked (fixed by PR #6).
-- Tag Manager container GTM-WH595W73 loads on every page but is reported empty. Microsoft Clarity (session recordings) is loading.
+- Tag Manager container GTM-WH595W73 loads on every page. Corrected 2026-11-26: it is not empty; it holds two tags, Microsoft Clarity (session recordings) and Ahrefs Analytics. It has no Google Analytics or ad tags.
 - The site shows a fixed phone number, (702) 718-6934, with no CallRail number-swap script. That is fine for a search-only tracking number.
 
 **Search**

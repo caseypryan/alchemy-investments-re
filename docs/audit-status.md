@@ -15,7 +15,8 @@ Last updated 2026-11-25 (evening). Topic tag: `alchemy-site-audit`. Keyword and 
 | Undo homepage rewrite; keep "$0 fees" and years off the homepage | #11 | yes, 2026-11-25 | yes | yes: title, no fee or years wording | None |
 | Re-aim the 32 location, neighborhood and service pages | none | cancelled, pages unchanged | | | None |
 | Copied-text check against WBAVH and 702 Cash Offer | n/a | n/a | n/a | n/a | Done 2026-11-25: no copied articles (see keyword-split.md). Re-run `scripts/text-overlap-check.py` before publishing new text |
-| "500+ homes" figure | not started | | | | Look up the WBAVH homes-bought figure from a real source and use it, rounded |
+| Homes-bought figure: "500+" → "2,000+" (source: WBAVH `src/lib/company-facts.ts`); unverified About stats removed | #13 | yes, 2026-11-25 | yes | yes: homepage, About and FAQ show 2,000+ and no "500+", "since 2010", "4.9★" or "$50M+" | None |
+| Footer "BBB Accredited Business" and "4.9/5 Rating"; agents' own stats on Our Agents | question open | | | | Ask Casey whether these are true and should stay |
 | "No fees" wording on non-cash pages | not started | | | | Homepage is done; check other general pages. Cash-offer pages may keep it |
 | Share image `/og-image.jpg` missing (404) | not started | | | | Make and add the image |
 | Agent photo spots | on hold | | | | Casey: leave alone for now |

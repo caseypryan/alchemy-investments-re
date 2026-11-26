@@ -18,7 +18,7 @@ Last updated 2026-11-25 (evening). Topic tag: `alchemy-site-audit`. Keyword and 
 | Homes-bought figure: "500+" → "2,000+" (source: WBAVH `src/lib/company-facts.ts`); unverified About stats removed | #13 | yes, 2026-11-25 | yes | yes: homepage, About and FAQ show 2,000+ and no "500+", "since 2010", "4.9★" or "$50M+" | None |
 | Footer "BBB Accredited Business" and "4.9/5 Rating"; agents' own stats on Our Agents | question open | | | | Ask Casey whether these are true and should stay |
 | "No fees" wording on non-cash pages | not started | | | | Homepage is done; check other general pages. Cash-offer pages may keep it |
-| Share image `/og-image.jpg` missing (404) | not started | | | | Make and add the image |
+| Share image `/og-image.jpg` was missing (404) | #18 | yes, 2026-11-25 | yes | yes: the address returns the 1200x630 picture and the homepage points to it | Facebook and others may show the old blank preview for a while until they re-read the page |
 | Agent photo spots | on hold | | | | Casey: leave alone for now |
 | Customer testimonials on 32 pages | question open | | | | Ask Casey whether they are real customers |
 | Speed: shrink the 8.4 MB homepage background photo | #16 | yes, 2026-11-25 | yes | yes: live homepage serves about 62 KB to a phone-width screen and 252 KB at 1,920 px wide (was 8.4 MB for everyone) | Run Google PageSpeed when its daily quota resets, to get a before/after score |

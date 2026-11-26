@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
+import Image from 'next/image'
 import AddressAutocompleteInput from '@/components/AddressAutocompleteInput'
 import { getTrackingData, initFirstTouchTracking } from '@/lib/tracking'
 
@@ -144,8 +145,16 @@ export default function HomepageHeroForm() {
 
   return (
     <section className="relative min-h-[550px] flex items-center">
-      {/* Background drone image */}
-      <div className="absolute inset-0 bg-[url('/hero-drone.jpg')] bg-cover bg-center" />
+      {/* Background drone image. next/image serves a copy sized for the
+          visitor's screen (a phone gets a small file) instead of one huge photo. */}
+      <Image
+        src="/hero-drone.jpg"
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover object-center"
+      />
 
       {/* White gradient overlay on left */}
       <div className="absolute inset-0 bg-gradient-to-r from-white/85 via-white/60 to-white/10" />

@@ -43,7 +43,7 @@ export default function AboutPage() {
                 in Las Vegas with a fast, fair, and transparent alternative to traditional home sales.
               </p>
               <p>
-                Over the past 15+ years, we've helped over 500 homeowners sell their houses quickly for cash,
+                We've helped over 500 homeowners sell their houses quickly for cash,
                 regardless of condition or circumstances. Whether facing foreclosure, going through a divorce,
                 dealing with an inherited property, or simply needing to relocate quickly, we've been there to help.
               </p>

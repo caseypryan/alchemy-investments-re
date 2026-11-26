@@ -335,11 +335,6 @@ export default function HomepageHeroForm() {
             </div>
             <div className="h-10 w-px bg-gray-300" />
             <div className="text-[#333]">
-              <div className="font-bold text-base">10+ Years</div>
-              <div className="text-xs text-gray-600">In Las Vegas</div>
-            </div>
-            <div className="h-10 w-px bg-gray-300" />
-            <div className="text-[#333]">
               <div className="font-bold text-base">2 Ways to Sell</div>
               <div className="text-xs text-gray-600">List or Cash Offer</div>
             </div>
